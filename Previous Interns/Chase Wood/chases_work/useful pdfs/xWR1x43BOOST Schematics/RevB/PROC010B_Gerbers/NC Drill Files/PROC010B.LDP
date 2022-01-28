@@ -1,0 +1,5 @@
+Layer Pairs Export File for PCB: \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\PROC010B_PCB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=proc010b-roundholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=proc010b-slotholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=proc010b-roundholes-nonplated.txt|DrillLayers=gtl,g1,g2,g3,g4,gbl
+LayersSetName=TOP_L2_Blind_Vias|DrillFile=|DrillLayers=gtl,g1

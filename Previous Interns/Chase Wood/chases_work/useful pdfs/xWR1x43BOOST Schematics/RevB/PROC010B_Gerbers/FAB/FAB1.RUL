@@ -1,0 +1,17 @@
+DRC Rules Export File for PCB: \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\PROC010B_PCB.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=3.00
+RuleKind=Clearance|RuleName=Clearance_RF|Scope=Board|Minimum=6.73
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance_L34|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=Clearance_PMIC|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_BTM|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=Clearance_L25|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=RX_TX_L34|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=COPLANNER|Scope=Board|Minimum=3.00
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=6.71
+RuleKind=Clearance|RuleName=Clearance_TOP|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=RX_TX_L25|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=RX_TX_TOP|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=same_net_cl_inner|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

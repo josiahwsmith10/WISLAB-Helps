@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html encoding="utf-8">
+
+<head>
+<title>Single mmWave Radar GUI</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="author" content="Chase Wood">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<style>
+	ul.s {
+		list-style-type: square;
+	}
+
+	ul.c {
+		list-style-type: circle;
+	}
+	html {
+		font-family: "Segoe UI";
+	}
+	h1 {
+		font-size: 28px;
+		font-style: italic;
+	}
+	h2 {
+		font-size: 18px;
+		font-style: italic;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: small;
+		font-style: italic;
+		font-weight: bold;
+	}
+	bTag {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+</style>
+	<!-- Use h1 for main title -->
+	<!-- Use h2 for subtitles -->
+	<!-- Use h3 for main topics -->
+	<!-- Rest of formatting should be covered by html tag in style -->
+
+<body>
+
+	<a name="top"></a> <!-- reference for jump to top -->
+
+	<div>
+		<table border="0" cellspacing="1" cellpadding="10" align="center" >
+		<tr>
+			<td align="left" valign="middle"><a href="https://personal.utdallas.edu/~caw180005/">Home</a></td>
+			<td align="left" valign="middle"><a href="projects.html">Projects</a></td>
+			<td align="left" valign="middle"><a href="software.html">Software</a></td>
+			<td align="left" valign="middle"><a href="publications.html">Publications</a></td>
+			<td align="left" valign="middle"><a href="datasets.html">Datasets</a></td>
+			<td align="left" valign="middle"><a href="collaborators.html">Collaborators</a></td>
+			<td align="left" valign="middle"><a href="resources.html">Resources</a></td>
+		</tr>
+		</table>
+	</div>
+
+	<hr>
+
+	<div align="center">
+    	<h1>Single mmWave Radar GUI</h1>
+    </div>
+
+    <div align="center">
+    	<h2>University of Texas at Dallas</h2>
+    </div>
+
+	<hr>
+
+	<h3><a name="description">Description:</a></h3>
+
+	<ul class="s"> <!-- square bullets -->
+		<li>
+			This application includes functionality of the initial mmWaveStudio - LUA command GUI. In addition to these features, this application incorporates a utility for connecting and controlling TI mmWave radars using TI's CLI commands found in the mmWaveSDK, allowing this utility to run with or without mmWaveStudio running by selecting either the mmWaveStudio or CLI mode of operation.   
+		</li>
+		<br>
+		<li>
+			This application also integrates HW trigger functionality for both of the modes of operation. When used with mmWaveStudio, the appropriate LUA command is sent to enable/disable HW trigger when selected. When used in the CLI mode of operation, one of the commands is adjusted when configuring the radar to reflect the chosen trigger mode.   
+		</li>
+		<br>
+		<li>
+			mmWaveStudio radar firmware and LUA commands. (mmWaveStudio must be running for entire process)
+		</li>
+		<br>
+		<li>
+			mmWave SDK firmware for command line interface (CLI) operation. 
+			(mmWaveStudio closed for entire process)
+		</li>
+		<br>
+		<li>
+			Hardware trigger control supported for both operation modes. 
+		</li>
+	</ul>
+
+	<hr> <!-- Header draws the line for splitting sections -->
+
+	<h3><a name="images">Images: </a></h3>
+	<h4>(Click image to expand)</h4>
+	
+	<table width="100%" height="100%" border="0" align="center">
+		<tr>
+			<td>
+				<div align="center">
+				<a href = "app-1.PNG">
+				<img src="app-1.PNG" alt="" height="auto" width="400"/></a>
+				<br>Communicates with TI mmWave Radars using mmWaveStudio backend<br><br>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div align="center">
+				<a href = "app-2.PNG">
+				<img src="app-2.PNG" alt="" height="auto" width="400"/></a>
+				<br>Communicates with TI mmWave Radars using firmware supported command line interface<br><br>
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<div align="center">
+				<a href = "app-3.PNG">
+				<img src="app-3.PNG" alt="" height="auto" width="400"/></a>
+				<br>Window is expanded to show hardware trigger controls.<br><br>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<br>
+
+<hr>
+
+<div>
+	<table border="0" cellspacing="1" cellpadding="10" align="center" >
+		<tr>	
+			<td align="left" valign="middle"><a href="#top">Top of Page</a></td>	
+		</tr>
+	</table>
+</div>
+
+<div align="right" >
+	<small>Chase Wood, Nov. 2020<br>University of Texas at Dallas</small>
+</div>
+
+</body>
+
+</html>

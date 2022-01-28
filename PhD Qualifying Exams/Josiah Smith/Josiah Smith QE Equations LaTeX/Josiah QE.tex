@@ -1,0 +1,158 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+
+\title{Qualifying Exam}
+
+\author{Josiah W. Smith}
+
+
+\begin{document}
+	
+\maketitle
+	
+\begin{abstract}
+
+Equations used on my qualifying exam spring 2020.
+		
+\end {abstract}
+
+\section{2D Rectilinear SAR - BPA}
+Echo signal from a 2D rectilinear scanner can be modeled as:
+\begin{gather}
+	s(x',y',k) = \iiint \frac{p(x,y,z)}{R^2}e^{j2kR}dxdydz \\
+	R = \sqrt{(x - x')^2 + (y - y')^2 + z^2}
+\end{gather}
+The back-projection algorithm:
+\begin{equation}
+	p(x,y,z) = \iiint s(x',y',k) R^2 e^{-j2kR} dx'dy'dk
+\end{equation}
+Neglecting amplitude terms:
+
+\begin{equation}
+	p(x,y,z) = \iiint s(x',y',k) e^{-j2kR} dx'dy'dk\textit{}
+\end{equation}
+\\ \\ \\ \\ \\ \\
+\begin{equation}
+	f(x,y) \circledast_{(x,y)} h(x,y) = IFT_{2D}^{(k_x,k_y)}\left[ F(k_x,k_y) H(k_x,k_y) \right]
+\end{equation} \\
+
+\section{2D Rectilinear SAR - MF}
+The back-projection algorithm:
+\begin{equation}
+p(x,y,z) = \iiint s(x',y',k) R^2 e^{-j2kR} dx'dy'dk
+\end{equation}
+Define the filter with or without considering the amplitude term
+\begin{align}
+	h(x,y,k) &= (x^2 + y^2 + z^2) e^{-j2k\sqrt{x^2 + y^2 + z^2}} \\
+	h(x,y,k) &= e^{-j2k\sqrt{x^2 + y^2 + z^2}}
+\end{align}
+Now:
+\begin{gather}
+	p(x,y,z) = \iiint s(x',y',k) h(x - x',y - y',k) dx'dy'dk \\
+	p(x,y,z) = \int s(x,y,k) \circledast_{(x',y')}h(x,y,k)dk \\
+	P(k_x,k_y,z) = \int S(k_x,k_y,k) H(k_x,k_y,k) dk
+\end{gather}
+Finally, the BPA matched filter algorithm:
+\begin{equation}
+	p(x,y,z) = \int IFT_{2D}^{(k_x,k_y)}[S(k_x,k_y,k) H(k_x,k_y,k)]dk
+\end{equation}
+
+\section{2D Rectilinear SAR - RMA}
+Echo signal from a 2D rectilinear scanner can be modeled as:
+\begin{gather}
+s(x',y',k) = \iiint \frac{p(x,y,z)}{R^2}e^{j2kR}dxdydz \\
+R = \sqrt{(x - x')^2 + (y - y')^2 + z^2}
+\end{gather}
+Using the method of stationary phase (MSP), the phase term of the echo signal can be decomposed into plane wave components.
+\begin{equation}
+e^{j2kR} \approx \iint e^{j(k_{x'}(x'-x) + k_{y'}(y'-y) - k_{z'}(z) )} dk_{x'}dk_{y'}
+\end{equation}
+Substituting into echo signal and rearranging the integrals:
+\begin{equation}
+s(x',y',k) \approx \iint \left[ \iiint p(x,y,z) e^{-j(k_{x'}x + k_{y'}y + k_{z'}z)} dxdydz \right] 
+e^{j(k_{x'}x' + k_{y'}y')} dk_{x'}dk_{y'}
+\end{equation}
+Inner integral can be viewed as a 3D Fourier transform:
+\begin{equation}
+s(x',y',k) = \iint P(k_{x},k_{y},k_{z}) e^{j(k_{x'}x' + k_{y'}y')} dk_{x'}dk_{y'}
+\end{equation}
+Noting the 2D inverse Fourier transform:
+\begin{gather}
+	S(k_x,k_y,k) = P(k_x,k_y,k_z) \\
+	p(x,y,z) = IFT_{3D}^{(k_x,k_y,k_z)}[\mathcal{RMA}[S(k_x,k_y,k)]]
+\end{gather}
+$\mathcal{RMA}[\bullet]$ is the range migration algorithm (RMA) Stolt interpolation operation:
+\begin{gather}
+	P(k_x,k_y,k_z) = \mathcal{RMA}[S(k_x,k_y,k)] = S(k_x,k_y,k)\biggr\rvert^{k =\frac{1}{2} \sqrt{k_y^2 + k_x^2 + k_z^2}}
+\end{gather}
+The RMA can be summarized by:
+\begin{equation}
+	p(x,y,z) = IFT_{3D}^{(k_x,k_y,k_z)}\left[\mathcal{RMA}\left[FT_{2D}^{(x,y)}[s(x,y,k)]\right]\right]
+\end{equation}
+
+Stolt Interpolation Step
+$(k_x,k_y,k) \rightarrow (k_x,k_y,k_z)$
+
+\section{2D Cylindrical SAR - BPA}
+Echo signal from a 2D cylindrical scanner can be modeled as:
+\begin{gather}
+s(\theta,k,y') = \iiint \frac{p(x,y,z)}{R^2}e^{j2kR}dxdydz \\
+R = \sqrt{(x - R_0cos\theta))^2 + (z - R_0sin\theta)^2 + (y - y')^2}
+\end{gather}
+The back-projection algorithm:
+\begin{equation}
+p(x,y,z) = \iiint s(\theta,k,y') R^2 e^{-j2kR} d\theta dk dy'
+\end{equation}
+Neglecting amplitude terms:
+
+\begin{equation}
+p(x,y,z) = \iiint s(\theta,k,y')e^{-j2kR} d\theta dk dy'
+\end{equation}
+\\ \\ \\ \\ \\ \\ \\ \\
+
+\section{2D Cylindrical SAR - PFA}
+
+Echo signal from a 2D cylindrical scanner can be modeled as:
+\begin{gather}
+s(\theta,k,y') = \iiint \frac{p(x,y,z)}{R^2}e^{j2kR}dxdydz \\
+R = \sqrt{(x - R_0cos\theta))^2 + (z - R_0sin\theta)^2 + (y - y')^2}
+\end{gather}
+
+Using the method of stationary phase (MSP), the phase term of the echo signal can be decomposed into plane wave components.
+
+\begin{align}
+\begin{split}
+&e^{j2k\sqrt{(R_0cos\theta - x)^2 + (R_0sin\theta - z)^2 + (y - y')^2}} = \\ 
+&\iint e^{jk_rcos\phi(R_0cos\theta - x) + jk_rsin\phi(R_0sin\theta - z) + jk_{y'}(y-y'))} d\phi dk_{y'}
+\end{split}
+\end{align}
+
+By some Fourier analysis, $(\bullet)^*$ is the complex conjugate operation,
+\begin{align}
+	\begin{split}
+	G(k_\theta,k,k_y) &= FT_{1D}^{(\theta)}\left[ e^{j\sqrt{4k^2 - k_y^2}R_0 cos\theta} \right] \\
+	P(k_\theta,k,k_y) &= S(k_\theta,k,k_y)G^*(k_\theta,k,k_y) 
+	\end{split}
+\end{align}
+
+$\mathcal{PFA}[\bullet]$ is the polar formatting algorithm (PFA) Stolt interpolation operation:
+
+\begin{align}
+	\begin{split}
+		P(k_x,k_y,k_z) &= \mathcal{PFA}\left[ P(k_\theta,k,k_y) \right] \\
+		k_\theta &= tan^{-1}\left( \frac{k_z}{k_y} \right) \\
+		k &= \frac{1}{2} \sqrt{k_x^2 + k_y^2 + k_z^2} \\
+	\end{split}
+\end{align}
+
+Summary:
+
+\begin{gather}
+p(x,y,z) = FT_{3D}^{(k_x,k_y,k_z)}\left[\mathcal{PFA}\left[IFT_{1D}^{(\Theta)}\left[ FT_{2D}^{(\theta,y)}\left[s(\theta,k,y)\right]G^*(k_\theta,k,k_y)\right]\right]\right]
+\end{gather}
+
+\end{document}

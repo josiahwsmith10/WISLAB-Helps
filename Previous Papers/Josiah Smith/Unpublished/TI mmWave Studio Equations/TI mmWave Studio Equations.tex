@@ -1,0 +1,57 @@
+\documentclass{IEEEtran}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+
+
+% Please give the surname of the lead author for the running footer
+
+% info about NM-BC format: https://www.nature.com/nmeth/about/content
+
+\title{TI mmWave Studio Equations}
+
+% Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+\author{Josiah W. Smith}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Equations for optimizing TI's mmWave Studio software package.
+
+\end {abstract}
+
+
+%%%%%%%%%%%%%%%%
+% Introduction %
+%%%%%%%%%%%%%%%%
+% ------------------------------------------------------------------------------------------------------------------------------------
+
+\section{Chirp Parameters}
+
+\begin{equation}
+    t_{ADC} = \frac{N}{F_s} < t_{RampEnd} - t_{ADCstart} - t_{TXstart}
+\end{equation}
+
+\begin{equation}
+    B = S*t_{RampEnd} < 4GHz
+\end{equation}
+
+\begin{equation}
+    t_{ChirpCycle} = t_{Idle} + t_{RampEnd}
+\end{equation}
+
+\begin{equation}
+	B_{Useful} = S*t_{ADC}
+\end{equation}
+
+\begin{equation}
+	d_{max} = \frac{F_s c}{2S}
+\end{equation}
+
+\end{document}

@@ -1,0 +1,222 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+
+\title{BPA and Matched Filter Image Reconstruction Techniques with MATLAB Algorithms}
+
+\author{Josiah W. Smith}
+
+
+\begin{document}
+	
+\maketitle
+	
+\begin{abstract}
+		
+	The back projection algorithm (BPA) is the ideal method for SAR image reconstruction, however requires copious amounts of computational power. It is often desired to increase the processing speed of the BPA for image reconstruction. In this paper, we propose some near-field BPA matched filter FFT-based techniques that take advantage of the circular-convolutional properties of the FFT to improve the efficiency of the BPA.
+		
+\end {abstract}
+		
+
+\section{General BPA - 1D Rectilinear Scanning}
+The 1D rectilinear scanner described in this section consists of a wideband transceiver element being scanned across the horizontal $(x')$ domain viewing a 2D target scene in the $(x,z)$ domain, where the primed and unprimed domains are coincident.
+
+The back projection algorithm for near-field 2D SAR image reconstruction from a wideband FMCW transceiver scanned linearly in across the $x$ domain can be generalized as:
+
+\begin{equation}
+	p(x,z) = \iint s(x',k) e^{-j2k \sqrt{(x-x')^2+z^2}}dx'dk
+\end{equation}
+Where $s(x',k)$ is the echo signal from a single monostatic full-duplex transceiver element located at $x'$, which can be expressed by equation (2), $p(x,z)$ is the complex reflectivity function of the target scene, and $k$ is the wave number given by $\frac{2\pi}{\lambda} = \frac{2\pi f}{c}$.
+
+\begin{equation}
+	s(x',k) = \iint \frac{p(x,z)}{R^2} e^{j2k\sqrt{(x-x')^2+z^2}}dxdz
+\end{equation}
+The effect of the $\frac{1}{R^2}$ proportionality on reconstructed image quality is examined throughout this paper. Different algorithms are derived including and neglecting the amplitude term.
+
+\section{Matched Filter Extension - 1D Rectilinear Scanning}
+The complex exponential kernel in equation (1) can be viewed as a convolutional kernel across the $x'$ domain. Defining
+\begin{equation}
+	h(x,z,k) \triangleq e^{-j2k\sqrt{ x^2 + z^2 }}
+\end{equation}
+Now the convolution becomes more evident.
+\begin{equation}
+	p(x,z) = \iint s(x',k)h(x-x',k,z) dx'dk
+\end{equation}
+Dropping the distinction between the primed and unprimed domains and expressing the convolution across the $x$ domain as $\circledast_x$ yields equation (5). Then, by the convolutional property of the Fourier transform, we arrive at a reconstruction algorithm based on multiplication of spectral data rather than a computationally expensive convolution operation.
+\begin{gather}
+	p(x,z) = \int s(x,k) \circledast_x h(x,k,z)dk \\
+	P(k_x,z) = \int S(k_x,k)H(k_x,k,z)dk
+\end{gather}
+Where 
+\begin{gather}
+	P(k_x,z) \triangleq FT_{1D}^{(x)}\left[p(x,z)\right] \\
+	S(k_x,k) \triangleq FT_{1D}^{(x)}\left[s(x,k)\right] \\
+	H(k_x,k,z) \triangleq FT_{1D}^{(x)}\left[e^{-j2k\sqrt{ x^2 + z^2 }}\right]
+\end{gather}
+
+Finally, using the above relations, the full reconstruction algorithm can be written as:
+\begin{equation}
+	p(x,z) = \int IFT_{1D}^{(k_x)}\left[S(k_x,k)H(k_x,k,z)\right]dk
+\end{equation}
+
+\section{Modified BPA and Matched Filter Extension with Amplitude Correction - 1D Rectilinear Scanning}
+
+Similarly, considering the amplitude term in equation (2), equation (1) can be rewritten as:
+\begin{gather}
+	p(x,z) = \iint s(x',k)R^2 e^{-j2kR}dx'dk \\
+	R = \sqrt{(x-x')^2+z^2}
+\end{gather}
+
+Modifying the convolutional kernel
+
+\begin{gather}
+	\tilde{h}(x,k,z) \triangleq (x^2+z^2)e^{-j2k\sqrt{ x^2 + z^2 }} \\
+	\tilde{H}(k_x,k,z) = FT_{1D}^{(x)}\left[(x^2+z^2)e^{-j2k\sqrt{ x^2 + z^2 }}\right]
+\end{gather}
+
+Yields the reconstruction algorithm:
+
+\begin{equation}
+p(x,z) = \int IFT_{1D}^{(k_x)}\left[S(k_x,k)\tilde{H}(k_x,k,z)\right]dk
+\end{equation}
+
+Including the amplitude term in the image reconstruction yields an improvement in image quality for targets farther away from the source.
+
+\section{General BPA - 2D Rectilinear Scanning}
+
+For the 2D rectilinear scanning case, the vertical $y$ dimension is introduced allowing for reconstruction of 3D, holographic images. Now, the transceiver will be scanned across the $(x',y')$ 2D space. Again, the primed and unprimed coordinate systems coincide.
+
+The expression for image reconstruction via BPA for the 2D rectilinear SAR scanning case can be expressed as:
+
+\begin{gather}
+	p(x,y,z) = \iiint s(x',y',k) e^{-j2kR} dx' dy' dk \\
+	R = \sqrt{(x-x')^2 + (y-y')^2 + z^2}
+\end{gather}
+
+In a similar derivation to the 1D scanning case, $h(x,y,z)$ is defined:
+
+\begin{equation}
+	h(x,y,z) \triangleq e^{-j2k\sqrt{x^2 + y^2 + z^2}}
+\end{equation}
+
+Now equation (16) can be rewritten to take advantage of convolution across the $x$ and $y$ domains, which is denoted by $\circledast_{(x,y)}$.
+\begin{gather}
+	p(x,y,z) = \iiint s(x',y',k) h(x-x',y-y',z) dx'dy'dk \\
+	p(x,y,z) = \int s(x,y,k) \circledast_{(x,y)} h(x,y,z) dk
+\end{gather}
+
+Performing a 2D Fourier transform on both sides with respect to $(x,y)$ yields:
+\begin{gather}
+	P(k_x,k_y,z) = \int S(k_x,k_y,k)H(k_x,k_y,z) dk \\
+	P(k_x,k_y,z) \triangleq FT_{2D}^{(x,y)}\left[ p(x,y,z) \right] \\
+	S(k_x,k_y,k) \triangleq FT_{2D}^{(x,y)}\left[ s(x,y,k) \right] \\
+	H(k_x,k_y,z) \triangleq FT_{2D}^{(x,y)}\left[ h(x,y,z) \right] 
+\end{gather}
+
+Then, the reflectivity function of the target scene can be recovered by:
+
+\begin{equation}
+	p(x,y,z) = \int IFT_{2D}^{(k_x,k_y)}\left[ S(k_x,k_y,k)H(k_x,k_y,z) \right] dk
+\end{equation}
+
+\section{Modified BPA and Matched Filter Extension with Amplitude Correction - 2D Rectilinear Scanning}
+
+Similarly, the BPA and matched filter algorithm can be extended to the include amplitude correction for the 2D case by a similar change in the convolutional kernel $h(x,y,z)$ to $\tilde{h}(x,y,z)$ as described by the following relations.
+
+\begin{gather}
+	\tilde{h}(x,y,z) \triangleq (x^2 + y^2 + z^2)e^{-j2k\sqrt{x^2 + y^2 + z^2}} \\
+	\tilde{H}(k_x,k_y,z) = FT_{2D}^{(x,y)}[\tilde{h}(x,y,z)]
+\end{gather}
+
+The modified reconstruction algorithm is:
+
+\begin{equation}
+p(x,y,z) = \int IFT_{2D}^{(k_x,k_y)}\left[ S(k_x,k_y,k)\tilde{H}(k_x,k_y,z) \right] dk
+\end{equation}
+
+\section{General BPA - 1D ISAR Rotational Scanner}
+The 1D rotational scanner described in this section consists of a single, wideband transceiver element held stationary while the target scene is rotated by an angle $\theta$, which is considered to be wide-angle, $\theta \in [0,2\pi]$.
+
+The back projection algorithm for near-field 2D ISAR image reconstruction from a wideband FMCW transceiver with the target rotated can be generalized as:
+
+\begin{multline}
+	p(x,z) = \\ \iint s(\theta,k) e^{-j2k\sqrt{(x - R_0cos\theta)^2 + (z - R_0sin\theta)^2}}d\theta dk
+\end{multline}
+
+Where $s(\theta,k)$ is the echo signal from a single monostatic full-duplex transceiver element located at a constant distance of $R_0$ away from the origin of the $(x,z)$ coordinate system and the target is rotated by an angle $\theta$.
+
+\begin{equation}
+	s(\theta,k) = \iint \frac{p(x,z)}{R^2}e^{j2k\sqrt{(x - R_0cos\theta)^2 + (z - R_0sin\theta)^2}} dxdz
+\end{equation}
+
+\section{Modified BPA with Amplitude Correction - 1D ISAR Rotational Scanner}
+Similarly, equation (29) can be modified to correct the amplitude factor as:
+
+\begin{gather}
+	p(x,z) = \iint s(\theta,k) R^2 e^{-j2kR}d\theta dk \\
+	R = \sqrt{(x - R_0cos\theta)^2 + (z - R_0sin\theta)^2}
+\end{gather}
+
+\section{General BPA - 2D ISAR Elevation-Rotational Scanner}
+As an extension of the 1D rotational scanner, a vertical dimension ($y$) is introduced. Accordingly, the echo from such a system can be modeled as:
+
+\begin{gather}
+s(\theta,k,y') = \iiint p(x,z)e^{j2kR} dxdzdy \\
+R = \sqrt{(x - R_0cos\theta)^2 + (z - R_0sin\theta)^2 + (y - y')^2}
+\end{gather}
+
+Again, the general BPA for this 2D elevation circular ISAR scenario can be expressed as:
+\begin{equation}
+	p(x,z,y) = \iiint s(\theta,k,y') e^{-j2kR} d\theta dk dy'
+\end{equation}
+
+\section{Matched Filter Extension - 2D ISAR Elevation-Rotational Scanner}
+Equation (35) can be viewed as a convolution operation in the $y$ dimension between the matched filter $h(\theta,k,y)$ and the echo signal $s(\theta,k,y)$, dropping the distinction between the primed and unprimed coordinate systems as they coincide. The $\circledast_{(y)}$ operator denotes convolution in the $y$ domain.
+
+\begin{gather}
+	p(x,z,y) = \iiint s(\theta,k,y') h(\theta,k,y-y') d\theta dk dy' \\
+	h(\theta,k,y) \triangleq e^{-j2k\sqrt{(x - R_0cos\theta)^2 + (z - R_0sin\theta)^2 + y^2}} \\
+	p(x,z,y) = \iint s(\theta,k,y) \circledast_{(y)} h(\theta,k,y) d\theta dk
+\end{gather}
+
+Using the Fourier convolution identities, equation 38 can be rewritten as a multiplication in the spatial spectral domain:
+
+\begin{gather}
+	H(\theta,k,k_y) = FT_{1D}^{(y)} [ h(\theta,k,y) ]\\
+	S(\theta,k,k_y) = FT_{1D}^{(y)} [ s(\theta,k,y) ]\\
+	P(x,z,k_y) = \iint S(\theta,k,k_y) H(\theta,k,k_y) d\theta dk \\
+	p(x,z,y) = \iint IFT_{1D}^{(k_y)}\left[S(\theta,k,k_y) H(\theta,k,k_y)\right] d\theta dk
+\end{gather}
+
+\section{Modified BPA and Matched Filter Extension - 2D ISAR Elevation-Rotational Scanner}
+Taking the amplitude factor into consideration, the modified BPA can be written as:
+\begin{equation}
+	p(x,z,y) = \iiint s(\theta,k,y') R^2 e^{-j2kR} d\theta dk dy'
+\end{equation}
+
+Where the echo signal includes the amplitude, slightly modifying the previous relationship:
+\begin{gather}
+s(\theta,k,y') = \iiint \frac{p(x,z)}{R^2}e^{j2kR} dxdzdy \\
+R = \sqrt{(x - R_0cos\theta)^2 + (z - R_0sin\theta)^2 + (y - y')^2}
+\end{gather}
+
+Again, similar analysis is performed to convert the convolution across the $y$ domain to multiplication in the spatial spectral domain $k_y$.
+\begin{gather}
+p(x,z,y) = \iiint s(\theta,k,y') \tilde{h}(\theta,k,y-y') d\theta dk dy' \\
+\tilde{h}(\theta,k,y) \triangleq e^{-j2k\sqrt{(x - R_0cos\theta)^2 + (z - R_0sin\theta)^2 + y^2}} \\
+p(x,z,y) = \iint s(\theta,k,y) \circledast_{(y)} \tilde{h}(\theta,k,y) d\theta dk
+\end{gather}
+
+Using the Fourier convolution identities, equation 38 can be rewritten as a multiplication in the spatial spectral domain:
+
+\begin{gather}
+\tilde{H}(\theta,k,k_y) = FT_{1D}^{(y)} [ h(\theta,k,y) ]\\
+S(\theta,k,k_y) = FT_{1D}^{(y)} [ s(\theta,k,y) ]\\
+P(x,z,k_y) = \iint S(\theta,k,k_y) \tilde{H}(\theta,k,k_y) d\theta dk \\
+p(x,z,y) = \iint IFT_{1D}^{(k_y)}\left[S(\theta,k,k_y) \tilde{H}(\theta,k,k_y)\right] d\theta dk
+\end{gather}
+
+\end{document}

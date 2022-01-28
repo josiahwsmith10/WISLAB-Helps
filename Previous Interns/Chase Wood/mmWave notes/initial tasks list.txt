@@ -1,0 +1,49 @@
+> 1. TI mmWave Training Part 1:
+> a. https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.ti.com%2Fmmwave-training-series&amp;data=02%7C01%7CChase.Wood%40UTDallas.edu%7C4aecfb38a6d344c1fbdd08d802759eda%7C8d281d1d9c4d4bf7b16e032d15de9f6c%7C0%7C0%7C637262051481426997&amp;sdata=xNUxe1g4C%2BOli%2FoGRs5iz4I55%2BTMhvVTIZbNdfyfOFU%3D&amp;reserved=0
+> - Watch the five videos under part 1: "Introduction to mmWave Sensing: FMCW radars"
+> - Take notes and keep them for reference, you will be glad you have them later (this is true for every step!)
+> - Keep the attached PDFs: "TI FMCW Radar" & "The Fundamentals of mmWave Sensors" for reference
+> 
+> 2. Understanding MIMO Multistatic Arrays:
+> a. Attached PDF: "TI MIMO Radar"
+> - Read the "TI MIMO Radar" document and take your own notes
+> - Focus on understanding how the "virtual array" consists of elements located at the midpoints of each Tx/Rx pair
+> 
+> 3. Understanding the FMCW Signal Model:
+> a. Attached PDF: "Near-Field MIMO-SAR Millimeter-Wave Imaging with Sparsely Sampled Aperture Data"
+> - Read section II-D of this paper. Focus on understanding equations (10)-(14) and don't worry about equations (15)-(16) yet
+> - Rewrite all the math in equations (10)-(14) writing down every step (even the ones not shown in the paper) to understand how the frequency is swept (modulated) and how the dechirpping process works to arrive at the resulting received signal in (14)
+> - Understand the relationship between the time domain and what is written as the "k" domain. There is an equation that relates the two, but it is not explicit in the paper
+> b. Attached PDF: "Monostatic and Multistatic Range, Angle of Arrival, and Doppler Velocity Estimation using FMCW"
+> - I put this together to show some of the basics and I think it will help you once you've understood the signal model from Yanik's paper (in part a)
+> - Read section I and examine how it compares with your derivation and understanding of the signal model. Hopefully it will fill in any gaps or questions you have.
+> 
+> 4. Using mmWave Studio to Capture Data
+> a. Attached PDF: "DCA1000EVM Sensor Raw Data Capture - How To"
+> - Read this PDF and keep it for reference
+> - It will show you how to connect your radar, what buttons to push and selections to make in mmWave Studio
+> - Make sure you follow every step and have all of the required software it mentions in the beginning
+> - Try it out. Make sure it all works. It probably won't on the first try, so troubleshoot.
+> - Notice the different parameters you are setting in mmWave Studio. Later, you'll recognize them when you're trying to program them yourself
+> b. Attached PDF: "Programming Chirp Parameters in TI Radar Devices"
+> - Read this and keep it as a reference.
+> - It will help you understand the different chirp parameters you are setting in mmWave Studio
+> c. How to use Lua scripting
+> - Setup your mmWave Studio view so you can see the output tab as you make changes and press buttons
+> - Notice how each time you change parameters and press the corresponding button, you will see function calls appearing in the "Output" tab. They all are formatted as ar1.[functionName]([args])
+> - You will use these soon
+> 
+> 6. Automating mmWave Studio with MATLAB
+> a. mmWave Studio User Guide (it's in the mmWave Studio Path under C:\ti\mmwave_studio_02_01_00_00\docs\mmwave_studio_user_guide.pdf)
+> - Go to section 22 to understand how to establish a connection between MATLAB and mmWave Studio and how to interface across RSTD
+> - This demonstrates how to send Lua commands (those functions we see in mmWave Studio) from MATLAB
+> - Now, you should be able to create MATLAB functions to send these Lua commands with different functions to mmWave Studio to setup all of the radar without ever leaving MATLAB (I know this is possible, I do it all the time)
+> 
+> 7. Controlling the TI Radar Directly
+> a. TI mmWave Training Series Part 2: https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftraining.ti.com%2Fmmwave-training-series&amp;data=02%7C01%7CChase.Wood%40UTDallas.edu%7C4aecfb38a6d344c1fbdd08d802759eda%7C8d281d1d9c4d4bf7b16e032d15de9f6c%7C0%7C0%7C637262051481426997&amp;sdata=xNUxe1g4C%2BOli%2FoGRs5iz4I55%2BTMhvVTIZbNdfyfOFU%3D&amp;reserved=0
+> - Videos 2.1-2.3 should be the most relevant to understanding how the SDK works
+> b. TI mmWave SDK: https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ti.com%2Ftool%2FMMWAVE-SDK&amp;data=02%7C01%7CChase.Wood%40UTDallas.edu%7C4aecfb38a6d344c1fbdd08d802759eda%7C8d281d1d9c4d4bf7b16e032d15de9f6c%7C0%7C0%7C637262051481426997&amp;sdata=m8R2NTjgvayUAEIXPFTVitRtbjsBuWMPF6SHNz%2BkJA0%3D&amp;reserved=0
+> - The SDK seems to only support the xWR16xx, xWR18xx, xWR64xx, and xWR68xx boards, so this may not be applicable
+> - Read the user guide as you need
+> c. TI mmWave DFP: https://nam02.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.ti.com%2Ftool%2FMMWAVE-DFP&amp;data=02%7C01%7CChase.Wood%40UTDallas.edu%7C4aecfb38a6d344c1fbdd08d802759eda%7C8d281d1d9c4d4bf7b16e032d15de9f6c%7C0%7C0%7C637262051481426997&amp;sdata=0s8r2Q%2B1lTWumSl5KHTSI2lYvS6Hb4Vufm4aIkJ3bgk%3D&amp;reserved=0
+> - The DFP has an example under C:\ti\mmwave_dfp_01_02_05_01\ti\examples called mmwavelink that is supposed to establish a connection with the xWR radar device to perform all the same tasks as mmWave Studio. I haven't focused much on this, but it should work to setup all the radar parameters etc.

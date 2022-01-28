@@ -1,0 +1,34 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PROC054D_MMWCAS_RF_EVM.PcbDoc   2/10/2020  6:06:20 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1 TOP to L8 BOTTOM
+ASCII RoundHoles File : PROC054D.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T2      8mil (0.2mm)                                              Round             60        PTH        0.00inch (0.00mm)
+T3      8mil (0.203mm)                                            Round             727       PTH        0.00inch (0.00mm)
+T4      12mil (0.305mm)                                           Round             13        PTH        0.00inch (0.00mm)
+T5      12mil (0.31mm)                                            Round             1522      PTH        0.00inch (0.00mm)
+T6      39mil (1mm)             +4mil (0.1mm)/-0mil (0mm)         Round             8         PTH        0.00inch (0.00mm)
+T7      40mil (1.016mm)                                           Round             8         PTH        0.00inch (0.00mm)
+T8      47mil (1.2mm)           +4mil (0.1mm)/-0mil (0mm)         Round             8         PTH        0.00inch (0.00mm)
+T9      71mil (1.8mm)           +/-2mil (0.05mm)                  Round             6         PTH        0.00inch (0.00mm)
+T10     118mil (3mm)                                              Round             4         PTH        0.00inch (0.00mm)
+T11     160mil (4.064mm)                                          Round             4         PTH        0.00inch (0.00mm)
+T12     118mil (3mm)            +/-2mil (0.05mm)                  Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              2362
+Layer Pair : L1 TOP to L2 GND
+ASCII RoundHoles File : PROC054D.TX1
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      6mil (0.15mm)                                             Round             5523      PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              5523
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              7885
+
+Total Processing Time (hh:mm:ss) : 00:00:02

@@ -1,0 +1,71 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[toc,page,titletoc]{appendix}
+
+% For MATLAB code
+\usepackage{listings}
+\usepackage{color}
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\usepackage{xcolor}
+\definecolor{backcolor}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	language=Matlab,%
+	basicstyle=\ttfamily\footnotesize,
+	backgroundcolor=\color{backcolor},
+	breaklines=true,
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	numbers=left,%
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=1pt, % this defines how far the numbers are from the text 
+	tabsize=4,
+	captionpos=b
+}
+\lstset{style=mystyle}
+
+% For appendices at the end of each chapter
+\usepackage{appendix}
+\usepackage{etoolbox}
+
+\AtBeginEnvironment{subappendices}{%
+	\chapter*{Appendix}
+	\addcontentsline{toc}{chapter}{Appendices}
+	\counterwithin{figure}{section}
+	\counterwithin{table}{section}
+}
+
+\title{
+	{Near-Field MIMO Fourier Array Imaging with MATLAB Algorithms}\\
+	{\large The University of Texas at Dallas}\\
+	
+}
+\author{Josiah W. Smith}
+\date{November 11th, 2020}
+
+\begin{document}
+	
+\maketitle
+
+\chapter*{Abstract}
+In this work, we introduce key concepts to high-resolution imaging algorithms using Fourier array processing and near-field frequency-modulated-continuous-wave millimeter-wave radar devices. 
+
+\chapter*{Dedication}
+This work is dedicated to the future students in the WISLAB. The goal of this work is to provide a nice intro to near-field imaging problems on the frequency-modulated-continuous-wave radars. 
+
+\chapter*{Acknowledgments}
+I would like to thank Dr. Muhammet Yanik for his significant contributions to my understanding of the radar imaging problem space starting back in my undergraduate education at The University of Texas at Dallas as a new intern to the WISLAB. I would also like to thank my advisor Dr. Torlak for his contributions to this work and ideas that keep the lab going.
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/chapter01/introduction}
+
+\chapter{Mathematical Models}
+\input{chapters/chapter02/chapter02}
+
+\end{document}

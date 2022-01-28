@@ -1,0 +1,1 @@
+Rev C files have C56 updated from 0.22uF to 47nF. PCB layout and assembly remain unchanged, only BOM and schematic have been updated.

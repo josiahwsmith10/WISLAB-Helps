@@ -1,0 +1,194 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+
+
+% Please give the surname of the lead author for the running footer
+
+% info about NM-BC format: https://www.nature.com/nmeth/about/content
+
+\title{Near-Field MIMO-ISAR Millimeter-Wave Imaging}
+
+% Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+\author{\IEEEauthorblockN{Josiah W. Smith}
+	\IEEEauthorblockA{Electrical and Computer Engineering\\
+		The University of Texas at Dallas\\
+		Richardson, Texas 75080\\
+		Email: jws160130@utdallas.edu}
+	\and
+	\IEEEauthorblockN{Dr. Muhammet Emin Yanik}
+	\IEEEauthorblockA{About}
+	\and
+	\IEEEauthorblockN{Dr. Murat Torlak}
+	\IEEEauthorblockA{Electrical and Computer Engineering\\
+		The University of Texas at Dallas\\
+		Richardson, Texas 75080\\
+		Email: torlak@utdallas.edu}}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Reconstruction algorithms for circular near-field imaging.
+
+\end {abstract}
+
+
+%%%%%%%%%%%%%%%%
+% Introduction %
+%%%%%%%%%%%%%%%%
+% ------------------------------------------------------------------------------------------------------------------------------------
+\section{2D Image Monostatic Reconstruction Algorithm and Derivation}
+To reconstruction a 2D image of a scene using a cylindrical scanner positioned at a constant radial distance away from the center of the target scene and scanned around the target, the following algorithm is derived as similarly shown in [D. Sheen's Patent]. 
+
+First, the return signal, neglecting amplitude terms, can be expressed as:
+\begin{equation}
+	s(\theta,k) = \iint f(x,z) e^{j2kR} dxdz
+\end{equation}
+\begin{equation}
+	R = \sqrt{(R_0cos\theta - x)^2 +  (R_0sin\theta - z)^2}
+\end{equation}
+By the method of stationary phase (MSP), the exponential term in equation (1) can be decomposed.
+\begin{multline}
+	e^{j2k\sqrt{(R_0cos\theta - x)^2 + (R_0sin\theta - z)^2}} = \\ 
+	\int e^{j2k_rcos\phi(Rcos\theta - x) + j2k_rsin\phi(Rsin\theta - z)} d\phi
+\end{multline}
+
+
+\section{3D Image Monostatic Reconstruction Algorithm}
+The received signal is of the form given by equation (1).
+\begin{equation}
+    s(\theta,k,y') = \iiint \frac{p(x,z,y')}{R^2} e^{-j2kR}dxdydz
+\end{equation}
+\begin{equation}
+	R = \sqrt{(R_0 cos\theta-x)^2 + (R_0 sin\theta-z)^2 + (y' - y)^2}
+\end{equation}
+Where $R_0$ is the scanning radius, $\theta$ is the scanning angle, and $y'$ is the scanning height, with the target and scanning domains coinciding. $p(x,z,y)$ is the complex reflectivity function of the target scene.
+
+Inverting equation (3) to solve for $p(x,z,y)$ requires decomposing the exponential term representing a spherical-wave into a superposition of plane-wave components using some Fourier-based techniques derived in Appendix A.
+
+Perform a 2D Fourier transform across the $\theta$ and $y'$ dimensions.
+\begin{equation}
+	S(\Theta,k,k_z) = FT^{(\theta,z)}_{2D}[s(\theta,k,z)]
+\end{equation} 
+Compute the phase term described in equation (4).
+\begin{equation}
+	k_\Theta = \sqrt{4(k_x^2+k_y^2)R_0^2 - \Theta^2}
+\end{equation}
+Multiply the phase term and perform an inverse Fourier transform across the $\Theta$ domain.
+\begin{equation}
+	\hat{P}(\theta,k,k_z) = IFT^{(\Theta)}_{1D} [S(\Theta,k,k_z)e^{-jk_\Theta}]
+\end{equation}
+Make the following substitutions:
+
+\begin{equation}
+	P(k_x,k_y,k_z) = \hat{P}(\theta,k,k_z) \biggr\rvert^{\theta = tan^{-1}(\frac{k_y}{k_x}),k = \frac{1}{2} \sqrt{k_x^2+k_y^2+k_z^2}}
+\end{equation}
+
+\appendix
+
+\subsection{3D Monostatic Algorithm Derivation}
+Under our definition of the coordinate system, the return signal, neglecting amplitude terms, can be modeled as:
+\begin{equation}
+s(\theta,k,y') = \iint p(x,z,y) e^{j2kR} dxdz
+\end{equation}
+\begin{equation}
+R = \sqrt{(R_0cos\theta - x)^2 +  (R_0sin\theta - z)^2 + (y' - y)^2}
+\end{equation}
+Where $p(x,z,y)$ is the complex reflectivity function of the target scene.
+
+By the method of stationary phase (MSP), the exponential term in equation (1) can be decomposed.
+\begin{multline}
+e^{j2k\sqrt{(R_0cos\theta - x)^2 + (R_0sin\theta - z)^2 + (y' - y)^2}} = \\ 
+\iint e^{j2k_rcos\phi(Rc_0os\theta - x) + j2k_rsin\phi(R_0sin\theta - z) + jk_{y'}(y-y'))} d\phi dk_{y'}
+\end{multline}
+Where the angle of each plane wave component in the $x-z$ plane is $\phi \in [-\pi/2,\pi/2]$, and $k_{y'}$ is the y-component of the wavenumber bounded by $k_{y'} \in [-2k,2k]$.
+By the dispersion relation:
+\begin{equation}
+	(2k)^2 = k_x^2 + k_y^2 + k_z^2
+\end{equation}
+
+And, we define $k_r$ as the wavenumber component in the $x-z$ plane as:
+\begin{equation}
+	k_r = \sqrt{k_x^2+k_z^2} = \sqrt{4k^2 - k_y^2}
+\end{equation}
+Combining the above relations yields:
+\begin{multline}
+	s(\theta,k,y') = \iint e^{j2k_rRcos(\theta-\phi) + jk_{y'}y'} \times \\
+	\left[ \iint p(x,z,y)e^{-j(2k_rcos\phi)x-j2(k_rsin\phi)z-jk_{y'}y}dxdydz \right] d\phi dk_{y'}
+\end{multline}
+The term inside of the $[\bullet]$ brackets is the three-dimensional Fourier transform of the reflectivity function. We establish the following Fourier transform pair:
+\begin{equation}
+	p(x,z,y) \iff P(2k_rcos\phi,2k_rsin\phi,k_y)
+\end{equation}
+Therefore:
+\begin{multline}
+	s(\theta,k,y') = \\ \iint e^{j2k_rRcos(\theta-\phi)} P(2k_rcos\phi,2k_rsin\phi,k_y) e^{jk_{y'}y'}d\phi dk_{y'}
+\end{multline}
+Taking the Fourier transform with respect to $y'$ on both sides and dropping the distinction between $z'$ and $z$ due to coincidence of the domains:
+\begin{equation}
+	S(\theta,k,k_y) = \int_{-\pi/2}^{\pi/2} e^{j2k_rRcos(\theta-\phi)} P(2k_rcos\phi,k_y,2k_rsin\phi)d\phi 
+\end{equation}
+Define:
+\begin{gather}
+	\hat{P}(\phi,2k_r,k_y) \triangleq P(2k_rcos\phi,k_y,2k_rsin\phi) \\
+	g(\theta,k_r) \triangleq e^{j2k_rR_0cos\theta}
+\end{gather}
+Now:
+\begin{equation}
+S(\theta,k,k_y) = \int_{-\pi/2}^{\pi/2} g(\theta-\phi,k_r) \hat{P}(\phi,2k_r,k_y)d\phi 
+\end{equation}
+Which represents a convolution in the $\theta$ domain:
+\begin{equation}
+	S(\theta,k,k_y) = g(\theta,k_r) \circledast_\theta \hat{P}(\theta,2k_r,k_y)
+\end{equation}
+Where $\circledast_\theta$ is the convolution operator along the $\theta$ domain.
+
+Taking the Fourier transform across the $\theta$ domain on both sides yields:
+\begin{equation}
+	S(\Theta,k,k_y) = G(\Theta,k_r)\tilde{P}(\Theta,2k_r,k_y)
+\end{equation}
+Where
+\begin{gather}
+	G(\Theta,k_r) = FT_{1D}^{(\theta)}[g(\theta,k_r)]\\
+	\tilde{P}(\Theta,2k_r,k_y) = FT_{1D}^{(\theta)}[\hat{P}(\theta,2k_r,k_y)]
+\end{gather}
+Solving for $\tilde{P}$ and then taking an inverse Fourier transform across the $\Theta$ domain for both sides to obtain $\hat{P}$:
+\begin{gather}
+	\tilde{P}(\Theta,2k_r,k_y) = \frac{S(\Theta,k,k_y)}{G(\Theta,k_r)} \\
+	\hat{P}(\theta,2k_r,k_y) = IFT_{1D}^{(\Theta)}\left[ \frac{S(\Theta,k,k_y)}{G(\Theta,k_r)} \right]
+\end{gather}
+By equation (19):
+\begin{equation}
+	P(2k_r cos\theta,2k_r sin\theta,k_y) = IFT_{1D}^{(\Theta)}\left[ \frac{S(\Theta,k,k_y)}{G(\Theta,k_r)} \right]
+\end{equation}
+Where $2k_r cos\theta = k_x$ and $2k_r sin\theta = k_z$. $\hat{P}$ will be a non-uniformly sampled function of $\theta$ and $k_r$ and will need to be interpolated onto a uniform $(k_x,k_z,k_y)$ grid via Stolt interpolation using the equation (14) and the following relations:
+\begin{gather}
+	\theta = tan^{-1}(\frac{k_z}{k_x}) \\
+	k = \frac{1}{2}\sqrt{k_x^2 + k_y^2 + k_z^2}
+\end{gather}
+
+This interpolation process will be denoted by the $\mathcal{S}[\bullet]$ operator, such that:
+\begin{equation}
+	P(k_x,k_z,k_y) = \mathcal{S}[P(2k_r cos\theta,2k_r sin\theta,k_y)]
+\end{equation}
+
+Finally:
+\begin{equation}
+	p(x,z,y) = IFT_{3D}^{(k_x,k_z,k_y)}[P(k_x,k_z,k_y)]
+\end{equation}
+
+The algorithm can be summarized as:
+\begin{multline}
+	p(x,z,y) = \\ IFT_{3D}^{(k_x,k_z,k_y)}\left[\mathcal{S}\left[IFT_{1D}^{(\Theta)}\left[ \frac{FT_{2D}^{(\theta,y)}s(\theta,k,y)}{G(\Theta,k_r)} \right]\right]\right]
+\end{multline}
+
+
+
+\end{document}

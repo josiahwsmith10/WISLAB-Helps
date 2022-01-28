@@ -1,0 +1,229 @@
+\documentclass{IEEEtran}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+\usepackage{listings}
+
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolor}{rgb}{0.95,0.95,0.92}
+
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}	
+	
+\lstdefinestyle{mystyle}{
+	language=Matlab,%
+	basicstyle=\ttfamily\footnotesize,
+	backgroundcolor=\color{backcolor},
+	breaklines=true,
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	numbers=left,%
+	numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=1pt, % this defines how far the numbers are from the text 
+	tabsize=4,
+	captionpos=b
+}
+
+\usepackage{titlesec}
+\titleformat{\section}[block]{\bfseries}{\thesection.}{1em}{}
+
+\lstset{style=mystyle}
+
+\title{Stolt Interpolation Basics with MATLAB Algorithms}
+
+% Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+\author{Josiah W. Smith}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Stolt interpolation, also known as range migration algorithm (RMA) or $\omega-k$ or $f-k$ migration, for the rectilinear and cylindrical cases in 2D and 3D using monostatic radar systems for near-field 2D and 3D image reconstruction.
+
+\end {abstract}
+
+\section{Introduction}
+This paper is organized as follows. Section II will discuss the application of Stolt interpolation to a 1D-rectilinear SAR scanner using a single monostatic, SISO radar array for 2D image reconstruction in the $(x,z)$ domains and provide applicable MATLAB algorithms. Section III will extend the application of Stolt interpolation for use on a 2D-rectilinear SAR scanner using a single monostatic, SISO radar array for 3D holographic image reconstruction in the $(x,y,z)$ domains and provide necessary MATLAB algorithms. Section IV will propose and demonstrate a 1D-cylindrical SAR (CSAR) system and the proper Stolt interpolation to recover a 2D image with relevant MATLAB algorithms. And finally, Section V will discuss the extension of this CSAR system to a 2D-CSAR system for generating high resolution 3D holographic images and provide MATLAB algorithms.
+
+\section{1D-Rectilinear SISO-SAR System Model for 2D Image Reconstruction by Stolt Interpolation}
+The one-dimensional rectilinear single-input,single-output synthetic aperture radar (SISO-SAR) system consists of a single transceiver moved to evenly-spaced positions across the horizontal X-domain (can we get a figure?).
+
+The received signal from a monostatic, full-duplex transceiver is of the form given by equation (1).
+
+\begin{equation}
+	s(x,k) = \iint \frac{p(x,z)}{R^2} e^{j2kR}dxdz
+\end{equation}
+\begin{equation}
+	R = \sqrt{ (x-x')^2 + (z-z')^2 }
+\end{equation}
+Where $R$ is the distance from the transceiver to the target scene, $p(x,z)$ is the reflectivity function of the target scene, and $(x',z')$ is the location of the transceiver.
+
+It has been shown in the literature that $p(x,z)$ can be recovered via Fourier-based techniques and circular to planar wavefront decomposition as described in equation (3).
+
+\begin{equation}
+	p(x,z) = IFT^{(k_x,k_z)}_{2D} \left[ Stolt^{(k)} \left( FT^{(x)}_{1D} \left[ s^*(x,z) \right] \right) \right]
+\end{equation}
+Where $FT$ and $IFT$ are the forward and backward Fourier transform operators, $(\cdot)^*$ is the complex conjugate operator, and $Stolt(\cdot)$ is the Stolt interpolation algorithm.
+
+This is the fundamental equation for rectilinear Stolt interpolation and will be further examined in this paper.
+
+\subsection{1D-Rectilinear SISO-SAR 2D Image Reconstruction and Necessity of Stolt Interpolation}
+The single-input-single-output synthetic aperture radar (SISO-SAR) reconstruction algorithm is described by equations (4),(5),(6). Where equation (5) is the Stolt interpolation step, migrating $(k_x,k)$ to $(k_x,k_z)$ by the relation given in equation (7), derived from the dispersion relation of electromagnetic (EM) waves.
+
+\begin{gather}
+	S(k_x,k) = FT_{(x)}[s^*(x,k)] \\
+	\hat{S}(k_x,k_z) = Stolt^{(k)}[S(k_x,k)] = S(k_x,k)\biggr\rvert^{k = \frac{1}{2} \sqrt{k_x^2 + k_z^2}} \\
+	p(x,z) = IFT_{(k_x,k_z)}[\hat{S}(k_x,k_z)]\\
+	(2k)^2 = k_x^2 + k_z^2
+\end{gather}
+
+Without the Stolt interpolation step in equation (5), the 2D image is not resolvable in the $(x,z)$ plane.
+
+\subsection{MATLAB Algorithm for 2D-Image Reconstruction using Stolt Interpolation}
+
+\lstinputlisting{StoltInterpolation2Dk_kz.m}
+
+\section{2D-Rectilinear SISO-SAR System Model for 3D Holographic Image Reconstruction with Stolt Interpolation}
+The system model for 3D image reconstruction is as follows. First, equation (8) is the received signal model.
+
+\begin{equation}
+s(y,x,k) = \iiint \frac{p(y,x,z)}{R^2} e^{-j2kR}dxdydz
+\end{equation}
+\begin{equation}
+R = \sqrt{(x-x')^2 + (y-y')^2 + (z-z')^2}
+\end{equation}
+
+By similar wavefront decomposition and Fourier analysis, the 3D holographic image reconstruction algorithm can be consolidated by equation (10).
+
+\begin{equation}
+p(y,x,z) = IFT^{(k_y,k_x,k_z)}_{3D} \left[Stolt^{(k)}\left( FT^{(y,x)}_{2D} \left[ s^*(y,x,z) \right] \right) \right]
+\end{equation}
+
+\subsection{2D-Rectilinear SISO-SAR 3D-Image Reconstruction and Implementation of Stolt Interpolation}
+Expanding the derivation provided in section II, the single-input-single-output synthetic aperture radar (SISO-SAR) reconstruction algorithm is described by equations (4),(5),(6). Where equation (5) is the Stolt interpolation step, migrating $(k_x,k)$ to $(k_x,k_z)$ by the relation given in equation (7), derived from the dispersion relation of electromagnetic (EM) waves.
+
+\begin{equation}
+S(k_y,k_x,k) = FT_{(y,x)}[s^*(y,x,k)]
+\end{equation}
+\begin{equation}
+\begin{split}
+	\hat{S}(k_y,k_x,k_z) & = Stolt[S(k_y,k_x,k)] \\
+	& = S(k_y,k_x,k)\biggr\rvert^{k =\frac{1}{2} \sqrt{k_y^2 + k_x^2 + k_z^2}}
+\end{split}
+\end{equation}
+\begin{gather}
+p(y,x,z) = IFT_{(k_y,k_x,k_z)}[\hat{S}(k_y,k_x,k_z)] \\
+(2k)^2 = k_y^2 + k_x^2 + k_z^2
+\end{gather}
+
+Without the Stolt interpolation step in equation (12), the 3D image is not resolvable in the $(y,x,z)$ plane.
+
+\subsection{MATLAB Algorithm for 3D-Image Reconstruction using Stolt Interpolation}
+
+\lstinputlisting{StoltInterpolation3Dk_kz.m}
+
+\section{1D-Cylindrical SISO-CSAR System Model for 2D Image Reconstruction by Stolt Interpolation}
+Using the same coordinate system described in sections II-III and the basic near-field cylindrical setup, the return signal can be modeled by equation (15).
+
+\begin{gather}
+	s(\theta,k) = \iint \frac{p(x,z)}{R^2}e^{j2kR}dxdz \\
+	R = \sqrt{(R_0 cos\theta - x)^2 + (R_0 sin\theta - z)^2}
+\end{gather}
+Where $R_0$ is the radial distance from the center of the rotator to the radar transceiver.
+
+\subsection{1D-Cylidrical SISO-CSAR 2D-Image Reconstruction and Implementation of Stolt Interpolation}
+The algorithm for recovering the reflectivity function of the target scene is described by the following derivation.
+
+First, the exponential term in equation (15, $s(\theta,k)$) can be approximated by:
+
+\begin{multline}
+	e^{j2k\sqrt{(R_0 cos\theta - x)^2 + (R_0 sin\theta - z)^2}} \approx \\ \int_{-\pi}^{\pi} e^{j2k(cos\alpha(R_0cos\theta-x)+sin\alpha(R_0sin\theta - z))} d\alpha
+\end{multline}
+
+Substituting into equation (15, $s(\theta,k)$) neglecting amplitude terms.
+
+\begin{multline}
+	s(\theta,k) = \iint p(x,z) \\ 
+	\times \int_{-\pi}^{\pi} e^{j2k(cos\alpha(R_0cos\theta-x)+sin\alpha(R_0sin\theta - z))} d\alpha dx dz
+\end{multline}
+\begin{multline}
+	s(\theta,k) = \int_{-\pi}^{\pi} \iint p(x,z) e^{-j2k(xcos\alpha+ysin\alpha)}dxdz \\
+	\times e^{j2kR_0cos(\theta-\alpha)}d\alpha
+\end{multline}
+
+Defining the Fourier relation:
+
+\begin{equation}
+	p(\alpha,k) \triangleq \iint p(x,z) e^{-j2k(xcos\alpha+ysin\alpha)}dxdz
+\end{equation}
+
+Now
+
+\begin{equation}
+	s(\theta,k) = \int_{-\pi}^{\pi} p(\alpha,k) e^{j2kR_0cos(\theta-\alpha)}d\alpha
+\end{equation}
+
+It is obvious that equation (21) represents a circular convolution with respect to $\theta$, denoted by $\circledast_{\theta}$.
+
+\begin{gather}
+	h(\theta,k) = e^{j2kR_0cos\theta}\\
+	s(\theta,k) = p(\theta,k) \circledast_{\theta} h(\theta,k)
+\end{gather}
+
+Taking the Fourier transform on both sides of equation (23) allows for multiplication in the Fourier domain to replace convolution spatial angular. Note that $\theta$ and $\Theta$ are conjugate variables of the Fourier transform.
+
+\begin{gather}
+	S(\Theta,k) = P(\Theta,k)H(\Theta,k) \\
+	P(\Theta,k) = \frac{S(\Theta,k)}{H(\Theta,k)} \\
+	p(\theta,k) = IFT_{1D}^{(\Theta)}\left[ \frac{S(\Theta,k)}{H(\Theta,k)} \right]
+\end{gather}
+
+By the Fourier relation in equation (20), $p(x,z)$ can be recovered from $p(\theta,k)$ by:
+
+\begin{equation}
+	p(x,z) \triangleq \iint p(\theta,k) e^{-j2k(xcos\theta+ysin\theta)}d\theta dk
+\end{equation}
+
+\section{2D-Cylindrical SISO-CSAR System Model for 3D Holographic Image Reconstruction by Stolt Interpolation}
+
+
+\subsection{2D-Cylidrical SISO-CSAR 3D-Image Reconstruction and Implementation of Stolt Interpolation}
+
+The received signal is of the form given by equation (15).
+\begin{equation}
+s(\theta,y,k) = \iiint \frac{p(x,y,z)}{R^2} e^{-j2kR}dxdydz
+\end{equation}
+\begin{equation}
+R = \sqrt{(R_0 cos\theta-x)^2 + (R_0 sin\theta-y)^2 + (z' - z)^2}
+\end{equation}
+Where $R_0$ is the scanning radius, $\theta$ is the scanning angle, and $y'$ is the scanning height, with the target and scanning domains coinciding. $p(x,y,z)$ is the complex reflectivity function of the target scene.
+
+Inverting equation (15) to solve for $p(x,y,z)$ requires decomposing the exponential term representing a spherical-wave into a superposition of plane-wave components using some Fourier-based techniques described in [REF].
+
+Perform a 2D Fourier transform across the $\theta$ and $z$ dimensions.
+\begin{equation}
+S(\Theta,k,k_z) = FT^{(\theta,z)}_{2D}[s(\theta,k,z)]
+\end{equation} 
+Compute the phase term described in equation (18).
+\begin{equation}
+k_\Theta = \sqrt{4(k_x^2+k_y^2)R_0^2 - \Theta^2}
+\end{equation}
+Multiply the phase term and perform an inverse Fourier transform across the $\Theta$ domain.
+\begin{equation}
+\hat{P}(\theta,k,k_z) = IFT^{(\Theta)}_{1D} [S(\Theta,k,k_z)e^{-jk_\Theta}]
+\end{equation}
+Make the following substitutions:
+
+\begin{equation}
+P(k_x,k_y,k_z) = \hat{P}(\theta,k,k_z) \biggr\rvert^{\theta = tan^{-1}(\frac{k_y}{k_x}),k = \frac{1}{2} \sqrt{k_x^2+k_y^2+k_z^2}}
+\end{equation}
+
+\end{document}

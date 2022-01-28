@@ -1,0 +1,42 @@
+*************************************************************
+FileName = FAB1.GBR
+AutoAperture = True
+*************************************************************
+Generating : Drill Drawing
+      File : FAB1.GD1
+
+    Adding Layer      : M1 Board Outline
+
+    Adding Layer      : M2 Board Dimensions
+
+    Adding Layer      : M9 Title Sheet
+
+    Adding Layer      : M10 Fab Notes
+
+    Adding Layer      : M11 Gerber Information
+
+    Adding Layer      : M12 Stackup
+
+    Adding Drill Pair : BOTTOM-TOP
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+

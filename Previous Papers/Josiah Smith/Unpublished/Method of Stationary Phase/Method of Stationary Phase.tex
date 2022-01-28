@@ -1,0 +1,162 @@
+\documentclass{IEEEtran}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+\usepackage{amsmath}
+
+
+% Please give the surname of the lead author for the running footer
+
+% info about NM-BC format: https://www.nature.com/nmeth/about/content
+
+\title{Method of Stationary Phase for SAR/ISAR Image Reconstruction}
+
+% Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+\author{Josiah W. Smith}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Using the method of stationary phase for spherical wave decomposition.
+
+\end {abstract}
+
+
+%%%%%%%%%%%%%%%%
+% Introduction %
+%%%%%%%%%%%%%%%%
+% ------------------------------------------------------------------------------------------------------------------------------------
+\section{Basic Method of Stationary Phase}
+In its simplest form, neglecting amplitude terms, the method of stationary phase (MSP) can be written as: 
+
+\begin{equation}
+	\iint e^{j\phi(x,y)} dxdy \approx e^{j\phi(x_0,y_0)}
+\end{equation}
+
+Where $x_0$ and $y_0$ are obtained by the system:
+
+\begin{equation}
+\frac{\partial \phi(x,y)}{\partial x} \biggr\rvert_{(x=x_0,y=y_0)} = 0
+\end{equation}
+\begin{equation}
+\frac{\partial \phi(x,y)}{\partial y} \biggr\rvert_{(x=x_0,y=y_0)} = 0
+\end{equation}
+
+\subsection{Application to FMCW Wavefront Decomposition}
+Given that a FMCW signal is transmitted from an ideal, monostatic, full-duplex transceiver scanned across a rectilinear scanner in the $x',y'$ plane, the return signal can be modeled as:
+\begin{gather}
+	s(x',y',k) = \iiint \frac{p(x,y,z)}{R^2} e^{j2kR} dx dy dz \\
+	R = \sqrt{ (x' - x)^2 + (y' - y)^2 + (Z_1 - z)^2 }
+\end{gather}
+where the transceiver is located at the point $(x',y',Z_1)$ and $p(x,y,z)$ is the complex reflectivity function of the target scene.
+
+This expression can be simplified by ignoring the amplitude terms and reduces to:
+\begin{equation}
+s(x',y',k) = \iiint{p(x,y,z)} e^{j2kR} dx dy dz
+\end{equation}
+
+MSP allows a decomposition of the spherical wavefront contained in the exponential term of equation (4). First, we take a 2D Fourier Transform across the $x'$ and $y'$ domains.
+
+\begin{multline}
+	FT_{2D}^{(x',y')}[e^{j2kR}] = e^{-j(k_{x'}x+k_{y'}y)} \times \\
+	\iint e^{j(2k\sqrt{x'^2 + y'^2 + (Z_1 - z)^2} - k_{x'}x' - k_{y'}y' )} dx'dy'
+\end{multline}
+
+Note that the exponential term outside of the integrand is from the shift in the spatial domain.
+
+Now, applying MSP to the double integral above:
+\begin{equation}
+	\phi(x',y') = 2k\sqrt{x'^2 + y'^2 + (Z_1 - z)^2} - k_{x'}x' - k_{y'}y'
+\end{equation}
+
+Solving the simultaneous system described in equations (2) and (3) yields the stationary points:
+
+\begin{gather}
+	x_0 = \frac{k_{x'}(Z_1 - z)}{\sqrt{4k^2 - k_{x'}^2 - k_{y'}^2}} \\
+	y_0 = \frac{k_{y'}(Z_1 - z)}{\sqrt{4k^2 - k_{x'}^2 - k_{y'}^2}}
+\end{gather}
+
+Substituting these into equation (1) completes the approximation:
+
+\begin{gather}
+	\iint e^{j(2k\sqrt{x'^2 + y'^2 + (Z_1 - z)^2} - k_{x'}x' - k_{y'}y' )} dx'dy' \approx e^{jk_{z'}(Z_1 - z)} \\
+	k_{z'} = \sqrt{4k^2 - k_{x'}^2 - k_{y'}^2}
+\end{gather}
+which can then be applied to equation (7) as:
+
+\begin{equation}
+FT_{2D}^{(x',y')}[e^{j2kR}] \approx e^{j(-k_{x'}x - k_{y'}y + k_{z'}(Z_1 - z) )}
+\end{equation}
+
+Taking an 2D inverse Fourier transform across the $k_{x'}$ and $k_{y'}$ domains yields:
+
+\begin{equation}
+	e^{j2kR} \approx \iint \left[ e^{j(-k_{x'}x - k_{y'}y + k_{z'}(Z_1 - z) )} \right] e^{j(k_{x'}x' + k_{y'}y' ) } dk_{x'}dk_{y'}
+\end{equation}
+Simplified:
+\begin{multline}
+e^{j2kR} \approx \\
+\iint e^{j(k_{x'}(x'-x) + k_{y'}(y'-y) + k_{z'}(Z_1 - z) )} dk_{x'}dk_{y'}
+\end{multline}
+Substitute into equation (6):
+\begin{multline}
+s(x',y',k) \approx \\ 
+\iiint{p(x,y,z)} \iint e^{j(k_{x'}(x'-x) + k_{y'}(y'-y) + k_{z'}(Z_1 - z) )} \\
+\times dk_{x'}dk_{y'} dx dy dz
+\end{multline}
+Rearranging the integrands of equation (16) to produce:
+
+\begin{multline}
+	s(x',y',k) \approx \\ 
+	\iint \left[ \iiint p(x,y,z) e^{-j(k_{x'}x + k_{y'}y + k_{z'}z)} dxdydz \right] \\ 
+	\times e^{j(k_{x'}x' + k_{y'}y' + k_{z'}Z_1)} dk_{x'}dk_{y'}
+\end{multline}
+where the triple integral inside of the $[\bullet]$ brackets represents the 3D Fourier transform of the reflectivity function.
+
+\begin{multline}
+	P(k_{x'},k_{y'},k_{z'}) = FT_{3D}^{(x,y,z)}[p(x,y,z)]  \\
+	= \iiint p(x,y,z) e^{-j(k_{x'}x + k_{y'}y + k_{z'}z)} dxdydz
+\end{multline}
+Now, (17) can be updated as:
+\begin{multline}
+	s(x',y',k) \approx \\
+	\iint P(k_{x'},k_{y'},k_{z'}) e^{j(k_{x'}x' + k_{y'}y' + k_{z'}Z_1)} dk_{x'}dk_{y'}
+\end{multline}
+Rearranged to expose inverse Fourier identity, assuming close approximation to equality:
+\begin{multline}
+s(x',y',k) = \\
+\iint \left[ P(k_{x'},k_{y'},k_{z'})e^{jk_{z'}Z_1} \right] e^{j(k_{x'}x' + k_{y'}y')} dk_{x'}dk_{y'}
+\end{multline}
+\begin{multline}
+s(x',y',k) = IFT_{2D}^{(k_{x'},k_{y'})} \left[ P(k_{x'},k_{y'},k_{z'})e^{jk_{z'}Z_1} \right] 
+\end{multline}
+Take a 2D Fourier transform across the $x'$ and $y'$ domains on both sides, dropping distinction between primed and unprimed coordinate systems due to coincidence, yields:
+
+\begin{equation}
+	FT_{2D}^{(x,y)}[s(x,y,k)] = S(k_x,k_y,k) = P(k_x,k_y,k_z)e^{jk_z Z_1}
+\end{equation}
+
+Inverting equation (22):
+
+\begin{gather}
+	p(x,y,z) = IFT_{3D}^{(k_x,k_y,k_z)}[P(k_x,k_y,k_z)] \\
+	P(k_x,k_y,k_z) = S(k_x,k_y,k)e^{-jk_zZ_1}
+\end{gather}
+However, Stolt interpolation must be performed to map $(k_x,k_y,k)$ to $(k_x,k_y,k_z)$ by the dispersion relation for plane waves in free-space or a uniform dielectric, which can also be obtained by solving equation (12) for k as:
+\begin{equation}
+	k = \frac{1}{2}\sqrt{k_x^2+k_y^2+k_z^2}
+\end{equation}
+where $k_z \in [0,2k]$ for the visible portion of the spectrum.
+
+Combining the above relations, the resulting image reconstruction algorithm follows:
+\begin{equation}
+	p(x,y,z) = IFT_{3D}\left[ FT_{2D}^{(x,y)}[s(x,y,k)] e^{-jk_zZ_1} \right]
+\end{equation}
+
+\end{document}

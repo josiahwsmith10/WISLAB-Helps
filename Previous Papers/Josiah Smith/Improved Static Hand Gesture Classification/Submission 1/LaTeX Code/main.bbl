@@ -1,0 +1,1214 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{hand_pose_classification:comparison_of_classifiers}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c8b73087ebe8c549fc0449c9cf8cab0d}{%
+           family={{Baek}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b2236af712a294693dcea632d195b1fb}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=48f44b0a91f1773b3d5345cddb124959}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa842648e1a673317af088f99ec23ab8}
+      \strng{fullhash}{fa842648e1a673317af088f99ec23ab8}
+      \strng{bibnamehash}{fa842648e1a673317af088f99ec23ab8}
+      \strng{authorbibnamehash}{fa842648e1a673317af088f99ec23ab8}
+      \strng{authornamehash}{fa842648e1a673317af088f99ec23ab8}
+      \strng{authorfullhash}{fa842648e1a673317af088f99ec23ab8}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 13th International Conference on Control, Automation and Systems (ICCAS 2013)}
+      \field{title}{Comparison study of different feature classifiers for hand posture classification}
+      \field{year}{2013}
+      \field{pages}{683\bibrangedash 687}
+      \range{pages}{5}
+    \endentry
+    \entry{hand_pose_classification:depth_sensor_bad_sunlight}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=25112b9396a5302c698e082871eca98c}{%
+           family={{Son}},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=dda0d24018ed2ee4f117137dcc88af71}{%
+           family={{Choi}},
+           familyi={C\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e5237ee533dde7aa61c96e9ad59510a}
+      \strng{fullhash}{3e5237ee533dde7aa61c96e9ad59510a}
+      \strng{bibnamehash}{3e5237ee533dde7aa61c96e9ad59510a}
+      \strng{authorbibnamehash}{3e5237ee533dde7aa61c96e9ad59510a}
+      \strng{authornamehash}{3e5237ee533dde7aa61c96e9ad59510a}
+      \strng{authorfullhash}{3e5237ee533dde7aa61c96e9ad59510a}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 17th International Conference on Control, Automation and Systems (ICCAS)}
+      \field{title}{Image-based hand pose classification using faster R-CNN}
+      \field{year}{2017}
+      \field{pages}{1569\bibrangedash 1573}
+      \range{pages}{5}
+    \endentry
+    \entry{hand_pose_classification:OUHANDS_database}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=b4b9ae2b58281a6341dc66c15c90ba72}{%
+           family={{Matilainen}},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e7f9435346862fcf8384a210f046c82d}{%
+           family={{Sangi}},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e9e16eada9c8c5b4efd9cc085fe3d1d1}{%
+           family={{Holappa}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1e2954f0759640d6275fd383a0ec3a47}{%
+           family={{Silvén}},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{339a1155d4652c64d981329ab1879b3a}
+      \strng{fullhash}{2cf0e2cd3af1b2b3fa1cef9cdc5eeb3a}
+      \strng{bibnamehash}{2cf0e2cd3af1b2b3fa1cef9cdc5eeb3a}
+      \strng{authorbibnamehash}{2cf0e2cd3af1b2b3fa1cef9cdc5eeb3a}
+      \strng{authornamehash}{339a1155d4652c64d981329ab1879b3a}
+      \strng{authorfullhash}{2cf0e2cd3af1b2b3fa1cef9cdc5eeb3a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 Sixth International Conference on Image Processing Theory, Tools and Applications (IPTA)}
+      \field{title}{OUHANDS database for hand detection and pose recognition}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{hand_pose_classification:medical}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=83db263067310ba0267fc949b355cd1d}{%
+           family={{Anaz}},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=51121e36016969e1236484b8c0638c52}{%
+           family={{Skubic}},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b9b9b4ab06aee1b01a8650914c1d2521}{%
+           family={{Bridgeman}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a8abeadfdc9f28a28adc1860084031d2}{%
+           family={{Brogan}},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d791eb10519de40ea0fa2c5934644132}
+      \strng{fullhash}{9495febbd5074d86b8a673a9868d44f7}
+      \strng{bibnamehash}{9495febbd5074d86b8a673a9868d44f7}
+      \strng{authorbibnamehash}{9495febbd5074d86b8a673a9868d44f7}
+      \strng{authornamehash}{d791eb10519de40ea0fa2c5934644132}
+      \strng{authorfullhash}{9495febbd5074d86b8a673a9868d44f7}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)}
+      \field{title}{Classification of Therapeutic Hand Poses Using Convolutional Neural Networks}
+      \field{year}{2018}
+      \field{pages}{3874\bibrangedash 3877}
+      \range{pages}{4}
+    \endentry
+    \entry{hand_pose_classification:depth_RGBD_camera}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=11ccc60d0ab0725822a1eae13191a8ca}{%
+           family={{Lin}},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=044f98dcc344819e103613bbe3ed5abf}{%
+           family={{Huang}},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{10c8f39a388cf2b7603e19c7adc2d339}
+      \strng{fullhash}{10c8f39a388cf2b7603e19c7adc2d339}
+      \strng{bibnamehash}{10c8f39a388cf2b7603e19c7adc2d339}
+      \strng{authorbibnamehash}{10c8f39a388cf2b7603e19c7adc2d339}
+      \strng{authornamehash}{10c8f39a388cf2b7603e19c7adc2d339}
+      \strng{authorfullhash}{10c8f39a388cf2b7603e19c7adc2d339}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 IEEE International Symposium on Consumer Electronics (ISCE)}
+      \field{title}{3D hand posture tracking with depth gradient estimation on a RGB-D camera}
+      \field{year}{2013}
+      \field{pages}{109\bibrangedash 110}
+      \range{pages}{2}
+    \endentry
+    \entry{dynamic_gesture_recognition:application_of_Dopper_DCNN}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=03f38c879ca0bc9f1dcbada69ea0519a}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ae8d5ed569c16ae38d7674805752c68b}{%
+           family={{Toomajian}},
+           familyi={T\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{fullhash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{bibnamehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{authorbibnamehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{authornamehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{authorfullhash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 11th European Conference on Antennas and Propagation (EUCAP)}
+      \field{title}{Application of Doppler radar for the recognition of hand gestures using optimized deep convolutional neural networks}
+      \field{year}{2017}
+      \field{pages}{1258\bibrangedash 1260}
+      \range{pages}{3}
+    \endentry
+    \entry{dynamic_gesture_recognition:low_power}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=698013e1e88b4a4d752b0a3f2c097926}{%
+           family={{Dekker}},
+           familyi={D\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3d8625953550271cbbc9fc7d8c1e266d}{%
+           family={{Jacobs}},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0a3354030cab00fc1adb39df0df67ea1}{%
+           family={{Kossen}},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=39b58487a70b68ea570e0b34fe84180f}{%
+           family={{Kruithof}},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=de2c4946f2f34ce92ce41b8d55ca00bf}{%
+           family={{Huizing}},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a6f1daa24ba1a6ef40f75c037412d162}{%
+           family={{Geurts}},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{176d793bb68b96204feee960a48e8e7e}
+      \strng{fullhash}{b33a3210d04ceb83305b2fbee53fdf18}
+      \strng{bibnamehash}{b33a3210d04ceb83305b2fbee53fdf18}
+      \strng{authorbibnamehash}{b33a3210d04ceb83305b2fbee53fdf18}
+      \strng{authornamehash}{176d793bb68b96204feee960a48e8e7e}
+      \strng{authorfullhash}{b33a3210d04ceb83305b2fbee53fdf18}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 European Radar Conference (EURAD)}
+      \field{title}{Gesture recognition with a low power FMCW radar and a deep convolutional neural network}
+      \field{year}{2017}
+      \field{pages}{163\bibrangedash 166}
+      \range{pages}{4}
+    \endentry
+    \entry{dynamic_gesture_recognition:LSTM}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=836c673bd00b93f996bf434be3132ee4}{%
+           family={{Suh}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=59fe2e92f1a64a587a6e505b33371850}{%
+           family={{Ryu}},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7a1ad3a317a6f3453b0482f28aa190a6}{%
+           family={{Han}},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=85fcf48fa88ed022498fd4cdce676041}{%
+           family={{Choi}},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b2236af712a294693dcea632d195b1fb}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=40514c5e084b29e34830e7e01add0cac}{%
+           family={{Hong}},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbbd2bf03a7b2c837e298f9c9dcbf570}
+      \strng{fullhash}{4c8002ab53124dc9ec5ee48dac77fbef}
+      \strng{bibnamehash}{4c8002ab53124dc9ec5ee48dac77fbef}
+      \strng{authorbibnamehash}{4c8002ab53124dc9ec5ee48dac77fbef}
+      \strng{authornamehash}{cbbd2bf03a7b2c837e298f9c9dcbf570}
+      \strng{authorfullhash}{4c8002ab53124dc9ec5ee48dac77fbef}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 Asia-Pacific Microwave Conference (APMC)}
+      \field{title}{24 GHz FMCW Radar System for Real-Time Hand Gesture Recognition Using LSTM}
+      \field{year}{2018}
+      \field{pages}{860\bibrangedash 862}
+      \range{pages}{3}
+    \endentry
+    \entry{dynamic_gesture_recognition:micro_doppler}{article}{}
+      \name{author}{2}{}{%
+        {{hash=03f38c879ca0bc9f1dcbada69ea0519a}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ae8d5ed569c16ae38d7674805752c68b}{%
+           family={{Toomajian}},
+           familyi={T\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{fullhash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{bibnamehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{authorbibnamehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{authornamehash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \strng{authorfullhash}{4c7d10d2683a85f1f08b7653a11131b7}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Hand Gesture Recognition Using Micro-Doppler Signatures With Convolutional Neural Network}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{pages}{7125\bibrangedash 7130}
+      \range{pages}{6}
+    \endentry
+    \entry{dynamic_gesture_recognition:svm}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=24007f156eb06261431b2b25b64844f8}{%
+           family={{Zhang}},
+           familyi={Z\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0f2234b06477ac71f67fe16d3e2b397f}{%
+           family={{Li}},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4353e7ddbedd154b6072d206fdeed3ed}{%
+           family={{Ritchie}},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2d46af1a2684f05794fd987aad02299}{%
+           family={{Fioranelli}},
+           familyi={F\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=691446ea8764102a0b49cb4abfd8bd1d}{%
+           family={{Griffiths}},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f101314b7b1755e7a5c903e60899058}
+      \strng{fullhash}{be1614f2426f0115022600a1b767e015}
+      \strng{bibnamehash}{be1614f2426f0115022600a1b767e015}
+      \strng{authorbibnamehash}{be1614f2426f0115022600a1b767e015}
+      \strng{authornamehash}{5f101314b7b1755e7a5c903e60899058}
+      \strng{authorfullhash}{be1614f2426f0115022600a1b767e015}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 CIE International Conference on Radar (RADAR)}
+      \field{title}{Dynamic hand gesture classification based on radar micro-Doppler signatures}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{static_gesture_recognition:time_domain}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bd2ad20e5878667a37d960d3f31da518}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=66c02f97ff9fc31e961fc803a2d42c47}{%
+           family={{Han}},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=deb0487fff8a7ed0b0d1653d20caf3f5}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={{Lee}},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ca08bd79dcd4f2fa1209364db9e8d4e3}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{43f625ec91e0a3da5b478ff434f53c25}
+      \strng{fullhash}{0c41b0df627c192edb736fbe2125a365}
+      \strng{bibnamehash}{0c41b0df627c192edb736fbe2125a365}
+      \strng{authorbibnamehash}{0c41b0df627c192edb736fbe2125a365}
+      \strng{authornamehash}{43f625ec91e0a3da5b478ff434f53c25}
+      \strng{authorfullhash}{0c41b0df627c192edb736fbe2125a365}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Sensors Journal}
+      \field{number}{10}
+      \field{title}{A Hand Gesture Recognition Sensor Using Reflected Impulses}
+      \field{volume}{17}
+      \field{year}{2017}
+      \field{pages}{2975\bibrangedash 2976}
+      \range{pages}{2}
+    \endentry
+    \entry{josiah:isar}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=5cf2421983f83f1a39ad749d4434b4e0}{%
+           family={{Smith}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=e2188547e4a9f19d8d60d7ef2deb30de}{%
+           family={{Yanik}},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dd54c2072b38c840e5d8308db2dc2f90}{%
+           family={{Torlak}},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{73f81db3b21307578f4bc0f973b049c7}
+      \strng{fullhash}{73f81db3b21307578f4bc0f973b049c7}
+      \strng{bibnamehash}{73f81db3b21307578f4bc0f973b049c7}
+      \strng{authorbibnamehash}{73f81db3b21307578f4bc0f973b049c7}
+      \strng{authornamehash}{73f81db3b21307578f4bc0f973b049c7}
+      \strng{authorfullhash}{73f81db3b21307578f4bc0f973b049c7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE Radar Conference (RadarConf20)}
+      \field{title}{Near-Field MIMO-ISAR Millimeter-Wave Imaging}
+      \field{year}{to be published}
+    \endentry
+    \entry{Yanik:ConcealedItemImaging}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e2188547e4a9f19d8d60d7ef2deb30de}{%
+           family={Yanik},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dd54c2072b38c840e5d8308db2dc2f90}{%
+           family={Torlak},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Orlando, FL, USA}%
+      }
+      \strng{namehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{fullhash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{bibnamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authorbibnamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authornamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authorfullhash}{b520f34067fa9db8c15524d423df9fd4}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. IEEE Radio and Wireless Symp.}
+      \field{month}{1}
+      \field{title}{Near-Field {2-D} {SAR} Imaging by Millimeter-Wave Radar for Concealed Item Detection}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{Yanik:MillimeterWaveNearFieldImaging}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e2188547e4a9f19d8d60d7ef2deb30de}{%
+           family={Yanik},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dd54c2072b38c840e5d8308db2dc2f90}{%
+           family={Torlak},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Austin, TX, USA}%
+      }
+      \strng{namehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{fullhash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{bibnamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authorbibnamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authornamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authorfullhash}{b520f34067fa9db8c15524d423df9fd4}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. SRC Techcon}
+      \field{month}{9}
+      \field{number}{P093929}
+      \field{title}{Millimeter-wave near-field imaging with two-dimensional {SAR} data}
+      \field{year}{2018}
+    \endentry
+    \entry{Yanik:NearFieldMIMOSAR}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e2188547e4a9f19d8d60d7ef2deb30de}{%
+           family={Yanik},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dd54c2072b38c840e5d8308db2dc2f90}{%
+           family={Torlak},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{fullhash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{bibnamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authorbibnamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authornamehash}{b520f34067fa9db8c15524d423df9fd4}
+      \strng{authorfullhash}{b520f34067fa9db8c15524d423df9fd4}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{month}{3}
+      \field{title}{Near-Field {MIMO-SAR} Millimeter-Wave Imaging With Sparsely Sampled Aperture Data}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{31801\bibrangedash 31819}
+      \range{pages}{19}
+    \endentry
+    \entry{Yanik:CascadedMIMO}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e2188547e4a9f19d8d60d7ef2deb30de}{%
+           family={{Yanik}},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=880058aecbe007135ba7481023962f53}{%
+           family={{Wang}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dd54c2072b38c840e5d8308db2dc2f90}{%
+           family={{Torlak}},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{fullhash}{c286ad8187da099cf83544819ff79e31}
+      \strng{bibnamehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{authorbibnamehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{authornamehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{authorfullhash}{c286ad8187da099cf83544819ff79e31}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP)}
+      \field{title}{3-D MIMO-SAR Imaging Using Multi-Chip Cascaded Millimeter-Wave Sensors}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{Sheen:NearField3DRadarImaging}{article}{}
+      \name{author}{3}{}{%
+        {{hash=abb2e9e041172d424a4d845544aca66a}{%
+           family={Sheen},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0d52b5bcf5f4af507de62ccfd64a802a}{%
+           family={McMakin},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e5ca8e2c83afa141c683fe661c2cdf64}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{58ba864d43fef5c1ff69e4ac1f630336}
+      \strng{fullhash}{58ba864d43fef5c1ff69e4ac1f630336}
+      \strng{bibnamehash}{58ba864d43fef5c1ff69e4ac1f630336}
+      \strng{authorbibnamehash}{58ba864d43fef5c1ff69e4ac1f630336}
+      \strng{authornamehash}{58ba864d43fef5c1ff69e4ac1f630336}
+      \strng{authorfullhash}{58ba864d43fef5c1ff69e4ac1f630336}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Appl. Opt.}
+      \field{month}{7}
+      \field{number}{19}
+      \field{title}{Near-field three-dimensional radar imaging techniques and applications}
+      \field{volume}{49}
+      \field{year}{2010}
+      \field{pages}{E83\bibrangedash E93}
+      \range{pages}{-1}
+    \endentry
+    \entry{TI:mmWave}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{{Texas Instruments} {mmWave} Sensors}
+      \verb{urlraw}
+      \verb http://www.ti.com/sensors/mmwave/overview.html
+      \endverb
+      \verb{url}
+      \verb http://www.ti.com/sensors/mmwave/overview.html
+      \endverb
+    \endentry
+    \entry{muhammet:testbeds}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e2188547e4a9f19d8d60d7ef2deb30de}{%
+           family={{Yanik}},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=880058aecbe007135ba7481023962f53}{%
+           family={{Wang}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dd54c2072b38c840e5d8308db2dc2f90}{%
+           family={{Torlak}},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{fullhash}{c286ad8187da099cf83544819ff79e31}
+      \strng{bibnamehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{authorbibnamehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{authornamehash}{c286ad8187da099cf83544819ff79e31}
+      \strng{authorfullhash}{c286ad8187da099cf83544819ff79e31}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Development and Demonstration of MIMO-SAR mmWave Imaging Testbeds}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{126019\bibrangedash 126038}
+      \range{pages}{20}
+    \endentry
+    \entry{hand_crafted_features}{article}{}
+      \name{author}{2}{}{%
+        {{hash=87cdc5e1c98297b2d39a303238324992}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Youngwook},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e41bf7ac87369afac35601653982f60c}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0769ef4ea5d9e51ec2c18dea4b32afc9}
+      \strng{fullhash}{0769ef4ea5d9e51ec2c18dea4b32afc9}
+      \strng{bibnamehash}{0769ef4ea5d9e51ec2c18dea4b32afc9}
+      \strng{authorbibnamehash}{0769ef4ea5d9e51ec2c18dea4b32afc9}
+      \strng{authornamehash}{0769ef4ea5d9e51ec2c18dea4b32afc9}
+      \strng{authorfullhash}{0769ef4ea5d9e51ec2c18dea4b32afc9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{number}{5}
+      \field{title}{Human activity classification based on micro-Doppler signatures using a support vector machine}
+      \field{volume}{47}
+      \field{year}{2009}
+      \field{pages}{1328\bibrangedash 1337}
+      \range{pages}{10}
+    \endentry
+    \entry{linear_predictive_coding}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb1d8bc47ec34060f61c007f972bc8a5}{%
+           family={Javier},
+           familyi={J\bibinitperiod},
+           given={Rios\bibnamedelima Jesus},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=87cdc5e1c98297b2d39a303238324992}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Youngwook},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3490d7b09a79309e6d6010d96490f3cf}
+      \strng{fullhash}{3490d7b09a79309e6d6010d96490f3cf}
+      \strng{bibnamehash}{3490d7b09a79309e6d6010d96490f3cf}
+      \strng{authorbibnamehash}{3490d7b09a79309e6d6010d96490f3cf}
+      \strng{authornamehash}{3490d7b09a79309e6d6010d96490f3cf}
+      \strng{authorfullhash}{3490d7b09a79309e6d6010d96490f3cf}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Geoscience and Remote Sensing Letters}
+      \field{number}{10}
+      \field{title}{Application of linear predictive coding for human activity classification based on micro-Doppler signatures}
+      \field{volume}{11}
+      \field{year}{2014}
+      \field{pages}{1831\bibrangedash 1834}
+      \range{pages}{4}
+    \endentry
+    \entry{empirical_mode_decomposition}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3cb6996d3150b5b822dc6b69f940a707}{%
+           family={Fairchild},
+           familyi={F\bibinitperiod},
+           given={Dustin\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=aa61832495e672a4d171752a66ead5a2}{%
+           family={Narayanan},
+           familyi={N\bibinitperiod},
+           given={Ram\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IET}%
+      }
+      \strng{namehash}{ce0160266a7d964f21a6517a3b04a2ee}
+      \strng{fullhash}{ce0160266a7d964f21a6517a3b04a2ee}
+      \strng{bibnamehash}{ce0160266a7d964f21a6517a3b04a2ee}
+      \strng{authorbibnamehash}{ce0160266a7d964f21a6517a3b04a2ee}
+      \strng{authornamehash}{ce0160266a7d964f21a6517a3b04a2ee}
+      \strng{authorfullhash}{ce0160266a7d964f21a6517a3b04a2ee}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET Radar, Sonar \& Navigation}
+      \field{number}{5}
+      \field{title}{Classification of human motions using empirical mode decomposition of human micro-Doppler signatures}
+      \field{volume}{8}
+      \field{year}{2014}
+      \field{pages}{425\bibrangedash 434}
+      \range{pages}{10}
+    \endentry
+    \entry{principal_component_analysis}{article}{}
+      \name{author}{1}{}{%
+        {{hash=87cdc5e1c98297b2d39a303238324992}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Youngwook},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{87cdc5e1c98297b2d39a303238324992}
+      \strng{fullhash}{87cdc5e1c98297b2d39a303238324992}
+      \strng{bibnamehash}{87cdc5e1c98297b2d39a303238324992}
+      \strng{authorbibnamehash}{87cdc5e1c98297b2d39a303238324992}
+      \strng{authornamehash}{87cdc5e1c98297b2d39a303238324992}
+      \strng{authorfullhash}{87cdc5e1c98297b2d39a303238324992}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE antennas and wireless propagation letters}
+      \field{title}{Detection of eye blinking using Doppler sensor with principal component analysis}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{pages}{123\bibrangedash 126}
+      \range{pages}{4}
+    \endentry
+    \entry{KNN}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=9bf5cc110f62fef4a61b42f81f95efd0}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=04e67240998d775a02d8d19ae85134e8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yiran},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=67e9c36fef6ea4addab61a305213f659}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Changzhi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c388babfc3cb09497487007e70d699c9}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Ranadip},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e2a05926cf00d0df51e580e5f98a529d}
+      \strng{fullhash}{c9b77b3f5054711baa8082848bd75467}
+      \strng{bibnamehash}{c9b77b3f5054711baa8082848bd75467}
+      \strng{authorbibnamehash}{c9b77b3f5054711baa8082848bd75467}
+      \strng{authornamehash}{e2a05926cf00d0df51e580e5f98a529d}
+      \strng{authorfullhash}{c9b77b3f5054711baa8082848bd75467}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 36th annual international conference of the IEEE engineering in medicine and biology society}
+      \field{title}{Gesture recognition for smart home applications using portable radar sensors}
+      \field{year}{2014}
+      \field{pages}{6414\bibrangedash 6417}
+      \range{pages}{4}
+    \endentry
+    \entry{dynamic_bayesian_networks}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=a1478967591f5fd011ecee7f36cc5488}{%
+           family={{Pavlovic}},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=53615385518701884f1dce2e18fda5f6}{%
+           family={{Frey}},
+           familyi={F\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=680846e3138d113a525d898a748a2f9a}{%
+           family={{Huang}},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e52782e09b69ae97260e3039c695ce8}
+      \strng{fullhash}{0e52782e09b69ae97260e3039c695ce8}
+      \strng{bibnamehash}{0e52782e09b69ae97260e3039c695ce8}
+      \strng{authorbibnamehash}{0e52782e09b69ae97260e3039c695ce8}
+      \strng{authornamehash}{0e52782e09b69ae97260e3039c695ce8}
+      \strng{authorfullhash}{0e52782e09b69ae97260e3039c695ce8}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 1999 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (Cat. No PR00149)}
+      \field{title}{Time-series classification using mixed-state dynamic Bayesian networks}
+      \field{volume}{2}
+      \field{year}{1999}
+      \field{pages}{609\bibrangedash 615 Vol. 2}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/CVPR.1999.784983
+      \endverb
+    \endentry
+    \entry{ReLU}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0b3943c3bfdbb5867b3760f7c7d488c2}{%
+           family={Glorot},
+           familyi={G\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f1733e10bf044cbd7be63e10e5689d78}{%
+           family={Bordes},
+           familyi={B\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{fullhash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{bibnamehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{authorbibnamehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{authornamehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{authorfullhash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the fourteenth international conference on artificial intelligence and statistics}
+      \field{title}{Deep sparse rectifier neural networks}
+      \field{year}{2011}
+      \field{pages}{315\bibrangedash 323}
+      \range{pages}{9}
+    \endentry
+    \entry{cvcnn:sar_classification}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a18f244d2f34b7796847a6fbb480ec47}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhimian},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8cdfec2f6fe1d331fc89c5b0a6d7f31f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haipeng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7b489e462941f869f448a19abc85df4b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=728d1cb4c63f878cc77602191cfae6d3}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Ya-Qiu},
+           giveni={Y\bibinithyphendelim Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c3be128e38c71d36d6b302788636b9be}
+      \strng{fullhash}{e05b94d726aeb0a4f44547f66020e42e}
+      \strng{bibnamehash}{e05b94d726aeb0a4f44547f66020e42e}
+      \strng{authorbibnamehash}{e05b94d726aeb0a4f44547f66020e42e}
+      \strng{authornamehash}{c3be128e38c71d36d6b302788636b9be}
+      \strng{authorfullhash}{e05b94d726aeb0a4f44547f66020e42e}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{number}{12}
+      \field{title}{Complex-valued convolutional neural network and its application in polarimetric SAR image classification}
+      \field{volume}{55}
+      \field{year}{2017}
+      \field{pages}{7177\bibrangedash 7188}
+      \range{pages}{12}
+    \endentry
+    \entry{cvcnn:sar_imaging}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5b9e8dbe3c60034d9f4bbbfb57cca093}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jingkun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=397442cf27927a918043ab1c22ca0b05}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6bcdf5e183f00027e486c2c4cb9b2d43}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Yuliang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=df7ca6a6d0ea40dcbbfcb5915abb8671}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongqiang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=09e1a64c667557dd7866bc4e66d193ce}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d2bfd42cc14b0f882f0e2ca4a49f3acf}
+      \strng{fullhash}{65abc98b251eeea00d80e4dfb6395a95}
+      \strng{bibnamehash}{65abc98b251eeea00d80e4dfb6395a95}
+      \strng{authorbibnamehash}{65abc98b251eeea00d80e4dfb6395a95}
+      \strng{authornamehash}{d2bfd42cc14b0f882f0e2ca4a49f3acf}
+      \strng{authorfullhash}{65abc98b251eeea00d80e4dfb6395a95}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Geoscience and Remote Sensing Letters}
+      \field{number}{1}
+      \field{title}{Enhanced radar imaging using a complex-valued convolutional neural network}
+      \field{volume}{16}
+      \field{year}{2018}
+      \field{pages}{35\bibrangedash 39}
+      \range{pages}{5}
+    \endentry
+    \entry{synthetic_data:face}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=89364e2db8972659a668cbdc092b95af}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Elad},
+           giveni={E\bibinitperiod}}}%
+        {{hash=241c9be1331df4915b557446674349c3}{%
+           family={Sela},
+           familyi={S\bibinitperiod},
+           given={Matan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f98b4e3cefee0a5323da3a4ec9761f92}{%
+           family={Kimmel},
+           familyi={K\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{050a90a06dcffb86830f5d09056ab691}
+      \strng{fullhash}{050a90a06dcffb86830f5d09056ab691}
+      \strng{bibnamehash}{050a90a06dcffb86830f5d09056ab691}
+      \strng{authorbibnamehash}{050a90a06dcffb86830f5d09056ab691}
+      \strng{authornamehash}{050a90a06dcffb86830f5d09056ab691}
+      \strng{authorfullhash}{050a90a06dcffb86830f5d09056ab691}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 fourth international conference on 3D vision (3DV)}
+      \field{title}{3D face reconstruction by learning from synthetic data}
+      \field{year}{2016}
+      \field{pages}{460\bibrangedash 469}
+      \range{pages}{10}
+    \endentry
+    \entry{synthetic_data:FaultSeg3D}{article}{}
+      \name{author}{4}{}{%
+        {{hash=40cd5be695d3f7957745eb09eca41f2f}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xinming},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1b768fd0376d493aced79ada8c7840c0}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Luming},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a406ee1cc9e49db846ecb4252fe0b51e}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yunzhi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7afc6f2d6b5f7aec4400e0ecbe404be5}{%
+           family={Fomel},
+           familyi={F\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Society of Exploration Geophysicists}%
+      }
+      \strng{namehash}{f0b1422367fc0b6da812f8d4be1c7c12}
+      \strng{fullhash}{1eb23b4fbe9596d4b58db2f07f556944}
+      \strng{bibnamehash}{1eb23b4fbe9596d4b58db2f07f556944}
+      \strng{authorbibnamehash}{1eb23b4fbe9596d4b58db2f07f556944}
+      \strng{authornamehash}{f0b1422367fc0b6da812f8d4be1c7c12}
+      \strng{authorfullhash}{1eb23b4fbe9596d4b58db2f07f556944}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysics}
+      \field{number}{3}
+      \field{title}{FaultSeg3D: Using synthetic data sets to train an end-to-end convolutional neural network for 3D seismic fault segmentation}
+      \field{volume}{84}
+      \field{year}{2019}
+      \field{pages}{IM35\bibrangedash IM45}
+      \range{pages}{-1}
+    \endentry
+    \entry{synthetic_data:fish}{article}{}
+      \name{author}{6}{}{%
+        {{hash=1cd76455e7a539cf4e89377fc1a514ab}{%
+           family={Allken},
+           familyi={A\bibinitperiod},
+           given={Vaneeda},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b0782e4441f82535910b0af455f09f03}{%
+           family={Handegard},
+           familyi={H\bibinitperiod},
+           given={Nils\bibnamedelima Olav},
+           giveni={N\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=c7e7393e21520a3ab289294edd1e77b2}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={Shale},
+           giveni={S\bibinitperiod}}}%
+        {{hash=042df51265fe8c357f73164a82c9ac57}{%
+           family={Schreyeck},
+           familyi={S\bibinitperiod},
+           given={Tiffanie},
+           giveni={T\bibinitperiod}}}%
+        {{hash=707f7ac0d7030042ea38993da9ac5e35}{%
+           family={Mahiout},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0a806857e0c1831aee6defdfdc3c205f}{%
+           family={Malde},
+           familyi={M\bibinitperiod},
+           given={Ketil},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ad4326777cc57c728bb3bef686fde5a6}
+      \strng{fullhash}{a6282105a0ceb7c618571bb0752ed651}
+      \strng{bibnamehash}{a6282105a0ceb7c618571bb0752ed651}
+      \strng{authorbibnamehash}{a6282105a0ceb7c618571bb0752ed651}
+      \strng{authornamehash}{ad4326777cc57c728bb3bef686fde5a6}
+      \strng{authorfullhash}{a6282105a0ceb7c618571bb0752ed651}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ICES Journal of Marine Science}
+      \field{number}{1}
+      \field{title}{Fish species identification using a convolutional neural network trained on synthetic data}
+      \field{volume}{76}
+      \field{year}{2019}
+      \field{pages}{342\bibrangedash 349}
+      \range{pages}{8}
+    \endentry
+    \entry{synthetic_data:license_plate}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=91a16068651b39dbaf660dc7d55e5d60}{%
+           family={Bj{ö}rklund},
+           familyi={B\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=50f2754d55f5fe647ddb86dbb72ba0ef}{%
+           family={Fiandrotti},
+           familyi={F\bibinitperiod},
+           given={Attilio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=813b91c873ab72b7d2d179af7991610d}{%
+           family={Annarumma},
+           familyi={A\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a91692eb39c45df22c2b29a0a4189621}{%
+           family={Francini},
+           familyi={F\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=694048fff4628f8cb764a36afcccf99c}{%
+           family={Magli},
+           familyi={M\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{46595431915dfa3a614b8b21a0dbc81f}
+      \strng{fullhash}{4b5913d81e442d2ebb704da96f6977d9}
+      \strng{bibnamehash}{4b5913d81e442d2ebb704da96f6977d9}
+      \strng{authorbibnamehash}{4b5913d81e442d2ebb704da96f6977d9}
+      \strng{authornamehash}{46595431915dfa3a614b8b21a0dbc81f}
+      \strng{authorfullhash}{4b5913d81e442d2ebb704da96f6977d9}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE 19th International Workshop on Multimedia Signal Processing (MMSP)}
+      \field{title}{Automatic license plate recognition with convolutional neural networks trained on synthetic data}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

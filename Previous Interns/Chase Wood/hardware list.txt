@@ -1,0 +1,27 @@
+From Josiah: picked up 6-19-2020
+- DCA1000
+- AWR1443
+
+First order: delivered 6-27-2020
+- Power supply (Qty. 2)
+
+Second order: delivered 10-6-2020
+- AWR1642
+
+Third order: delivered 11-24-2020 (TI boards) and 11-27-2020 (PSU's)
+- Power supply (Qty. 2)
+- DCA1000
+- IWR6843
+
+Final order: delivered 12-8-2020
+- mmWave ICBOOST
+
+HARDWARE RETURNED:
+=======================
+
+- Power supply (Qty. 4)
+- DCA1000(Qty. 2)
+- AWR1443
+- AWR1642
+- IWR6843
+- ICBOOST interface board

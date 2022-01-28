@@ -1,0 +1,82 @@
+*************************************************************
+FileName = PROC010B_PCB.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\matrix\matrix
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\profile
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\stephdr
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top_paste\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top_solder\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\top\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l2\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l2\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l3\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l3\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l4\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l4\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l5\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\l5\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\drill\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\drill\tools
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\drill1\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\drill1\attrlist
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\drill1\tools
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : \\ent.ti.com\data\pmp_pcb\PMP_PCB\PMP EVM ARCHIVE\PROC_numbers\PROC010\RevB\PROC010B_Database\PROC010B_Database\Project Outputs\ODB\odb\steps\pcb\eda\data
+

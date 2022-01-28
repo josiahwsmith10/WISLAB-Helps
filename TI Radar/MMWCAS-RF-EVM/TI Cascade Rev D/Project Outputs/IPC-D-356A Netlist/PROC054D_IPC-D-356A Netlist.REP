@@ -1,0 +1,679 @@
+Error Report for  - Users\a0271760\AppData\Local\Temp\Pro17A7.tmp
+2/10/2020 6:10:53 PM
+
+Warning arcs were not exported.
+
+Net 40M_BUF_IN_PRIMAWRY with allias NET1 too long.
+Net AWR_1_CSI2_TX1_N with allias NET10 too long.
+Net AWR_3_DIG_SYNCIN_RS with allias NET100 too long.
+Net AWR_3_DIG_SYNCOUT with allias NET101 too long.
+Net AWR_3_FMCW_CLKOUT with allias NET102 too long.
+Net AWR_3_FMCW_SYNCOUT with allias NET103 too long.
+Net AWR_3_LVDS_FRCLK_N with allias NET104 too long.
+Net AWR_3_LVDS_FRCLK_P with allias NET105 too long.
+Net AWR_3_LVDS_VALID_N with allias NET106 too long.
+Net AWR_3_LVDS_VALID_P with allias NET107 too long.
+Net AWR_3_MCU_CLKOUT with allias NET108 too long.
+Net AWR_3_MSS_LOGGER with allias NET109 too long.
+Net AWR_1_CSI2_TX1_P with allias NET11 too long.
+Net AWR_3_NERROR_IN with allias NET110 too long.
+Net AWR_3_NERROR_OUT with allias NET111 too long.
+Net AWR_3_NRST_HOST with allias NET112 too long.
+Net AWR_3_NRST_HOST_GS with allias NET113 too long.
+Net AWR_3_NRST_LED_PW with allias NET114 too long.
+Net AWR_3_OSC_CLKOUT with allias NET115 too long.
+Net AWR_3_OSC_CLKOUT_CONN with allias NET116 too long.
+Net AWR_3_PMIC_CLKOUT with allias NET117 too long.
+Net AWR_3_SOP1_SYNCOUT with allias NET118 too long.
+Net AWR_3_SOP2_PMICCLKOUT with allias NET119 too long.
+Net AWR_1_CSI2_TX2_N with allias NET12 too long.
+Net AWR_3_SPI_HOST_INTR1 with allias NET120 too long.
+Net AWR_3_SPI_MISO1 with allias NET121 too long.
+Net AWR_3_SPI_MOSI1 with allias NET122 too long.
+Net AWR_3_XTAL_CLKM with allias NET123 too long.
+Net AWR_3_XTAL_CLKP with allias NET124 too long.
+Net AWR_4_1V0_RF1_FILT with allias NET125 too long.
+Net AWR_4_1V0_RF2_FILT with allias NET126 too long.
+Net AWR_4_BSS_LOGGER with allias NET127 too long.
+Net AWR_4_CSI2_CLK_N with allias NET128 too long.
+Net AWR_4_CSI2_CLK_P with allias NET129 too long.
+Net AWR_1_CSI2_TX2_P with allias NET13 too long.
+Net AWR_4_CSI2_TX0_N with allias NET130 too long.
+Net AWR_4_CSI2_TX0_P with allias NET131 too long.
+Net AWR_4_CSI2_TX1_N with allias NET132 too long.
+Net AWR_4_CSI2_TX1_P with allias NET133 too long.
+Net AWR_4_CSI2_TX2_N with allias NET134 too long.
+Net AWR_4_CSI2_TX2_P with allias NET135 too long.
+Net AWR_4_CSI2_TX3_N with allias NET136 too long.
+Net AWR_4_CSI2_TX3_P with allias NET137 too long.
+Net AWR_4_DIG_SYNCIN with allias NET138 too long.
+Net AWR_4_DIG_SYNCIN_RS with allias NET139 too long.
+Net AWR_1_CSI2_TX3_N with allias NET14 too long.
+Net AWR_4_DIG_SYNCOUT with allias NET140 too long.
+Net AWR_4_FMCW_CLKOUT with allias NET141 too long.
+Net AWR_4_FMCW_SYNCOUT with allias NET142 too long.
+Net AWR_4_LVDS_FRCLK_N with allias NET143 too long.
+Net AWR_4_LVDS_FRCLK_P with allias NET144 too long.
+Net AWR_4_LVDS_VALID_N with allias NET145 too long.
+Net AWR_4_LVDS_VALID_P with allias NET146 too long.
+Net AWR_4_MCU_CLKOUT with allias NET147 too long.
+Net AWR_4_MSS_LOGGER with allias NET148 too long.
+Net AWR_4_NERROR_IN with allias NET149 too long.
+Net AWR_1_CSI2_TX3_P with allias NET15 too long.
+Net AWR_4_NERROR_OUT with allias NET150 too long.
+Net AWR_4_NRST_HOST with allias NET151 too long.
+Net AWR_4_NRST_HOST_GS with allias NET152 too long.
+Net AWR_4_NRST_LED_PW with allias NET153 too long.
+Net AWR_4_OSC_CLKOUT with allias NET154 too long.
+Net AWR_4_PMIC_CLKOUT with allias NET155 too long.
+Net AWR_4_SOP1_SYNCOUT with allias NET156 too long.
+Net AWR_4_SOP2_PMICCLKOUT with allias NET157 too long.
+Net AWR_4_SPI_HOST_INTR1 with allias NET158 too long.
+Net AWR_4_SPI_MISO1 with allias NET159 too long.
+Net AWR_1_DIG_SYNCIN with allias NET16 too long.
+Net AWR_4_SPI_MOSI1 with allias NET160 too long.
+Net AWR_4_XTAL_CLKM with allias NET161 too long.
+Net AWR_4_XTAL_CLKP with allias NET162 too long.
+Net BSS_LOGGER_RS_1 with allias NET163 too long.
+Net BSS_LOGGER_RS_2 with allias NET164 too long.
+Net BSS_LOGGER_RS_3 with allias NET165 too long.
+Net BSS_LOGGER_RS_4 with allias NET166 too long.
+Net DIG_SYNC_SOURCE with allias NET167 too long.
+Net DIG_SYNCOUT_RS_1 with allias NET168 too long.
+Net DIG_SYNCOUT_RS_2 with allias NET169 too long.
+Net AWR_1_DIG_SYNCIN_RS with allias NET17 too long.
+Net DIG_SYNCOUT_RS_3 with allias NET170 too long.
+Net DIG_SYNCOUT_RS_4 with allias NET171 too long.
+Net EXT_40M_BUF_AWR_1_RS with allias NET172 too long.
+Net EXT_40MHZ_CLK_1V8 with allias NET173 too long.
+Net MCU_CLKOUT_RS_1 with allias NET174 too long.
+Net MCU_CLKOUT_RS_2 with allias NET175 too long.
+Net MCU_CLKOUT_RS_3 with allias NET176 too long.
+Net MCU_CLKOUT_RS_4 with allias NET177 too long.
+Net MSS_LOGGER_RS_1 with allias NET178 too long.
+Net MSS_LOGGER_RS_2 with allias NET179 too long.
+Net AWR_1_DIG_SYNCOUT with allias NET18 too long.
+Net MSS_LOGGER_RS_3 with allias NET180 too long.
+Net MSS_LOGGER_RS_4 with allias NET181 too long.
+Net NERROR_OUT_RS_1 with allias NET182 too long.
+Net NERROR_OUT_RS_2 with allias NET183 too long.
+Net NERROR_OUT_RS_3 with allias NET184 too long.
+Net NERROR_OUT_RS_4 with allias NET185 too long.
+Net OSC_CLKOUT_RS_1 with allias NET186 too long.
+Net OSC_CLKOUT_RS_2 with allias NET187 too long.
+Net OSC_CLKOUT_RS_3 with allias NET188 too long.
+Net OSC_CLKOUT_RS_4 with allias NET189 too long.
+Net AWR_1_FMCW_CLKOUT with allias NET19 too long.
+Net PMIC_BUCKEN_CONN with allias NET190 too long.
+Net PMIC_CLKOUT_RS_1 with allias NET191 too long.
+Net PMIC_CLKOUT_RS_2 with allias NET192 too long.
+Net PMIC_CLKOUT_RS_3 with allias NET193 too long.
+Net PMIC_CLKOUT_RS_4 with allias NET194 too long.
+Net PMIC1_AWR_1_1V0 with allias NET195 too long.
+Net PMIC1_AWR_4_1V0 with allias NET196 too long.
+Net PMIC1_AWR_14_1V2 with allias NET197 too long.
+Net PMIC1_AWR_14_1V8 with allias NET198 too long.
+Net PMIC2_AWR_2_1V0 with allias NET199 too long.
+Net 40M_BUF_IN_SECONDAWRY with allias NET2 too long.
+Net AWR_1_FMCW_SYNCOUT with allias NET20 too long.
+Net PMIC2_AWR_3_1V0 with allias NET200 too long.
+Net PMIC2_AWR_23_1V2 with allias NET201 too long.
+Net PMIC2_AWR_23_1V8 with allias NET202 too long.
+Net PMIC2_TMPSNS_SCL with allias NET203 too long.
+Net PMIC2_TMPSNS_SDA with allias NET204 too long.
+Net QSPI_FLASH_3V3_1 with allias NET205 too long.
+Net QSPI_FLASH_3V3_2 with allias NET206 too long.
+Net QSPI_FLASH_3V3_3 with allias NET207 too long.
+Net QSPI_FLASH_3V3_4 with allias NET208 too long.
+Net SPI_HOST_INTR1_RS_1 with allias NET209 too long.
+Net AWR_1_LVDS_FRCLK_N with allias NET21 too long.
+Net SPI_HOST_INTR1_RS_2 with allias NET210 too long.
+Net SPI_HOST_INTR1_RS_3 with allias NET211 too long.
+Net SPI_HOST_INTR1_RS_4 with allias NET212 too long.
+Net SYSTEM_3V3_LED_PW with allias NET213 too long.
+Net SYSTEM_5V0_SENSE with allias NET214 too long.
+Net SYSTEM_PGOOD1_GS with allias NET215 too long.
+Net SYSTEM_PGOOD2_GS with allias NET216 too long.
+Net SYSTEM_PGOOD3_GS with allias NET217 too long.
+Net SYSTEM_PGOOD4_GS with allias NET218 too long.
+Net AWR_1_LVDS_FRCLK_P with allias NET22 too long.
+Net AWR_1_LVDS_VALID_N with allias NET23 too long.
+Net AWR_1_LVDS_VALID_P with allias NET24 too long.
+Net AWR_1_MCU_CLKOUT with allias NET25 too long.
+Net AWR_1_MCU_CLKOUT_CONN with allias NET26 too long.
+Net AWR_1_MCU_CLKOUT_RS with allias NET27 too long.
+Net AWR_1_MSS_LOGGER with allias NET28 too long.
+Net AWR_1_NERROR_IN with allias NET29 too long.
+Net AWR_1_1V0_RF1_FILT with allias NET3 too long.
+Net AWR_1_NERROR_OUT with allias NET30 too long.
+Net AWR_1_NRST_HOST with allias NET31 too long.
+Net AWR_1_NRST_HOST_GS with allias NET32 too long.
+Net AWR_1_NRST_LED_PW with allias NET33 too long.
+Net AWR_1_OSC_CLKOUT with allias NET34 too long.
+Net AWR_1_OSC_CLKOUT_CONN with allias NET35 too long.
+Net AWR_1_PMIC_CLKOUT with allias NET36 too long.
+Net AWR_1_SOP1_SYNCOUT with allias NET37 too long.
+Net AWR_1_SOP2_PMICCLKOUT with allias NET38 too long.
+Net AWR_1_SPI_HOST_INTR1 with allias NET39 too long.
+Net AWR_1_1V0_RF2_FILT with allias NET4 too long.
+Net AWR_1_SPI_MISO1 with allias NET40 too long.
+Net AWR_1_SPI_MOSI1 with allias NET41 too long.
+Net AWR_1_XTAL_CLKM with allias NET42 too long.
+Net AWR_1_XTAL_CLKP with allias NET43 too long.
+Net AWR_1V4_SYNTH_1 with allias NET44 too long.
+Net AWR_1V4_SYNTH_2 with allias NET45 too long.
+Net AWR_1V4_SYNTH_3 with allias NET46 too long.
+Net AWR_1V4_SYNTH_4 with allias NET47 too long.
+Net AWR_2_1V0_RF1_FILT with allias NET48 too long.
+Net AWR_2_1V0_RF2_FILT with allias NET49 too long.
+Net AWR_1_BSS_LOGGER with allias NET5 too long.
+Net AWR_2_BSS_LOGGER with allias NET50 too long.
+Net AWR_2_CSI2_CLK_N with allias NET51 too long.
+Net AWR_2_CSI2_CLK_P with allias NET52 too long.
+Net AWR_2_CSI2_TX0_N with allias NET53 too long.
+Net AWR_2_CSI2_TX0_P with allias NET54 too long.
+Net AWR_2_CSI2_TX1_N with allias NET55 too long.
+Net AWR_2_CSI2_TX1_P with allias NET56 too long.
+Net AWR_2_CSI2_TX2_N with allias NET57 too long.
+Net AWR_2_CSI2_TX2_P with allias NET58 too long.
+Net AWR_2_CSI2_TX3_N with allias NET59 too long.
+Net AWR_1_CSI2_CLK_N with allias NET6 too long.
+Net AWR_2_CSI2_TX3_P with allias NET60 too long.
+Net AWR_2_DIG_SYNCIN with allias NET61 too long.
+Net AWR_2_DIG_SYNCIN_RS with allias NET62 too long.
+Net AWR_2_DIG_SYNCOUT with allias NET63 too long.
+Net AWR_2_FMCW_CLKOUT with allias NET64 too long.
+Net AWR_2_FMCW_SYNCOUT with allias NET65 too long.
+Net AWR_2_LVDS_FRCLK_N with allias NET66 too long.
+Net AWR_2_LVDS_FRCLK_P with allias NET67 too long.
+Net AWR_2_LVDS_VALID_N with allias NET68 too long.
+Net AWR_2_LVDS_VALID_P with allias NET69 too long.
+Net AWR_1_CSI2_CLK_P with allias NET7 too long.
+Net AWR_2_MCU_CLKOUT with allias NET70 too long.
+Net AWR_2_MSS_LOGGER with allias NET71 too long.
+Net AWR_2_NERROR_IN with allias NET72 too long.
+Net AWR_2_NERROR_OUT with allias NET73 too long.
+Net AWR_2_NRST_HOST with allias NET74 too long.
+Net AWR_2_NRST_HOST_GS with allias NET75 too long.
+Net AWR_2_NRST_LED_PW with allias NET76 too long.
+Net AWR_2_OSC_CLKOUT with allias NET77 too long.
+Net AWR_2_PMIC_CLKOUT with allias NET78 too long.
+Net AWR_2_SOP1_SYNCOUT with allias NET79 too long.
+Net AWR_1_CSI2_TX0_N with allias NET8 too long.
+Net AWR_2_SOP2_PMICCLKOUT with allias NET80 too long.
+Net AWR_2_SPI_HOST_INTR1 with allias NET81 too long.
+Net AWR_2_SPI_MISO1 with allias NET82 too long.
+Net AWR_2_SPI_MOSI1 with allias NET83 too long.
+Net AWR_2_XTAL_CLKM with allias NET84 too long.
+Net AWR_2_XTAL_CLKP with allias NET85 too long.
+Net AWR_3_1V0_RF1_FILT with allias NET86 too long.
+Net AWR_3_1V0_RF2_FILT with allias NET87 too long.
+Net AWR_3_BSS_LOGGER with allias NET88 too long.
+Net AWR_3_CSI2_CLK_N with allias NET89 too long.
+Net AWR_1_CSI2_TX0_P with allias NET9 too long.
+Net AWR_3_CSI2_CLK_P with allias NET90 too long.
+Net AWR_3_CSI2_TX0_N with allias NET91 too long.
+Net AWR_3_CSI2_TX0_P with allias NET92 too long.
+Net AWR_3_CSI2_TX1_N with allias NET93 too long.
+Net AWR_3_CSI2_TX1_P with allias NET94 too long.
+Net AWR_3_CSI2_TX2_N with allias NET95 too long.
+Net AWR_3_CSI2_TX2_P with allias NET96 too long.
+Net AWR_3_CSI2_TX3_N with allias NET97 too long.
+Net AWR_3_CSI2_TX3_P with allias NET98 too long.
+Net AWR_3_DIG_SYNCIN with allias NET99 too long.
+Pad name ALIGN1 too long.
+Pad name ALIGN2 too long.
+Warning pad shape change for U5-7 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for U5-6 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for U5-2 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for U7-5 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-8 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for J4-80 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-20 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-19 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-29 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-28 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-26 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-25 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-17 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-16 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-13 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-12 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U8-16 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for R136-1 from  to rectangular 7.48mil,9.842mil
+Warning pad shape change for R136-2 from  to rectangular 7.48mil,9.842mil
+Warning pad shape change for R140-1 from  to rectangular 7.48mil,9.842mil
+Warning pad shape change for R140-2 from  to rectangular 7.48mil,9.842mil
+Warning pad shape change for J4-61 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-62 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-63 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-9 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-8 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-5 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-4 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-2 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-79 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-85 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U6-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q2-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS4-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U6-4 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U3-3 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J4-84 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-83 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-82 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-70 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-68 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-67 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-66 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-69 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-88 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-91 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-90 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-89 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-77 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-78 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-86 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for Y1-1 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for Y1-3 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for J4-103 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-50 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-49 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-59 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-58 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-56 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-55 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-46 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-45 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-42 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-41 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U8-14 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for J4-105 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-106 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-107 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-38 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-37 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-34 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-33 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-102 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-109 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U11-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q3-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS5-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U11-4 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for J4-114 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-113 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-112 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-98 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-96 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-94 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-93 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-97 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-116 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-119 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-118 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-117 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-100 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-101 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-110 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-41 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-101 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-102 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-92 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-93 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-95 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-96 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-104 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-105 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-108 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-109 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U8-12 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for J5-60 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-59 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-58 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-112 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-113 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-116 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-117 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-42 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-36 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U12-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q4-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS6-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U12-4 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U4-3 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J5-37 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-38 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-39 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-51 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-53 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-54 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-55 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-52 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-33 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-30 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-31 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-32 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-44 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-43 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-35 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for Y2-1 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for Y2-3 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for J5-18 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-71 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-72 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-62 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-63 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-65 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-66 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-75 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-76 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-79 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-80 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U8-10 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for J5-16 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-15 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-14 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-83 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-84 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-87 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-88 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-19 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-12 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U13-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q5-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS7-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U13-4 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for J5-7 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-8 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-9 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-23 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-25 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-27 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-28 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-24 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-5 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-2 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-3 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-4 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-21 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-20 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-11 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-22 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-52 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-69 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-99 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U7-16 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-14 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-12 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-10 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for J4-120 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-1 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-120 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-1 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U8-8 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for J4-74 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-64 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for DS1-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q5-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U7-1 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-13 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-9 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for Y1-4 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for Y1-2 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for U6-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for C194-2 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for U13-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U12-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U11-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Y2-4 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for Y2-2 from  to rounded 41.339mil,41.339mil
+Warning pad shape change for Q1-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q2-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q3-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q4-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U2_4-9 from  to rounded 133.858mil,133.858mil
+Warning pad shape change for U2_4-4 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U4-11 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-27 from  to rectangular 62.205mil,25.984mil
+Warning pad shape change for U4-24 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-17 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U4-4 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J4-115 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-111 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-108 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-104 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-99 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-95 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-92 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-87 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-81 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-76 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-71 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-65 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-60 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-57 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-54 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-53 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-51 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-48 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-47 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-44 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-43 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-40 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-39 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-36 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-35 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-32 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-31 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-30 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-27 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-24 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-23 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-21 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-18 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-15 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-14 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-11 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-10 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-7 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-6 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J4-3 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U10-2 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U5-9 from  to rounded 59.055mil,59.055mil
+Warning pad shape change for U5-4 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for U8-1 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-13 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-9 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for J5-118 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-115 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-114 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-111 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-110 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-107 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-106 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-103 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-100 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-98 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-97 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-94 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-91 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-90 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-89 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-86 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-85 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-82 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-81 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-78 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-77 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-74 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-73 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-70 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-68 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-67 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-64 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-61 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-56 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-50 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-45 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-40 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-34 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-29 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-26 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-22 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-17 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-13 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-10 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for J5-6 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U3-11 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-27 from  to rectangular 62.205mil,25.984mil
+Warning pad shape change for U3-24 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-17 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-4 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U2_3-9 from  to rounded 133.858mil,133.858mil
+Warning pad shape change for U2_3-4 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-9 from  to rounded 133.858mil,133.858mil
+Warning pad shape change for U2_2-4 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_1-9 from  to rounded 133.858mil,133.858mil
+Warning pad shape change for U2_1-4 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for C190-2 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for C191-2 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for C192-2 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for C193-2 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for U9-2 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U7-15 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-11 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-3 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-4 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-7 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-6 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U7-2 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-3 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-15 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-11 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-4 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-6 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-5 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-7 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for U8-2 from rounded 17.716mil,55.118mil to rectangular 17.716mil,37.402mil
+Warning pad shape change for DS2-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for J4-75 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for DS2-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U5-3 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for Q1-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS3-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS4-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q2-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS5-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q3-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS6-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q4-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS7-2 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for Q5-3 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U4-7 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-7 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J5-46 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U4-20 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-20 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J5-47 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U3-8 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U3-14 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U3-1 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U3-21 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U5-5 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for U3-15 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-2 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-19 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-16 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J4-72 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U3-5 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J4-73 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U3-6 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-10 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-12 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-25 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-23 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-18 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U3-9 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-13 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-26 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U3-22 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-8 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U4-14 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U4-1 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U4-21 from  to rounded 15.748mil,15.748mil
+Warning pad shape change for U4-15 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U4-2 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U4-19 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U4-16 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U4-10 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-12 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-25 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-23 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-5 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J5-49 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U4-6 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for J5-48 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U4-18 from  to rectangular 13.78mil,9.842mil
+Warning pad shape change for U4-9 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-13 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-26 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U4-22 from  to rectangular 9.842mil,61.811mil
+Warning pad shape change for U2_1-6 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-6 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_3-6 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_4-6 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_1-1 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-1 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_3-1 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_4-1 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_1-5 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-5 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_3-5 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_4-5 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_1-2 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-2 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_3-2 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_4-2 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_1-3 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-3 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_3-3 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_4-3 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_1-7 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-7 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_3-7 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_4-7 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_1-8 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_2-8 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_3-8 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U2_4-8 from  to rectangular 15.748mil,15.748mil
+Warning pad shape change for U6-5 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U13-5 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U12-5 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U11-5 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U5-1 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for Q1-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for DS3-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for C194-1 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for U5-8 from  to rounded 11.811mil,11.811mil
+Warning pad shape change for C190-1 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for C191-1 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for C192-1 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for C193-1 from  to rounded 70.866mil,70.866mil
+Warning pad shape change for DS1-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for J5-119 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U6-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U11-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U12-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U13-1 from  to rounded 23.622mil,23.622mil
+Warning pad shape change for U10-3 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U9-3 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U9-5 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U9-4 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U10-5 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U10-4 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for J5-57 from  to rectangular 11.811mil,62.992mil
+Warning pad shape change for U10-1 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U9-1 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U10-6 from  to rectangular 11.811mil,14.567mil
+Warning pad shape change for U9-6 from  to rectangular 11.811mil,14.567mil

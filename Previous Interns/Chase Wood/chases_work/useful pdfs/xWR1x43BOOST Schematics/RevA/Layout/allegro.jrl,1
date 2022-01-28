@@ -1,0 +1,128 @@
+\t (00:00:06) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Thu Jul 12 13:21:34 2018
+\t (00:00:06)         Host=LTA0227290 User=a0227290 Pid=10848 CPUs=4
+\t (00:00:06) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\A0227290\Desktop\mmWave Docs\EVMS\AWR1243BOOST_RevA_design_database_SPRR248\Layout\AWR1243BOOST-Rev-A.brd
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:08) fillin yes 
+\d (00:00:09) Design opened: C:/Users/A0227290/Desktop/mmWave Docs/EVMS/AWR1243BOOST_RevA_design_database_SPRR248/Layout/AWR1243BOOST-Rev-A.brd
+\i (00:00:09) trapsize 830
+\i (00:00:09) trapsize 850
+\i (00:00:10) trapsize 1078
+\i (00:00:10) trapsize 1039
+\i (00:00:10) shapeedit 
+\i (00:00:13) show element 
+\i (00:00:15) setwindow form.find
+\i (00:00:15) FORM find name_type Comp (or Pin) 
+\i (00:00:18) FORM find find_name r164 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) trapsize 317
+\i (00:00:19) setwindow text
+\i (00:00:19) close 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOTTOM"
+\i (00:00:24) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOTTOM"
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 1327.96 196.59
+\i (00:00:26) trapsize 634
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 1327.95 195.33
+\i (00:00:26) trapsize 1267
+\i (00:00:30) flipdesign 
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1277.26 215.60
+\i (00:00:31) trapsize 634
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1287.40 213.07
+\i (00:00:31) trapsize 317
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 1289.94 208.00
+\i (00:00:31) trapsize 158
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 1292.80 203.56
+\i (00:00:32) trapsize 317
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 1321.31 174.42
+\i (00:00:37) trapsize 634
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 1080.50 52.76
+\i (00:00:40) trapsize 1267
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 1083.04 50.22
+\i (00:00:40) trapsize 2535
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 1098.25 60.35
+\i (00:00:40) trapsize 5069
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 986.72 -51.17
+\i (00:00:41) trapsize 2535
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 1037.42 -25.82
+\i (00:00:41) trapsize 1267
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 1039.95 -25.82
+\i (00:00:41) trapsize 634
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 1047.56 -25.82
+\i (00:00:41) trapsize 317
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 1075.44 -25.82
+\i (00:00:41) trapsize 158
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 1079.56 -24.24
+\i (00:00:41) trapsize 79
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 1089.54 -25.35
+\i (00:00:41) trapsize 158
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 1089.55 -25.34
+\i (00:00:41) trapsize 317
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 1239.74 112.79
+\i (00:00:43) trapsize 634
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 1239.73 105.19
+\i (00:00:43) trapsize 1267
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 1239.73 102.66
+\i (00:00:43) trapsize 2535
+\i (00:00:44) roam y 96 
+\i (00:00:44) roam y 96
+\i (00:00:44) roam y -96 
+\i (00:00:44) roam y -96
+\i (00:00:45) roam y -96 
+\i (00:00:45) roam y -96
+\i (00:00:45) roam y -96 
+\i (00:00:45) roam y -96
+\i (00:00:45) roam y -96 
+\i (00:00:45) roam y -96
+\i (00:00:45) roam y -96 
+\i (00:00:45) roam y -96
+\i (00:00:46) roam y 96 
+\i (00:00:46) roam y 96
+\i (00:12:30) exit 
+\e (00:12:30) Do you want to save the changes you made to AWR1243BOOST-Rev-A.brd?
+\i (00:12:31) fillin no 
+\t (00:12:31)     Journal end - Thu Jul 12 13:33:59 2018

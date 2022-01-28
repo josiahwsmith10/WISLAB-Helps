@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PROC010B_PCB.PcbDoc   9/4/2018  1:38:47 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : TOP to BOTTOM
+ASCII Plated RoundHoles File : PROC010B-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : PROC010B-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : PROC010B-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T2      8mil (0.2mm)            +0mil (0mm)/-8mil (0.2mm)         Round             15        PTH        4.54inch (115.37mm)
+T3      12mil (0.31mm)          +0mil (0mm)/-12mil (0.31mm)       Round             621       PTH        57.44inch (1458.91mm)
+T4      24mil (0.6mm)           +/-3mil (0.076mm)                 Slot              2         PTH        0.61inch (15.43mm)
+T5      33mil (0.85mm)          +/-3mil (0.076mm)                 Round             2         PTH        0.20inch (5.00mm)
+T6      39mil (1mm)             +/-3mil (0.076mm)                 Slot              3         PTH        1.15inch (29.18mm)
+T7      40mil (1.016mm)         +/-3mil (0.076mm)                 Round             8         PTH        1.77inch (44.84mm)
+T8      40mil (1.02mm)          +/-3mil (0.076mm)                 Round             5         PTH        0.47inch (11.91mm)
+T9      47mil (1.2mm)           +/-3mil (0.076mm)                 Round             3         PTH        0.28inch (7.00mm)
+T10     157mil (4mm)            +/-3mil (0.076mm)                 Round             2         PTH        1.90inch (48.26mm)
+T11     40mil (1.02mm)          +/-2mil (0.051mm)                 Round             2         NPTH       0.79inch (20.13mm)
+T12     160mil (4.064mm)        +/-2mil (0.051mm)                 Round             4         NPTH       8.19inch (208.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              667
+Layer Pair : TOP to L2
+ASCII Plated RoundHoles File : PROC010B-RoundHoles-Plated.TX1
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      6mil (0.15mm)           +0mil (0mm)/-6mil (0.15mm)        Round             508       PTH        19.73inch (501.21mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              508
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1175
+----------------------------------------------------------------------------------------------------------------------------------
+Backdrill Totals                                                                    0
+
+Total Processing Time (hh:mm:ss) : 00:00:01

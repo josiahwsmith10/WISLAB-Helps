@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\TI_Projects\RAP_Projects\radar\Cascade_EVM\MMWCAS-RF-EVM\RevC\Altium_Project\MMWCAS_RF_EVM_Bitbucket\Layout\PROC054D_MMWCAS_RF_EVM.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=proc054d.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
+LayersSetName=L1 TOP_L2 GND_Blind_Vias|DrillFile=proc054d.tx1|DrillLayers=gtl,g1

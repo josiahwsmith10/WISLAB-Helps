@@ -1,0 +1,111 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3201,        103]
+NotebookOptionsPosition[      2469,         82]
+NotebookOutlinePosition[      2812,         97]
+CellTagsIndexPosition[      2769,         94]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"phi", " ", "=", " ", 
+  RowBox[{"ArcTan", "[", 
+   RowBox[{"kz", "/", "kx"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.792337364717798*^9, 3.7923373782357745`*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"3c9f3324-e12c-489f-834b-18947491c44f"],
+
+Cell[BoxData[
+ RowBox[{"ArcTan", "[", 
+  FractionBox["kz", "kx"], "]"}]], "Output",
+ CellChangeTimes->{3.79233737921317*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"b7e3a5d2-efa9-4198-8f4d-443b95a38ec5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"dphi", "/", "dkz"}], " ", "\[Equal]", "  ", 
+      RowBox[{"D", "[", 
+       RowBox[{"phi", ",", "kz"}], "]"}]}], ",", 
+     RowBox[{
+      RowBox[{"dphi", "/", "dkx"}], " ", "\[Equal]", " ", 
+      RowBox[{"D", "[", 
+       RowBox[{"phi", ",", "kx"}], "]"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"dkx", ",", "dkz"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7923373826699567`*^9, 3.7923374041547003`*^9}, {
+  3.792337440092922*^9, 
+  3.792337476060089*^9}},ExpressionUUID->"12f3e92f-81d8-4671-beed-\
+a2aa590bd4b4"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set","write",
+   "\"Tag \\!\\(\\*RowBox[{\\\"Times\\\"}]\\) in \
+\\!\\(\\*FractionBox[\\\"dphi\\\", \\\"dkz\\\"]\\) is Protected.\"",2,15,3,
+   33010967705370653705,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.792337404592534*^9},
+ CellLabel->
+  "During evaluation of \
+In[15]:=",ExpressionUUID->"10af1af8-5333-471b-af3a-035b2300692b"],
+
+Cell[BoxData[
+ FractionBox["1", 
+  RowBox[{"kx", " ", 
+   RowBox[{"(", 
+    RowBox[{"1", "+", 
+     FractionBox[
+      SuperscriptBox["kz", "2"], 
+      SuperscriptBox["kx", "2"]]}], ")"}]}]]], "Output",
+ CellChangeTimes->{3.792337404595537*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"01d758a5-0919-4c8c-800d-25ff89f290af"]
+}, Open  ]]
+},
+WindowSize->{759, 833},
+WindowMargins->{{Automatic, 572}, {64, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 267, 5, 28, "Input",ExpressionUUID->"3c9f3324-e12c-489f-834b-18947491c44f"],
+Cell[850, 29, 203, 4, 56, "Output",ExpressionUUID->"b7e3a5d2-efa9-4198-8f4d-443b95a38ec5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1090, 38, 639, 18, 28, "Input",ExpressionUUID->"12f3e92f-81d8-4671-beed-a2aa590bd4b4"],
+Cell[1732, 58, 394, 10, 47, "Message",ExpressionUUID->"10af1af8-5333-471b-af3a-035b2300692b"],
+Cell[2129, 70, 324, 9, 74, "Output",ExpressionUUID->"01d758a5-0919-4c8c-800d-25ff89f290af"]
+}, Open  ]]
+}
+]
+*)
+

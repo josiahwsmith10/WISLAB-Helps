@@ -1,0 +1,670 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.20)  2 OCT 2020 16:40
+entering extended mode
+**./MIMO_ISAR_RadarConf20_Paper.tex
+(MIMO_ISAR_RadarConf20_Paper.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> (IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen134
+\@IEEEtrantmpdimenB=\dimen135
+\@IEEEtrantmpdimenC=\dimen136
+\@IEEEtrantmpcountA=\count167
+\@IEEEtrantmpcountB=\count168
+\@IEEEtrantmpcountC=\count169
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen137
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen138
+\CLASSINFOnormalsizeunitybaselineskip=\dimen139
+\IEEEnormaljot=\dimen140
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen141
+\IEEEquantizedlengthdiff=\dimen142
+\IEEEquantizedtextheightdiff=\dimen143
+\IEEEilabelindentA=\dimen144
+\IEEEilabelindentB=\dimen145
+\IEEEilabelindent=\dimen146
+\IEEEelabelindent=\dimen147
+\IEEEdlabelindent=\dimen148
+\IEEElabelindent=\dimen149
+\IEEEiednormlabelsep=\dimen150
+\IEEEiedmathlabelsep=\dimen151
+\IEEEiedtopsep=\skip47
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@IEEEsubequation=\count174
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count175
+\c@table=\count176
+\@IEEEeqnnumcols=\count177
+\@IEEEeqncolcnt=\count178
+\@IEEEsubeqnnumrollback=\count179
+\@IEEEquantizeheightA=\dimen152
+\@IEEEquantizeheightB=\dimen153
+\@IEEEquantizeheightC=\dimen154
+\@IEEEquantizeprevdepth=\dimen155
+\@IEEEquantizemultiple=\count180
+\@IEEEquantizeboxA=\box45
+\@IEEEtmpitemindent=\dimen156
+\IEEEPARstartletwidth=\dimen157
+\c@IEEEbiography=\count181
+\@IEEEtranrubishbin=\box46
+)
+** ATTENTION: Overriding command lockouts (line 3).
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen160
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen161
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count182
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count183
+\leftroot@=\count184
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count185
+\DOTSCASE@=\count186
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen162
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count187
+\c@MaxMatrixCols=\count188
+\dotsspace@=\muskip16
+\c@parentequation=\count189
+\dspbrk@lvl=\count190
+\tag@help=\toks18
+\row@=\count191
+\column@=\count192
+\maxfields@=\count193
+\andhelp@=\toks19
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count194
+\float@exts=\toks22
+\float@box=\box49
+\@float@everytoks=\toks23
+\@floatcapt=\box50
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks24
+\c@algorithm=\count195
+)
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count196
+\c@ALC@line=\count197
+\c@ALC@rem=\count198
+\c@ALC@depth=\count199
+\ALC@tlm=\skip53
+\algorithmicindent=\skip54
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen169
+\ar@mcellbox=\box51
+\extrarowheight=\dimen170
+\NC@list=\toks25
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box52
+)
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen171
+\captionmargin@=\dimen172
+\captionwidth=\dimen173
+\caption@tempdima=\dimen174
+\caption@indent=\dimen175
+\caption@parindent=\dimen176
+\caption@hangindent=\dimen177
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi  on input line 1055.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count266
+\c@continuedfloat=\count267
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count268
+\c@subtable=\count269
+) (C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/overpic\overpic.sty
+Package: overpic 2020/02/22 1.3 picture overlays (RN)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/epic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count270
+\d@lta=\count271
+\@delta=\dimen178
+\@@delta=\dimen179
+\@gridcnt=\count272
+\@joinkind=\count273
+\@dotgap=\dimen180
+\@ddotgap=\dimen181
+\@x@diff=\count274
+\@y@diff=\count275
+\x@diff=\dimen182
+\y@diff=\dimen183
+\@dotbox=\box53
+\num@segments=\count276
+\num@segmentsi=\count277
+\@datafile=\read2
+)
+\OVP@box=\box54
+) (C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/preprint\authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip57
+\@affilsep=\skip58
+\c@Maxaffil=\count278
+\c@authors=\count279
+\c@affil=\count280
+)
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/mathalpha\mathalpha.sty
+Package: mathalpha 2019/10/05 - 1.13mathalpha (License LPPL) Michael Sharpe
+
+`mathalpha' v1.13, 2019/10/05, a renaming of mathalfa (msharpe)
+("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count281
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 288.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  U/BOONDOX-cal/m/n --> U/BOONDOX-cal/b/n on input line 2
+89.
+)
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen184
+\calc@Bdimen=\dimen185
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count284
+\calc@Cskip=\skip61
+)
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen186
+\AM@pageheight=\dimen187
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box55
+\AM@global@opts=\toks28
+\AM@pagecnt=\count285
+\AM@toc@title=\toks29
+\c@AM@survey=\count286
+\AM@templatesizebox=\box56
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count287
+\l__pdf_internal_box=\box57
+)
+(MIMO_ISAR_RadarConf20_Paper.aux)
+\openout1 = `MIMO_ISAR_RadarConf20_Paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+
+-- Lines per column: 56 (exact).
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen188
+\scratchbox=\box58
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen189
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks31
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box59
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+** ATTENTION: Overriding command lockouts (line 45).
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (0.83598pt too wide) in paragraph at lines 47--47
+ [] 
+ []
+
+
+Overfull \hbox (0.83598pt too wide) in paragraph at lines 47--47
+ [] 
+ []
+
+
+Overfull \hbox (0.83598pt too wide) in paragraph at lines 47--47
+ [] 
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 56--58
+[]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---millimeter-wave (mmWave), multip
+le-input
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 56--58
+\OT1/ptm/b/n/9 multiple-output (MIMO), in-verse syn-thetic aper-ture radar
+ []
+
+<../Figures/MIMO_R_ISAR_System_Configuration.png, id=1, 471.9231pt x 377.2494pt
+>
+File: ../Figures/MIMO_R_ISAR_System_Configuration.png Graphic file (type png)
+<use ../Figures/MIMO_R_ISAR_System_Configuration.png>
+Package pdftex.def Info: ../Figures/MIMO_R_ISAR_System_Configuration.png  used 
+on input line 71.
+(pdftex.def)             Requested size: 245.71754pt x 196.41833pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+9.
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1{C:/Users/josia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Overfull \hbox (6.4374pt too wide) detected at line 143
+[]
+ []
+
+
+Overfull \hbox (4.73535pt too wide) detected at line 165
+[]
+ []
+
+[2 <../Figures/MIMO_R_ISAR_System_Configuration.png>]
+Underfull \vbox (badness 1092) has occurred while \output is active []
+
+ [3]
+<../MatlabResults/CSAR_PSFxz_R0_250_DS_478.jpg, id=28, 1025.8325pt x 970.62625p
+t>
+File: ../MatlabResults/CSAR_PSFxz_R0_250_DS_478.jpg Graphic file (type jpg)
+<use ../MatlabResults/CSAR_PSFxz_R0_250_DS_478.jpg>
+Package pdftex.def Info: ../MatlabResults/CSAR_PSFxz_R0_250_DS_478.jpg  used on
+ input line 315.
+(pdftex.def)             Requested size: 126.0pt x 119.21007pt.
+<../MatlabResults/CSAR_PSFxy_R0_250_DS_478.jpg, id=29, 1025.8325pt x 970.62625p
+t>
+File: ../MatlabResults/CSAR_PSFxy_R0_250_DS_478.jpg Graphic file (type jpg)
+<use ../MatlabResults/CSAR_PSFxy_R0_250_DS_478.jpg>
+Package pdftex.def Info: ../MatlabResults/CSAR_PSFxy_R0_250_DS_478.jpg  used on
+ input line 322.
+(pdftex.def)             Requested size: 126.0pt x 119.21007pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../MatlabResults/CSAR_Grid3D_input.jpg, id=30, 1025.8325pt x 970.62625pt>
+File: ../MatlabResults/CSAR_Grid3D_input.jpg Graphic file (type jpg)
+<use ../MatlabResults/CSAR_Grid3D_input.jpg>
+Package pdftex.def Info: ../MatlabResults/CSAR_Grid3D_input.jpg  used on input 
+line 336.
+(pdftex.def)             Requested size: 126.0pt x 119.21007pt.
+<../MatlabResults/CSAR_Grid3D_output.jpg, id=31, 1025.8325pt x 970.62625pt>
+File: ../MatlabResults/CSAR_Grid3D_output.jpg Graphic file (type jpg)
+<use ../MatlabResults/CSAR_Grid3D_output.jpg>
+Package pdftex.def Info: ../MatlabResults/CSAR_Grid3D_output.jpg  used on input
+ line 343.
+(pdftex.def)             Requested size: 126.0pt x 119.21007pt.
+<../Figures/Scanner Photos/RSAR Scanner.png, id=32, 344.78813pt x 522.45187pt>
+File: ../Figures/Scanner Photos/RSAR Scanner.png Graphic file (type png)
+<use ../Figures/Scanner Photos/RSAR Scanner.png>
+Package pdftex.def Info: ../Figures/Scanner Photos/RSAR Scanner.png  used on in
+put line 361.
+(pdftex.def)             Requested size: 126.0pt x 190.92851pt.
+<../Figures/MATLAB RSAR GUI 2.png, id=34, 483.30562pt x 710.655pt>
+File: ../Figures/MATLAB RSAR GUI 2.png Graphic file (type png)
+<use ../Figures/MATLAB RSAR GUI 2.png>
+Package pdftex.def Info: ../Figures/MATLAB RSAR GUI 2.png  used on input line 3
+67.
+(pdftex.def)             Requested size: 126.0pt x 185.26474pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <../MatlabResults/CSAR_PSFxz_R0_250_DS_478.jpg> <../MatlabResults/CSAR_PSFxy
+_R0_250_DS_478.jpg> <../MatlabResults/CSAR_Grid3D_input.jpg> <../MatlabResults/
+CSAR_Grid3D_output.jpg>]
+<../MatlabResults/knife_SISO_mip.jpg, id=38, 1025.8325pt x 1012.78375pt>
+File: ../MatlabResults/knife_SISO_mip.jpg Graphic file (type jpg)
+<use ../MatlabResults/knife_SISO_mip.jpg>
+Package pdftex.def Info: ../MatlabResults/knife_SISO_mip.jpg  used on input lin
+e 408.
+(pdftex.def)             Requested size: 126.0pt x 124.38776pt.
+<../MatlabResults/knife_MIMO_mip.jpg, id=39, 1025.8325pt x 1012.78375pt>
+File: ../MatlabResults/knife_MIMO_mip.jpg Graphic file (type jpg)
+<use ../MatlabResults/knife_MIMO_mip.jpg>
+Package pdftex.def Info: ../MatlabResults/knife_MIMO_mip.jpg  used on input lin
+e 414.
+(pdftex.def)             Requested size: 126.0pt x 124.38776pt.
+<../MatlabResults/knifeSAR_MIMO_Parallel_mip.jpg, id=40, 1025.8325pt x 1012.783
+75pt>
+File: ../MatlabResults/knifeSAR_MIMO_Parallel_mip.jpg Graphic file (type jpg)
+<use ../MatlabResults/knifeSAR_MIMO_Parallel_mip.jpg>
+Package pdftex.def Info: ../MatlabResults/knifeSAR_MIMO_Parallel_mip.jpg  used 
+on input line 420.
+(pdftex.def)             Requested size: 126.0pt x 124.38776pt.
+<../MatlabResults/knifeSAR_MIMO_Perp_mip.jpg, id=41, 1025.8325pt x 1012.78375pt
+>
+File: ../MatlabResults/knifeSAR_MIMO_Perp_mip.jpg Graphic file (type jpg)
+<use ../MatlabResults/knifeSAR_MIMO_Perp_mip.jpg>
+Package pdftex.def Info: ../MatlabResults/knifeSAR_MIMO_Perp_mip.jpg  used on i
+nput line 426.
+(pdftex.def)             Requested size: 126.0pt x 124.38776pt.
+<../Figures/Scanner Parallel.jpg, id=42, 1265.72874pt x 949.5475pt>
+File: ../Figures/Scanner Parallel.jpg Graphic file (type jpg)
+<use ../Figures/Scanner Parallel.jpg>
+Package pdftex.def Info: ../Figures/Scanner Parallel.jpg  used on input line 44
+6.
+(pdftex.def)             Requested size: 126.0pt x 94.51115pt.
+<../Figures/Scanner Perp.jpg, id=43, 1202.4925pt x 901.3675pt>
+File: ../Figures/Scanner Perp.jpg Graphic file (type jpg)
+<use ../Figures/Scanner Perp.jpg>
+Package pdftex.def Info: ../Figures/Scanner Perp.jpg  used on input line 452.
+(pdftex.def)             Requested size: 126.0pt x 94.44695pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <../Figures/Scanner Photos/RSAR Scanner.png> <../Figures/MATLAB RSAR GUI 2.p
+ng> <../MatlabResults/knife_SISO_mip.jpg> <../MatlabResults/knife_MIMO_mip.jpg>
+ <../MatlabResults/knifeSAR_MIMO_Parallel_mip.jpg> <../MatlabResults/knifeSAR_M
+IMO_Perp_mip.jpg>] (MIMO_ISAR_RadarConf20_Paper.bbl)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[6 <../Figures/Scanner Parallel.jpg> <../Figures/Scanner Perp.jpg>]
+(MIMO_ISAR_RadarConf20_Paper.aux) ) 
+Here is how much of TeX's memory you used:
+ 6928 strings out of 480790
+ 109951 string characters out of 2905179
+ 366414 words of memory out of 3000000
+ 22804 multiletter control sequences out of 15000+200000
+ 576151 words of font info for 116 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 45i,18n,77p,2049b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
+/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/symbols/msam10.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2.9/font
+s/type1/urw/times/utmb8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/urw/times/utmbi8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2.9/fonts/type1/
+urw/times/utmri8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2.9/fonts/type1/pu
+blic/boondox/zxxrw8a.pfb>
+Output written on MIMO_ISAR_RadarConf20_Paper.pdf (6 pages, 1967122 bytes).
+PDF statistics:
+ 121 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

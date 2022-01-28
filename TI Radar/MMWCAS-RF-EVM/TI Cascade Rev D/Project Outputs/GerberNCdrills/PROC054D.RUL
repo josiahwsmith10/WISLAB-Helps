@@ -1,0 +1,25 @@
+DRC Rules Export File for PCB: C:\TI_Projects\RAP_Projects\radar\Cascade_EVM\MMWCAS-RF-EVM\RevC\Altium_Project\MMWCAS_RF_EVM_Bitbucket\Layout\PROC054D_MMWCAS_RF_EVM.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_FMCW_L3_All|Scope=Board|Minimum=50.00
+RuleKind=Clearance|RuleName=Clearance_GND-Pad|Scope=Board|Minimum=9.00
+RuleKind=Clearance|RuleName=Clearance_L8_Diff_4W|Scope=Board|Minimum=21.00
+RuleKind=Clearance|RuleName=Clearance_L6_Diff_4W|Scope=Board|Minimum=16.00
+RuleKind=Clearance|RuleName=Clearance_Power Divider_1|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=Clearance_Power Divider|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=Clearance_FMCW_L3_All_Room|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=Clearance_20GHz|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=Clearance_Internal Poly|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance_FMCW_L3_Poly|Scope=Board|Minimum=200.00
+RuleKind=Clearance|RuleName=Clearance_Keepout|Scope=Board|Minimum=1.00
+RuleKind=Clearance|RuleName=Clearance_Antenna|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_BGA|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance_L3_4W|Scope=Board|Minimum=15.30
+RuleKind=Clearance|RuleName=Clearance_L6_4W|Scope=Board|Minimum=21.00
+RuleKind=Clearance|RuleName=Clearance_L8_4W|Scope=Board|Minimum=23.50
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_Via|Scope=Board|Minimum=3.90
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=7.50
+RuleKind=Clearance|RuleName=Clearance_TX_RX|Scope=Board|Minimum=4.00

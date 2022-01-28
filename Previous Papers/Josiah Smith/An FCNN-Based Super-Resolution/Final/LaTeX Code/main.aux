@@ -1,0 +1,188 @@
+\relax 
+\citation{winkler1995making}
+\citation{skeldon1998physics}
+\citation{polfreman2011multi}
+\citation{trail2012non}
+\citation{senturk2012crossole}
+\citation{schramm2015dynamic}
+\citation{han2014lessons}
+\citation{hantrakul2014implementations}
+\citation{brown2016leimu}
+\citation{tindale2011training}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}\protected@file@percent }
+\newlabel{sec:introduction}{{I}{1}}
+\citation{nieto2013hand}
+\citation{akbari2015real}
+\citation{gurbuz2021american,sang2018micro,kim2016hand,smith2021sterile}
+\citation{bernardo2017_o_soli_mio}
+\citation{joshi2015wideo}
+\citation{gurbuz2021american}
+\citation{maragliulo2019foot}
+\citation{sang2018micro}
+\citation{kim2016hand}
+\citation{smith2021sterile}
+\citation{gao2018enhanced}
+\citation{kim2020aziumth}
+\citation{sun2019visual,polfreman2011multi,jensenius2013kinectofon,han2014lessons,hantrakul2014implementations,nieto2013hand}
+\citation{rao2017intro,smith2020nearfieldisar,yanik2019sparse}
+\citation{yanik2020development}
+\citation{winkler2007range}
+\citation{rao2017intro,kim2020aziumth}
+\citation{kim2018joint}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Preliminaries of MIMO-FMCW Radar Signaling}{3}\protected@file@percent }
+\newlabel{sec:radar_theory_for_musicians}{{II}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The imaging geometry, where the linear MIMO array faces vertically and the musician moves their hand throughout the $y$-$z$ plane.}}{3}\protected@file@percent }
+\newlabel{fig:MIMO_radar_musical_instrument_setup}{{1}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}MIMO-FMCW Signal Model}{3}\protected@file@percent }
+\newlabel{subsec:signal_model}{{\mbox  {II-A}}{3}}
+\newlabel{eq:mimo_beat_signal_continuous}{{1}{3}}
+\newlabel{eq:mimo_beat_signal}{{2}{3}}
+\newlabel{eq:mult-to-mono}{{3}{3}}
+\newlabel{eq:mono_beat_signal}{{4}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Doppler Radar Signal Processing}{3}\protected@file@percent }
+\newlabel{subsec:fmcw_doppler_radar}{{\mbox  {II-B}}{3}}
+\newlabel{eq:doppler_final}{{5}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Range Migration Algorithm Image Reconstruction}{3}\protected@file@percent }
+\newlabel{subsec:rma}{{\mbox  {II-C}}{3}}
+\citation{yanik2020development}
+\citation{yanik2019sparse}
+\citation{yanik2019sparse}
+\newlabel{eq:rma_1}{{6}{4}}
+\newlabel{eq:rma_summary}{{7}{4}}
+\newlabel{eq:y_res}{{8}{4}}
+\newlabel{eq:z_res}{{9}{4}}
+\newlabel{eq:location_estimate}{{10}{4}}
+\newlabel{eq:doppler_fft}{{11}{4}}
+\newlabel{eq:velocity_doppler}{{12}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Spatiotemporal Imaging on mmWave Radar}{4}\protected@file@percent }
+\newlabel{sec:the_radar_musical_instrument}{{III}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Classical Spatiotemporal Feature Extraction Techniques}{4}\protected@file@percent }
+\newlabel{subsec:classical_gesture_tracking}{{\mbox  {III-A}}{4}}
+\citation{garcia2013tracking}
+\citation{le2004stability}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}FCNN-Based Super-Resolution Feature Extraction and Particle Filter Tracking Methods}{5}\protected@file@percent }
+\newlabel{subsec:enhanced_gesture_tracking}{{\mbox  {III-B}}{5}}
+\newlabel{algo:particle_filter}{{1}{5}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {}{\ignorespaces Modified Particle Filter Algorithm}}{5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A visual example of the modified particle filter algorithm resampling process. The particle locations are resampled by a shift transformation towards the new measurement according to the weight vector $\mathbf  {a}$, where $a_y = a_z = 0.5$.}}{5}\protected@file@percent }
+\newlabel{fig:particle_filter}{{2}{5}}
+\citation{gao2018enhanced}
+\citation{gao2018enhanced}
+\citation{rao2017intro}
+\citation{yanik2020development}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}1}Doppler-Corroborated Real-Time Weighting}{6}\protected@file@percent }
+\newlabel{eq:velocity_cost_function}{{14}{6}}
+\newlabel{subsubsec:improved_2d_position_esitmation_by_FCNN}{{\mbox  {III-B}2}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}2}Improved 2-D Position Estimation by Enhancing FCNN}{6}\protected@file@percent }
+\newlabel{eq:fcnn_expected_image}{{15}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}System Design and Implementation}{6}\protected@file@percent }
+\newlabel{sec:system_design_and_implementation}{{IV}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Hardware and Software Implementation}{6}\protected@file@percent }
+\newlabel{subsec:hardware_setup_and_challenges}{{\mbox  {IV-A}}{6}}
+\citation{TI:mmWave_Studio}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Interactive MATLAB GUI: single interface for the user to setup the radar device, specify parameters for the tracking and music generation, and start and stop device captures.}}{7}\protected@file@percent }
+\newlabel{fig:matlab_gui}{{3}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Real-Time Data Retrieval and Interactive MATLAB User Interface}{7}\protected@file@percent }
+\newlabel{subsec:real_time_data_retrieval_and_MATLAB_interface}{{\mbox  {IV-B}}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Simple tracking signal processing chain. After RMA is performed on the beat signal, features are extracted directly from the raw RMA image.}}{8}\protected@file@percent }
+\newlabel{fig:simple_signal_chain}{{4}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Simple Feature Extraction and Tracking Algorithm Signal Processing Chain}{8}\protected@file@percent }
+\newlabel{subsec:simple_tracking_implementation}{{\mbox  {IV-C}}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Super-Resolution Framework - Training FCNN and Implementing Particle Filter Algorithm}{8}\protected@file@percent }
+\newlabel{subsec:enhanced_tracking_implementation}{{\mbox  {IV-D}}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Locations of the training data used to train the enhancement FCNN. Real data (red) are collected by keeping the hand static at known locations. Simulated data (blue) are generated by choosing locations randomly from the continuous ROI.}}{8}\protected@file@percent }
+\newlabel{fig:fcnn_training_locations}{{5}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Network topology of the super-resolution enhancement FCNN. The selected kernel and layer sizes are capable of adequately learning the non-ideal shape of the distorted RMA image while maintaining high computational efficiency for real-time implementation.}}{8}\protected@file@percent }
+\newlabel{fig:fcnn_architecture}{{6}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Enhanced tracking signal processing chain. Key elements to the enhanced methods are highlighted in red.}}{9}\protected@file@percent }
+\newlabel{fig:enhanced_signal_chain}{{7}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Spatiotemporal Feature Extraction and Tracking Results}{9}\protected@file@percent }
+\newlabel{sec:results}{{V}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Ground Truth - Ideal Motion Profile}{9}\protected@file@percent }
+\newlabel{subsec:ideal_motion_profile}{{\mbox  {V-A}}{9}}
+\newlabel{eq:beat_sim_with_noise}{{16}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Ideal motion profile of the target in the (a) cross-range and (b) range directions as well as the (c) range velocity profile against time.}}{9}\protected@file@percent }
+\newlabel{fig:ideal_motion}{{8}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Classical Spatiotemporal Imaging Results}{9}\protected@file@percent }
+\newlabel{subsec:simple_gesture_tracking_results}{{\mbox  {V-B}}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Motion profile using simple feature extraction techniques on each frame for every time step (red) compared with the ideal motion and velocity profiles (blue). The (a) cross-range and (b) range are measured directly from the peak of the RMA image of each frame and the (c) velocity is measured using the Doppler FFT of the raw RMA images using (11\hbox {}) and (12\hbox {}).}}{9}\protected@file@percent }
+\newlabel{fig:simple_motion}{{9}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}FCNN-Based Super-Resolution Tracking Results}{10}\protected@file@percent }
+\newlabel{subsec:enhanced_gesture_tracking_results}{{\mbox  {V-C}}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Particle filter (PF) and Doppler-corroborated particle filter (DPF) tracking. Improved tracking of the (a)/(c) cross-range and (b)/(d) range positions versus time using the PF/DPF with $N_z =$ 16, and (e) Doppler velocity versus time using a PF approach.}}{10}\protected@file@percent }
+\newlabel{fig:pf_motion}{{10}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Enhancement FCNN applied to simulated (a,b) and real hand (c-f) RMA images for image enhancement and improved localization.}}{10}\protected@file@percent }
+\newlabel{fig:fcnn_enhancement_demo}{{11}{10}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Simple vs Enhanced Localization RMSE}}{10}\protected@file@percent }
+\newlabel{table:fcnn_position_rmse}{{I}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Spatiotemporal tracking with the FCNN-enhanced Doppler-corroborated modified particle filter algorithm.}}{11}\protected@file@percent }
+\newlabel{fig:fcnn_dpf_motion}{{12}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Comparison of the Doppler velocity spectrum when the Doppler FFT and video pulse integration steps are performed on the raw RMA images compared to the enhanced RMA images. The simulated data contains 128 frames and uses $\alpha = $ 3 for every capture to simulate a low SNR scenario.}}{11}\protected@file@percent }
+\newlabel{fig:doppler_snr}{{13}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Discussion and Future Work}{11}\protected@file@percent }
+\newlabel{sec:discussion}{{VI}{11}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Average RMSE for Tracking Methods}}{11}\protected@file@percent }
+\newlabel{table:tracking_rmse2}{{II}{11}}
+\citation{pardue2013hand,neto2010high}
+\citation{ballan2012motion,sridhar2013interactive}
+\citation{oikonomidis2011efficient,tang2015opening}
+\citation{sridhar2015fast,taylor2016efficient}
+\citation{tompson2014real,ye2016spatial}
+\citation{bernardo2017_o_soli_mio}
+\citation{polfreman2011multi,jensenius2013kinectofon,hantrakul2014implementations,tompson2014real,ye2016spatial,sridhar2015fast,taylor2016efficient,oikonomidis2011efficient,tang2015opening}
+\citation{han2014lessons,nieto2013hand}
+\citation{joshi2015wideo}
+\citation{li2020thumouse}
+\bibdata{ref_list}
+\bibcite{winkler1995making}{1}
+\bibcite{skeldon1998physics}{2}
+\bibcite{polfreman2011multi}{3}
+\bibcite{trail2012non}{4}
+\bibcite{senturk2012crossole}{5}
+\bibcite{schramm2015dynamic}{6}
+\bibcite{han2014lessons}{7}
+\bibcite{hantrakul2014implementations}{8}
+\bibcite{brown2016leimu}{9}
+\bibcite{tindale2011training}{10}
+\bibcite{nieto2013hand}{11}
+\bibcite{akbari2015real}{12}
+\bibcite{gurbuz2021american}{13}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{13}\protected@file@percent }
+\newlabel{sec:conclusion}{{VII}{13}}
+\@writefile{toc}{\contentsline {section}{References}{13}\protected@file@percent }
+\bibcite{sang2018micro}{14}
+\bibcite{kim2016hand}{15}
+\bibcite{smith2021sterile}{16}
+\bibcite{bernardo2017_o_soli_mio}{17}
+\bibcite{joshi2015wideo}{18}
+\bibcite{maragliulo2019foot}{19}
+\bibcite{gao2018enhanced}{20}
+\bibcite{kim2020aziumth}{21}
+\bibcite{sun2019visual}{22}
+\bibcite{jensenius2013kinectofon}{23}
+\bibcite{rao2017intro}{24}
+\bibcite{smith2020nearfieldisar}{25}
+\bibcite{yanik2019sparse}{26}
+\bibcite{yanik2020development}{27}
+\bibcite{winkler2007range}{28}
+\bibcite{kim2018joint}{29}
+\bibcite{garcia2013tracking}{30}
+\bibcite{le2004stability}{31}
+\bibcite{TI:mmWave_Studio}{32}
+\bibcite{pardue2013hand}{33}
+\bibcite{neto2010high}{34}
+\bibcite{ballan2012motion}{35}
+\bibcite{sridhar2013interactive}{36}
+\bibcite{oikonomidis2011efficient}{37}
+\bibcite{tang2015opening}{38}
+\bibcite{sridhar2015fast}{39}
+\bibcite{taylor2016efficient}{40}
+\bibcite{tompson2014real}{41}
+\bibcite{ye2016spatial}{42}
+\bibcite{li2020thumouse}{43}
+\bibstyle{IEEEtran}
+\@writefile{toc}{\contentsline {section}{Biographies}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Josiah W. Smith}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Orges Furxhi}{14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Murat Torlak}{15}\protected@file@percent }

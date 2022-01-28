@@ -1,0 +1,157 @@
+\documentclass{IEEEtran}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+
+
+% Please give the surname of the lead author for the running footer
+
+% info about NM-BC format: https://www.nature.com/nmeth/about/content
+
+\title{Monostatic and Multistatic Range, Angle of Arrival, and Doppler Velocity Estimations using FMCW mmWave Radar}
+
+% Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+\author{Josiah W. Smith}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Derivation of various formulas helpful in characterization and analysis of frequency modulated continuous wave (FMCW) radar.
+
+\end {abstract}
+
+
+%%%%%%%%%%%%%%%%
+% Introduction %
+%%%%%%%%%%%%%%%%
+% ------------------------------------------------------------------------------------------------------------------------------------
+
+\section{Monostatic FMCW Radar Response to an Ideal Point Reflector}
+Considering a monostatic radar (transmit and receive antennas are located in the same exact location) with only an ideal point reflector located in the field of view (FOV), the transmitted chirp signal from an FMCW radar chirp can be written as
+
+\begin{equation}
+    m_{Tx}(t) = e^{j2\pi (f_0 t + \frac{1}{2} K t^2 )}, 0 \leq t \leq T
+\end{equation}
+
+\begin{equation}
+    K = \frac{B}{T}
+\end{equation}
+
+\begin{equation}
+    f_T = f_0 + KT
+\end{equation}
+
+where T is the total time duration of the chirp in s, K is the slope of the chirp in Hz/s, $f_0$ is the start frequency of the chirp, $f_T$ is the end frequency of the chirp, and B is the bandwidth of the chirp in Hz. The message signal $m_{Tx}(t)$ is transmitted by the antenna, propagates through media, and return to the device in the form of $\hat{s}(t)$ as shown below
+
+\begin{equation}
+    \hat{s}(t) = \sigma m(t-\tau_0)
+\end{equation}
+
+where $\sigma$ is the reflectivity of the reflector (assumed to be 1 for the ideal case) and $\tau_0$ is the time delay from the transmission of $m_{T x}(t)$ to the incidence of $\hat{s}(t)$ and is written as
+
+\begin{equation}
+    \tau_0 = \frac{2R_0}{c}
+\end{equation}
+
+where $R_0$ is the distance from the radar to the reflector, and $c$ is the speed of light. The received signal is more accurately:
+
+\begin{equation}
+    \hat{s}(t) = \sigma e^{j2\pi( f_0 (t-\tau_0) + \frac{1}{2}K(t-\tau_0)^2)}
+\end{equation}
+
+The received signal is demodulated with the transmitted signal:
+
+\begin{equation}
+    s(t) = m_{Tx}(t)\hat{s}(t)^* = \sigma e^{j2\pi (f_0 \tau_0 + K \tau_0 t - \frac{1}{2}K\tau_0^2)}
+\end{equation}
+
+where * is the conjugate operator. The last term in the exponential is known as the residual video phase (RVP) and is negligible. Therefore, $s(t)$ can be written as:
+
+\begin{equation}
+    s(t) = \sigma e^{j2\pi(f_0 \tau_0 + K\tau_0 t )}
+\end{equation}
+
+\begin{align}
+    S(f) = FT[s(t)] \\
+    S(f) = \sigma e^{2\pi f_0 \tau_0} \delta (f - K \tau_0)
+\end{align}
+
+$K\tau_0$ is the beat frequency and carries the range information
+
+\begin{equation}
+    k = \frac{2\pi}{c}(f_0 + Kt)
+\end{equation}
+
+
+\begin{align}
+    s(t) = \sigma e^{j2\pi \tau_0 (f_0 + Kt)} \\
+    s(t) = \sigma e^{j2R_0 \frac{2\pi}{c}(f_0 + Kt)} \\
+    s(t) = \sigma e^{j2k R_0}
+\end{align}
+
+\section{Doppler Velocity Analysis}
+Considering an idea point reflector located at an initial distance of $R_0$ from the radar, moving away at a velocity $v$ m/s with respect to the time index of the frame (slow-time) $t_1$, the target can be model as:
+
+\begin{align}
+    R(t_1) = R_0 + v t_1 \\
+    \tau(t_1) = \frac{2R(t_1)}{c}
+\end{align}
+
+Modifying equation (12)
+
+\begin{align}
+    s_d(t,t_1) = \sigma e^{j\frac{4\pi}{c}(R_0 + v t_1)(f_0 + Kt)} \\
+    s_d(t,t_1) = \sigma e^{j\frac{4\pi}{c}(R_0 f_0 + R_0 Kt + f_0 v t_1 + K v t t_1)} \\
+    s_d(t,t_1) = \sigma e^{j2\pi (f_0 \tau_0 + K \tau_0 t + \frac{2f_0}{c}v t_1 + \frac{2 K v t t_1}{c})}
+\end{align}
+
+if
+
+\begin{equation}
+    \lambda_0 = \frac{c}{f_0}
+\end{equation}
+
+\begin{equation}
+    s_d(t,t_1) = \sigma e^{j2\pi (f_0 \tau_0 + K \tau_0 t + \frac{2v t_1}{\lambda_0} + \frac{2 K v t t_1}{c})}
+\end{equation}
+
+If it can be assumed that the velocity of the target is purely a function of  slow-time index $t_1$ and independent of the fast-time index $t$, a 2D Fourier Transform can be performed across the $t$ and $t_1$ dimensions yielding the following.
+
+\begin{align}
+	S(f,f_1) = FT_{2D} [s(t,t_1)] \\
+	S(f,f_1) = \sigma e^{2\pi f_0 \tau_0} \delta (f - K \tau_0, f_1 - \frac{2v t_1}{\lambda_0})
+\end{align}
+
+Neglecting the last term in equation (20), the phase difference between two chirps can be described as
+
+\begin{align}
+    \Delta \phi = \frac{4 \pi v \Delta t_1}{\lambda_0} \\
+    \Delta R = v \Delta t_1 \\
+    \Delta \phi = \frac{4 \pi \Delta R}{\lambda_0} \\
+    s_d(t) = \sigma e^{j2\pi (f_0 \tau_0 + K\tau_0 t) + j\Delta \phi}
+\end{align}
+
+where $\Delta t_1$ is the slow-time difference from one chirp to the other. Therefore, the velocity can be resolved as
+
+\begin{equation}
+	v = \frac{\Delta \phi \lambda_0}{4\pi \Delta t_1}
+\end{equation}
+
+\section{Angle of Arrival Analysis}
+Considering an array of receive antennas evenly spaced by $\lambda_0/2$ along the x-axis and an ideal point reflector located at the point $(z_0,x_0)$, we designate two distances: one from the transmitter to the point reflector and the other from the reflector to the receive antenna.
+
+\begin{align}
+    R_T(i) = \sqrt{z_0^2 + (x_0 - x_T(i))^2} \\
+    R_R(i) = \sqrt{z_0^2 + (x_0 - x_R(i))^2} \\
+    R(i) = R_T(i) + R_R(i)
+\end{align}
+
+where $x_T(i)$ is the x-position of the ith transmitter and $x_R(i)$ is the x-position of the ith receiver.
+
+\end{document}

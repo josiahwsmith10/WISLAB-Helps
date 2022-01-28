@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html encoding="utf-8">
+
+<head>
+<title>Dual mmWave Radar GUI</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="author" content="Chase Wood">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<style>
+	ul.s {
+		list-style-type: square;
+	}
+
+	ul.c {
+		list-style-type: circle;
+	}
+	html {
+		font-family: "Segoe UI";
+	}
+	h1 {
+		font-size: 28px;
+		font-style: italic;
+	}
+	h2 {
+		font-size: 18px;
+		font-style: italic;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: small;
+		font-style: italic;
+		font-weight: bold;
+	}
+</style>
+	<!-- Use h1 for main title -->
+	<!-- Use h2 for subtitles -->
+	<!-- Use h3 for main topics -->
+	<!-- Rest of formatting should be covered by html tag in style -->
+
+<body>
+
+	<a name="top"></a> <!-- reference for jump to top -->
+
+	<div>
+		<table border="0" cellspacing="1" cellpadding="10" align="center" >
+		<tr>
+			<td align="left" valign="middle"><a href="https://personal.utdallas.edu/~caw180005/">Home</a></td>
+			<td align="left" valign="middle"><a href="projects.html">Projects</a></td>
+			<td align="left" valign="middle"><a href="software.html">Software</a></td>
+			<td align="left" valign="middle"><a href="publications.html">Publications</a></td>
+			<td align="left" valign="middle"><a href="datasets.html">Datasets</a></td>
+			<td align="left" valign="middle"><a href="collaborators.html">Collaborators</a></td>
+			<td align="left" valign="middle"><a href="resources.html">Resources</a></td>
+		</tr>
+		</table>
+	</div>
+
+	<hr>
+
+	<div align="center">
+    	<h1>Dual mmWave Radar GUI</h1>
+    </div>
+
+    <div align="center">
+    	<h2>University of Texas at Dallas</h2>
+    </div>
+
+	<hr>
+
+	<h3><a name="description">Description:</a></h3>
+
+	<ul class="s"> <!-- square bullets -->
+		<li>
+			This application supports the configuration and data capture of [up to] two mmWave radars using the CLI functionality of the mmWave SDK out-of-box firmware.
+		</li>
+		<br>
+		<li>
+			For dual-radar operation, this tool requires the following to be connected to a single PC:
+			<ul class="c">
+				<li>
+					Qty. 2 - mmWave radars (both 60GHz and 77GHz radars supported)
+				</li>
+				<li>
+					Qty. 2 - DCA1000EVM (data capture devices set to unique IP addresses)
+				</li>
+			</ul>
+		</li>
+		<br>
+		<li>
+			Application supports two unique HW trigger signals supplied by a single MCU (ESP8266).
+		</li>
+
+		<li>
+			 Utilizes command line interface for controlling radars and data capture cards.
+		</li>
+		<li>
+			Allows data capture using independent radars and data capture devices without the use of mmWaveStudio.
+		</li>
+	</ul>
+
+	<hr> <!-- hr draws the line for splitting sections -->
+			  <!-- flag{CTF-FAN?}-->
+
+	<h3><a name="images">Images: </a></h3>
+	<h4>(Click image to expand)</h4>
+	
+	<table width="100%" height="100%" border="0" align="center">
+		<tr>
+			<td>
+				<div align="center">
+				<a href = "dual-radar-1.PNG">
+				<img src="dual-radar-1.PNG" alt="" height="auto" width="400"/></a>
+				<br>Dual radar application - Supports 60GHz and 77GHz radars.
+				</div>
+			</td>
+		</tr>
+	</table>
+	<br>
+
+<hr>
+
+<div>
+	<table border="0" cellspacing="1" cellpadding="10" align="center" >
+		<tr>	
+			<td align="left" valign="middle"><a href="#top">Top of Page</a></td>	
+		</tr>
+	</table>
+</div>
+
+<div align="right" >
+	<small>Chase Wood, Nov. 2020<br>University of Texas at Dallas</small>
+</div>
+
+</body>
+
+</html>

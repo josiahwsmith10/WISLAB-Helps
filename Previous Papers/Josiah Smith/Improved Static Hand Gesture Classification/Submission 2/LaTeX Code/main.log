@@ -1,0 +1,1686 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.8)  8 MAR 2021 12:28
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03> (ieeeaccess.cls
+(IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen138
+\@IEEEtrantmpdimenB=\dimen139
+\@IEEEtrantmpdimenC=\dimen140
+\@IEEEtrantmpcountA=\count179
+\@IEEEtrantmpcountB=\count180
+\@IEEEtrantmpcountC=\count181
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen141
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen142
+\CLASSINFOnormalsizeunitybaselineskip=\dimen143
+\IEEEnormaljot=\dimen144
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen145
+\IEEEquantizedlengthdiff=\dimen146
+\IEEEquantizedtextheightdiff=\dimen147
+\IEEEilabelindentA=\dimen148
+\IEEEilabelindentB=\dimen149
+\IEEEilabelindent=\dimen150
+\IEEEelabelindent=\dimen151
+\IEEEdlabelindent=\dimen152
+\IEEElabelindent=\dimen153
+\IEEEiednormlabelsep=\dimen154
+\IEEEiedmathlabelsep=\dimen155
+\IEEEiedtopsep=\skip47
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@IEEEsubequation=\count186
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count187
+\c@table=\count188
+\@IEEEeqnnumcols=\count189
+\@IEEEeqncolcnt=\count190
+\@IEEEsubeqnnumrollback=\count191
+\@IEEEquantizeheightA=\dimen156
+\@IEEEquantizeheightB=\dimen157
+\@IEEEquantizeheightC=\dimen158
+\@IEEEquantizeprevdepth=\dimen159
+\@IEEEquantizemultiple=\count192
+\@IEEEquantizeboxA=\box47
+\@IEEEtmpitemindent=\dimen160
+\IEEEPARstartletwidth=\dimen161
+\c@IEEEbiography=\count193
+\@IEEEtranrubishbin=\box48
+) (C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count194
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)){C:/Users/josia/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+pdfTeX warning: pdflatex.exe (file t1-times.map): cannot open font map file
+
+
+pdfTeX warning: pdflatex.exe (file t1-formata.map): cannot open font map file
+
+
+pdfTeX warning: pdflatex.exe (file t1-giovannistd.map): cannot open font map fi
+le
+\@draftversionrule=\dimen162
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/spotcolor\spotcolor.sty
+Package: spotcolor 2006/11/15 v1.2 Package for adding Spot Color support to pdf
+LaTeX.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\thecolorprofile=\count195
+\thecolor=\count196
+)
+\PANTONE=\toks18
+Package color Info: Redefining color black on input line 134.
+\figbox=\box49
+\titlewidth=\skip50
+\abstractwidth=\skip51
+\c@addrCtr=\count197
+\abstractbox=\box50
+\indexbox=\box51
+\absht=\dimen163
+\kwdht=\dimen164
+\@tempcntc=\count198
+\titlepgskip=\skip52
+\maketitlebox=\box52
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen165
+))
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count199
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count266
+\leftroot@=\count267
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count268
+\DOTSCASE@=\count269
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count270
+\c@MaxMatrixCols=\count271
+\dotsspace@=\muskip16
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
+\tag@help=\toks20
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
+\andhelp@=\toks21
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks22
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count277
+\c@ALC@line=\count278
+\c@ALC@rem=\count279
+\c@ALC@depth=\count280
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen176
+\captionmargin@=\dimen177
+\captionwidth=\dimen178
+\caption@tempdima=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \begin {flushleft} \vspace *{5pt} {\vss \color {accessblue}\tablecaph
+eadfont #1. \ }{\raggedright \tablecapfont #2\vss }\end {flushleft} \@IEEEtable
+captionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\st
+rut {\color {accessblue}\figcapheadfont #1. \ }\raggedright \figcapfont #2\stru
+t }\ifdim \xfigwd >\columnwidth \setbox \@tempboxa \hbox {{\color {accessblue}\
+figcapheadfont #1. \ }}\mbox {}\hfill \begin {tabular}{@{}l@{}}\noindent \ragge
+dright \unhbox \@tempboxa \figcapfont #2\end {tabular}\hfill \mbox {}\else \set
+box \@tempboxa \hbox {{\color {accessblue}\figcapheadfont #1. \ }}{\vss \ragged
+right \noindent \unhbox \@tempboxa \figcapfont #2\vss }\fi \fi \vskip 1pt plus 
+1pt minus 1pt on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count281
+\c@continuedfloat=\count282
+) (C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count283
+\c@subtable=\count284
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+)
+(C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty
+Package: babel 2021/03/03 3.55 The Babel package
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def
+File: babel.def 2021/03/03 3.55 Babel common definitions
+\babel@savecnt=\count285
+\U@D=\dimen183
+\l@babelnohyphens=\language79
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count286
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+))
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+\csq@reset=\count288
+\csq@gtype=\count289
+\csq@glevel=\count290
+\csq@qlevel=\count291
+\csq@maxlvl=\count292
+\csq@tshold=\count293
+\csq@ltx@everypar=\toks26
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks27
+\footnotemargin=\dimen184
+\c@pp@next@reset=\count294
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count295
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count296
+\c@listtotal=\count297
+\c@listcount=\count298
+\c@liststart=\count299
+\c@liststop=\count300
+\c@citecount=\count301
+\c@citetotal=\count302
+\c@multicitecount=\count303
+\c@multicitetotal=\count304
+\c@instcount=\count305
+\c@maxnames=\count306
+\c@minnames=\count307
+\c@maxitems=\count308
+\c@minitems=\count309
+\c@citecounter=\count310
+\c@maxcitecounter=\count311
+\c@savedcitecounter=\count312
+\c@uniquelist=\count313
+\c@uniquename=\count314
+\c@refsection=\count315
+\c@refsegment=\count316
+\c@maxextratitle=\count317
+\c@maxextratitleyear=\count318
+\c@maxextraname=\count319
+\c@maxextradate=\count320
+\c@maxextraalpha=\count321
+\c@abbrvpenalty=\count322
+\c@highnamepenalty=\count323
+\c@lownamepenalty=\count324
+\c@maxparens=\count325
+\c@parenlevel=\count326
+\blx@tempcnta=\count327
+\blx@tempcntb=\count328
+\blx@tempcntc=\count329
+\blx@maxsection=\count330
+\blx@maxsegment@0=\count331
+\blx@notetype=\count332
+\blx@parenlevel@text=\count333
+\blx@parenlevel@foot=\count334
+\blx@sectionciteorder@0=\count335
+\blx@entrysetcounter=\count336
+\blx@biblioinstance=\count337
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count338
+\c@maxcomprange=\count339
+\c@mincompwidth=\count340
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count341
+\c@savedafterword=\count342
+\c@annotator=\count343
+\c@savedannotator=\count344
+\c@author=\count345
+\c@savedauthor=\count346
+\c@bookauthor=\count347
+\c@savedbookauthor=\count348
+\c@commentator=\count349
+\c@savedcommentator=\count350
+\c@editor=\count351
+\c@savededitor=\count352
+\c@editora=\count353
+\c@savededitora=\count354
+\c@editorb=\count355
+\c@savededitorb=\count356
+\c@editorc=\count357
+\c@savededitorc=\count358
+\c@foreword=\count359
+\c@savedforeword=\count360
+\c@holder=\count361
+\c@savedholder=\count362
+\c@introduction=\count363
+\c@savedintroduction=\count364
+\c@namea=\count365
+\c@savednamea=\count366
+\c@nameb=\count367
+\c@savednameb=\count368
+\c@namec=\count369
+\c@savednamec=\count370
+\c@translator=\count371
+\c@savedtranslator=\count372
+\c@shortauthor=\count373
+\c@savedshortauthor=\count374
+\c@shorteditor=\count375
+\c@savedshorteditor=\count376
+\c@labelname=\count377
+\c@savedlabelname=\count378
+\c@institution=\count379
+\c@savedinstitution=\count380
+\c@lista=\count381
+\c@savedlista=\count382
+\c@listb=\count383
+\c@savedlistb=\count384
+\c@listc=\count385
+\c@savedlistc=\count386
+\c@listd=\count387
+\c@savedlistd=\count388
+\c@liste=\count389
+\c@savedliste=\count390
+\c@listf=\count391
+\c@savedlistf=\count392
+\c@location=\count393
+\c@savedlocation=\count394
+\c@organization=\count395
+\c@savedorganization=\count396
+\c@origlocation=\count397
+\c@savedoriglocation=\count398
+\c@origpublisher=\count399
+\c@savedorigpublisher=\count400
+\c@publisher=\count401
+\c@savedpublisher=\count402
+\c@language=\count403
+\c@savedlanguage=\count404
+\c@origlanguage=\count405
+\c@savedoriglanguage=\count406
+\c@pageref=\count407
+\c@savedpageref=\count408
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count409
+\c@textcitetotal=\count410
+\c@textcitemaxnames=\count411
+\c@biburlbigbreakpenalty=\count412
+\c@biburlbreakpenalty=\count413
+\c@biburlnumpenalty=\count414
+\c@biburlucpenalty=\count415
+\c@biburllcpenalty=\count416
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count417
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2020/12/29 v1.3d biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count418
+\c@bbx:relatedtotal=\count419
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/biblatex-ieee\ieee.cbx
+File: ieee.cbx 2020/12/29 v1.3d biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric-comp.cbx
+File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count420
+\c@cbx@tempcntb=\count421
+\c@cbx@tempcntc=\count422
+\c@cbx@tempcntd=\count423
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count424
+\l__pdf_internal_box=\box55
+)
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+-- Lines per column: 56 (exact).
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 20
+.
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+
+LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
+(Font)              using `T1/ptm/m/n' instead on input line 20.
+
+(C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count425
+\scratchdimen=\dimen185
+\scratchbox=\box56
+\nofMPsegments=\count426
+\nofMParguments=\count427
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count428
+\MPscratchDim=\dimen186
+\MPnumerator=\count429
+\makeMPintoPDFobject=\count430
+\everyMPtoPDFconversion=\toks29
+) (C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/generic/kvdefinekeys\kvdefinekey
+s.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-case-expl3.sty
+(C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse-generic.tex))
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+
+(main.bbl)
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+<bullet.png, id=3, 12.045pt x 35.38219pt>
+File: bullet.png Graphic file (type png)
+<use bullet.png>
+Package pdftex.def Info: bullet.png  used on input line 40.
+(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 40
+.
+ (C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+
+LaTeX Font Warning: Font shape `T1/phv/n/n' undefined
+(Font)              using `T1/phv/m/n' instead on input line 40.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: bullet.png Graphic file (type png)
+<use bullet.png>
+Package pdftex.def Info: bullet.png  used on input line 44.
+(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
+LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 50.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+0.
+
+(C:\Users\josia\AppData\Roaming\MiKTeX\2.9\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 50.
+
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 50--50
+[]  
+ []
+
+
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 50--50
+[]  
+ []
+
+
+LaTeX Warning: Citation 'hand_pose_classification:comparison_of_classifiers' on
+ page 1 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'hand_pose_classification:depth_sensor_bad_sunlight' on
+ page 1 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'hand_pose_classification:OUHANDS_database' on page 1 u
+ndefined on input line 56.
+
+
+LaTeX Warning: Citation 'hand_pose_classification:medical' on page 1 undefined 
+on input line 56.
+
+
+LaTeX Warning: Citation 'hand_pose_classification:depth_RGBD_camera' on page 1 
+undefined on input line 56.
+
+
+LaTeX Warning: Citation 'hand_pose_classification:depth_sensor_bad_sunlight' on
+ page 1 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:application_of_Dopper_DCNN
+' on page 1 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:low_power' on page 1 undef
+ined on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:LSTM' on page 1 undefined 
+on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:micro_doppler' on page 1 u
+ndefined on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:svm' on page 1 undefined o
+n input line 56.
+
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 1 unde
+fined on input line 56.
+
+
+LaTeX Warning: Citation 'ir-uwb:digit_writing' on page 1 undefined on input lin
+e 56.
+
+
+LaTeX Warning: Citation 'ir-uwb:dynamic_gesture' on page 1 undefined on input l
+ine 56.
+
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 1 unde
+fined on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:low_power' on page 1 undef
+ined on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:LSTM' on page 1 undefined 
+on input line 56.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:micro_doppler' on page 1 u
+ndefined on input line 56.
+
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 1 unde
+fined on input line 56.
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 56--57
+\T1/ptm/n/n/10 Accurately clas-si-fy-ing hu-man hand ges-tures has re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/ptm/n/n/10 cently re-ceived sig-nif-i-cant at-ten-tion as non-contact
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 56--57
+\T1/ptm/n/n/10 human-computer in-ter-ac-tion (HCI) sen-sors be-come in-
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 56--57
+\T1/ptm/n/n/10 creas-ingly preva-lent and de-sir-able. Many ef-forts have
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 56--57
+\T1/ptm/n/n/10 been done to-wards clas-si-fy-ing mov-ing (dy-namic) hand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/ptm/n/n/10 ges-tures and non-moving (static) hand ges-tures us-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/ptm/n/n/10 ing op-ti-cal cam-eras and many dif-fer-ent clas-si-fiers
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 56--57
+[]\T1/ptm/n/n/10 . Ap-
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 56--57
+\T1/ptm/n/n/10 pli-ca-tions of static ges-ture clas-si-fi-ca-tion in-clude aug-
+
+ []
+
+
+Overfull \hbox (112.2215pt too wide) in paragraph at lines 56--57
+\T1/ptm/n/n/10 mented/virtual re-al-ity (AR/VR) [],
+ []
+
+
+Overfull \hbox (75.84323pt too wide) in paragraph at lines 56--57
+\T1/ptm/n/n/10 human-computer in-ter-ac-tion [],
+ []
+
+
+Overfull \hbox (37.00346pt too wide) in paragraph at lines 56--57
+\T1/ptm/n/n/10 in-doors only [].
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 56--57
+\T1/ptm/n/n/10 On the other hand, small form-factor millimeter-wave
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 56--57
+\T1/ptm/n/n/10 radar of-fers high-resolution depth in-for-ma-tion but does
+ []
+
+
+Overfull \hbox (21.1142pt too wide) in paragraph at lines 56--57
+[]\T1/ptm/n/n/10 .
+ []
+
+
+Overfull \hbox (97.16527pt too wide) in paragraph at lines 56--57
+[]\T1/ptm/n/n/10 , [],
+ []
+
+
+Overfull \hbox (100.2351pt too wide) in paragraph at lines 56--57
+[]\T1/ptm/n/n/10 , []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/ptm/n/n/10 with lit-tle at-ten-tion be-ing paid to the static ges-
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 56--57
+\T1/ptm/n/n/10 ture case [] due
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 56--57
+\T1/ptm/n/n/10 to the low clas-si-fi-ca-tion rates in such ap-pli-ca-tions.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/ptm/n/n/10 UWB) [], [],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[] \T1/ptm/n/n/10 and Doppler
+ []
+
+
+Overfull \hbox (61.9237pt too wide) in paragraph at lines 56--57
+\T1/ptm/n/n/10 radar-based ges-ture recog-ni-tion [],
+ []
+
+
+Overfull \hbox (111.35498pt too wide) in paragraph at lines 56--57
+[]\T1/ptm/n/n/10 , []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<Logo.png, id=4, 206.27063pt x 53.44969pt>
+File: Logo.png Graphic file (type png)
+<use Logo.png>
+Package pdftex.def Info: Logo.png  used on input line 57.
+(pdftex.def)             Requested size: 91.32pt x 23.66309pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[1
+
+
+ <./Logo.png> <./bullet.png>]
+
+LaTeX Warning: Citation 'josiah:isar' on page 2 undefined on input line 62.
+
+
+LaTeX Warning: Citation 'Yanik:ConcealedItemImaging' on page 2 undefined on inp
+ut line 72.
+
+
+LaTeX Warning: Citation 'Yanik:MillimeterWaveNearFieldImaging' on page 2 undefi
+ned on input line 78.
+
+
+Overfull \hbox (75.34674pt too wide) in paragraph at lines 77--79
+\T1/ptm/n/n/10 where $\OML/cmm/m/it/10 $ \T1/ptm/n/n/10 is the round-trip time
+ de-lay []
+ []
+
+<notaglineLogo.png, id=15, 169.38281pt x 42.91031pt>
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 87.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[2 <./notaglineLogo.png>]
+
+LaTeX Warning: Citation 'Yanik:NearFieldMIMOSAR' on page 3 undefined on input l
+ine 95.
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 94--96
+\T1/ptm/n/n/10 The last phase term of (6[]) is called the resid-ual
+ []
+
+
+LaTeX Warning: Citation 'Yanik:NearFieldMIMOSAR' on page 3 undefined on input l
+ine 104.
+
+
+LaTeX Warning: Citation 'Yanik:CascadedMIMO' on page 3 undefined on input line 
+104.
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 104--105
+\T1/ptm/n/n/10 The re-sult in (7[]) shows the FMCW beat sig-nal from
+ []
+
+
+LaTeX Warning: Citation 'Sheen:NearField3DRadarImaging' on page 3 undefined on 
+input line 125.
+
+
+LaTeX Warning: Citation 'TI:mmWave' on page 3 undefined on input line 127.
+
+<MIMO_hand_gesture_scenario.png, id=28, 1093.08376pt x 802.49812pt>
+File: MIMO_hand_gesture_scenario.png Graphic file (type png)
+<use MIMO_hand_gesture_scenario.png>
+Package pdftex.def Info: MIMO_hand_gesture_scenario.png  used on input line 147
+.
+(pdftex.def)             Requested size: 252.56088pt x 185.41559pt.
+
+Overfull \hbox (9.88733pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 155.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[3]
+<xy_scanner_system_diagram.png, id=34, 1060.46187pt x 759.33687pt>
+File: xy_scanner_system_diagram.png Graphic file (type png)
+<use xy_scanner_system_diagram.png>
+Package pdftex.def Info: xy_scanner_system_diagram.png  used on input line 168.
+
+(pdftex.def)             Requested size: 252.56088pt x 180.84259pt.
+
+Overfull \hbox (9.88733pt too wide) in paragraph at lines 168--169
+ [][] 
+ []
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 176.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4 <./MIMO_hand_gesture_scenario.png> <./xy_scanner_system_diagram.png>]
+<scanner_photo.jpg, id=40, 1513.655pt x 2724.1775pt>
+File: scanner_photo.jpg Graphic file (type jpg)
+<use scanner_photo.jpg>
+Package pdftex.def Info: scanner_photo.jpg  used on input line 179.
+(pdftex.def)             Requested size: 176.7957pt x 318.15802pt.
+<palm3D.png, id=41, 733.99219pt x 1305.37688pt>
+File: palm3D.png Graphic file (type png)
+<use palm3D.png>
+Package pdftex.def Info: palm3D.png  used on input line 192.
+(pdftex.def)             Requested size: 101.0228pt x 179.66415pt.
+<perp3D.png, id=42, 733.99219pt x 1305.37688pt>
+File: perp3D.png Graphic file (type png)
+<use perp3D.png>
+Package pdftex.def Info: perp3D.png  used on input line 199.
+(pdftex.def)             Requested size: 101.0228pt x 179.66415pt.
+
+Underfull \hbox (badness 7133) in paragraph at lines 200--200
+[]\T1/ptm/m/n/9 (b) |"Per-pen-dic-u-lar" hand
+ []
+
+<tu3D.png, id=43, 1305.37688pt x 1305.37688pt>
+File: tu3D.png Graphic file (type png)
+<use tu3D.png>
+Package pdftex.def Info: tu3D.png  used on input line 206.
+(pdftex.def)             Requested size: 116.17584pt x 116.16423pt.
+
+LaTeX Warning: Citation 'muhammet:testbeds' on page 5 undefined on input line 2
+16.
+
+
+LaTeX Warning: Citation 'Sheen:NearField3DRadarImaging' on page 5 undefined on 
+input line 216.
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 219.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[5 <./scanner_photo.jpg> <./palm3D.png> <./perp3D.png> <./tu3D.png>]
+<sar_real_hand.png, id=47, 491.436pt x 417.7206pt>
+File: sar_real_hand.png Graphic file (type png)
+<use sar_real_hand.png>
+Package pdftex.def Info: sar_real_hand.png  used on input line 226.
+(pdftex.def)             Requested size: 116.17584pt x 98.74437pt.
+<sar_foil_hand.png, id=48, 491.436pt x 417.2388pt>
+File: sar_foil_hand.png Graphic file (type png)
+<use sar_foil_hand.png>
+Package pdftex.def Info: sar_foil_hand.png  used on input line 233.
+(pdftex.def)             Requested size: 116.17584pt x 98.63048pt.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:svm' on page 6 undefined o
+n input line 243.
+
+
+LaTeX Warning: Citation 'hand_crafted_features' on page 6 undefined on input li
+ne 243.
+
+
+LaTeX Warning: Citation 'linear_predictive_coding' on page 6 undefined on input
+ line 243.
+
+
+LaTeX Warning: Citation 'empirical_mode_decomposition' on page 6 undefined on i
+nput line 243.
+
+
+LaTeX Warning: Citation 'principal_component_analysis' on page 6 undefined on i
+nput line 243.
+
+
+LaTeX Warning: Citation 'KNN' on page 6 undefined on input line 243.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:svm' on page 6 undefined o
+n input line 243.
+
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 6 unde
+fined on input line 243.
+
+
+LaTeX Warning: Citation 'dynamic_bayesian_networks' on page 6 undefined on inpu
+t line 243.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:micro_doppler' on page 6 u
+ndefined on input line 244.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:low_power' on page 6 undef
+ined on input line 244.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:application_of_Dopper_DCNN
+' on page 6 undefined on input line 244.
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 243--245
+\T1/ptm/n/n/10 Before an-swer-ing those ques-tions ex-plic-itly, we first
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 243--245
+\T1/ptm/n/n/10 will overview the pro-posed clas-si-fier. In data-driven
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 243--245
+\T1/ptm/n/n/10 de-tec-tion prob-lems, there are two fun-da-men-tal steps
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+\T1/ptm/n/n/10 to con-struct-ing a ro-bust clas-si-fier: fea-ture ex-trac-
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 243--245
+\T1/ptm/n/n/10 tion and clas-si-fi-ca-tion. Many meth-ods have been ap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+\T1/ptm/n/n/10 plied to ex-tract fea-tures from raw data in-clud-ing
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 243--245
+\T1/ptm/n/n/10 hand-crafted fea-tures [],
+ []
+
+
+Overfull \hbox (61.70525pt too wide) in paragraph at lines 243--245
+[]\T1/ptm/n/n/10 , lin-ear pre-dic-tive cod-ing [],
+ []
+
+
+Overfull \hbox (19.95355pt too wide) in paragraph at lines 243--245
+\T1/ptm/n/n/10 em-pir-i-cal mode de-com-po-si-tion [],
+ []
+
+
+Overfull \hbox (7.75363pt too wide) in paragraph at lines 243--245
+\T1/ptm/n/n/10 prin-ci-pal com-po-nent anal-y-sis [],
+ []
+
+
+Overfull \hbox (4.42424pt too wide) in paragraph at lines 243--245
+\T1/ptm/n/n/10 sup-port vec-tor ma-chines [],
+ []
+
+
+Overfull \hbox (6.00574pt too wide) in paragraph at lines 243--245
+[]\T1/ptm/n/n/10 , dy-namic Bayesian
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 243--245
+\T1/ptm/n/n/10 tion and clas-si-fi-ca-tion into a sin-gu-lar step. Now, the
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 243--245
+\T1/ptm/n/n/10 fea-ture ex-trac-tion and clas-si-fi-ca-tion are si-mul-ta-ne-ou
+sly
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 243--245
+\T1/ptm/n/n/10 u-larly em-ployed for dy-namic ges-ture recog-ni-tion on
+ []
+
+
+Overfull \hbox (21.1142pt too wide) in paragraph at lines 243--245
+[]\T1/ptm/n/n/10 .
+ []
+
+
+LaTeX Warning: Citation 'ReLU' on page 6 undefined on input line 246.
+
+
+LaTeX Warning: Citation 'cvcnn:sar_classification' on page 6 undefined on input
+ line 254.
+
+
+LaTeX Warning: Citation 'cvcnn:sar_imaging' on page 6 undefined on input line 2
+54.
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 254--255
+[]\T1/ptm/n/n/10 Since minute vari-a-tions in the hand re-flec-tiv-ity are
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 254--255
+\T1/ptm/n/n/10 nal is es-sen-tial for ac-cu-rate clas-si-fi-ca-tion. Some work
+ []
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 255.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[6 <./sar_real_hand.png> <./sar_foil_hand.png>]
+
+LaTeX Warning: Citation 'synthetic_data:face' on page 7 undefined on input line
+ 260.
+
+
+LaTeX Warning: Citation 'synthetic_data:FaultSeg3D' on page 7 undefined on inpu
+t line 260.
+
+
+LaTeX Warning: Citation 'synthetic_data:fish' on page 7 undefined on input line
+ 260.
+
+
+LaTeX Warning: Citation 'synthetic_data:license_plate' on page 7 undefined on i
+nput line 260.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+\T1/ptm/n/n/10 lems [], [],
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 260--261
+[]\T1/ptm/n/n/10 , []. How-
+ []
+
+<cnn_architectures.png, id=56, 770.88pt x 697.10437pt>
+File: cnn_architectures.png Graphic file (type png)
+<use cnn_architectures.png>
+Package pdftex.def Info: cnn_architectures.png  used on input line 272.
+(pdftex.def)             Requested size: 252.56088pt x 228.38579pt.
+
+Overfull \hbox (9.88733pt too wide) in paragraph at lines 272--273
+ [][] 
+ []
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 278.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[7 <./cnn_architectures.png>]
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 8 unde
+fined on input line 300.
+
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 8 unde
+fined on input line 300.
+
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 8 unde
+fined on input line 300.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:application_of_Dopper_DCNN
+' on page 8 undefined on input line 300.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:low_power' on page 8 undef
+ined on input line 300.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:LSTM' on page 8 undefined 
+on input line 300.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:micro_doppler' on page 8 u
+ndefined on input line 300.
+
+
+LaTeX Warning: Citation 'dynamic_gesture_recognition:svm' on page 8 undefined o
+n input line 300.
+
+
+LaTeX Warning: Citation 'ir-uwb:digit_writing' on page 8 undefined on input lin
+e 300.
+
+
+LaTeX Warning: Citation 'ir-uwb:dynamic_gesture' on page 8 undefined on input l
+ine 300.
+
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 8 unde
+fined on input line 300.
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 300--301
+[]\T1/ptm/n/n/10 Finally, com-pared to past work in the lit-er-a-ture,
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 300--301
+\T1/ptm/n/n/10 our pro-posed method im-proves upon ges-ture recog-ni-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 300--301
+\T1/ptm/n/n/10 tion by us-ing ster-ile data while of-fer-ing a so-lu-tion to
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 300--301
+\T1/ptm/n/n/10 der three-dimensional spa-tial trans-la-tion. Kim \T1/ptm/m/it/1
+0 et. al.
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 300--301
+\T1/ptm/n/n/10 domain ges-ture recog-ni-tion ap-proach on ultra-wideband
+ []
+
+
+Overfull \hbox (10.44386pt too wide) in paragraph at lines 300--301
+\T1/ptm/n/n/10 impulse-radio radar. []
+ []
+
+
+Overfull \hbox (21.1142pt too wide) in paragraph at lines 300--301
+[]\T1/ptm/n/n/10 ,
+ []
+
+
+Overfull \hbox (97.16527pt too wide) in paragraph at lines 300--301
+[]\T1/ptm/n/n/10 , [],
+ []
+
+
+Overfull \hbox (102.7351pt too wide) in paragraph at lines 300--301
+[]\T1/ptm/n/n/10 , [],
+ []
+
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 305.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[8]
+
+LaTeX Warning: Citation 'static_gesture_recognition:time_domain' on page 9 unde
+fined on input line 306.
+
+
+LaTeX Warning: Empty bibliography on input line 308.
+
+<josiah.jpg, id=65, 234.1247pt x 234.1247pt>
+File: josiah.jpg Graphic file (type jpg)
+<use josiah.jpg>
+Package pdftex.def Info: josiah.jpg  used on input line 310.
+(pdftex.def)             Requested size: 72.27066pt x 72.27066pt.
+File: josiah.jpg Graphic file (type jpg)
+<use josiah.jpg>
+Package pdftex.def Info: josiah.jpg  used on input line 310.
+(pdftex.def)             Requested size: 72.27066pt x 72.27066pt.
+<shiva.png, id=68, 697.60625pt x 648.4225pt>
+File: shiva.png Graphic file (type png)
+<use shiva.png>
+Package pdftex.def Info: shiva.png  used on input line 313.
+(pdftex.def)             Requested size: 72.26619pt x 67.17116pt.
+File: shiva.png Graphic file (type png)
+<use shiva.png>
+Package pdftex.def Info: shiva.png  used on input line 313.
+(pdftex.def)             Requested size: 72.26619pt x 67.17116pt.
+<richard.png, id=71, 692.5875pt x 692.5875pt>
+File: richard.png Graphic file (type png)
+<use richard.png>
+Package pdftex.def Info: richard.png  used on input line 316.
+(pdftex.def)             Requested size: 72.26411pt x 72.26411pt.
+File: richard.png Graphic file (type png)
+<use richard.png>
+Package pdftex.def Info: richard.png  used on input line 316.
+(pdftex.def)             Requested size: 72.26411pt x 72.26411pt.
+<./yiorgos.jpg, id=74, 1177.39874pt x 1472.50125pt>
+File: ./yiorgos.jpg Graphic file (type jpg)
+<use ./yiorgos.jpg>
+Package pdftex.def Info: ./yiorgos.jpg  used on input line 319.
+(pdftex.def)             Requested size: 72.22185pt x 90.32349pt.
+File: ./yiorgos.jpg Graphic file (type jpg)
+<use ./yiorgos.jpg>
+Package pdftex.def Info: ./yiorgos.jpg  used on input line 319.
+(pdftex.def)             Requested size: 72.22185pt x 90.32349pt.
+
+Underfull \hbox (badness 5924) in paragraph at lines 319--320
+[]\T1/phv/m/n/8 YIORGOS MAKRIS \T1/ptm/n/n/8 (SM'08) re-ceived the
+ []
+
+<torlak.jpg, id=77, 86.03572pt x 121.74054pt>
+File: torlak.jpg Graphic file (type jpg)
+<use torlak.jpg>
+Package pdftex.def Info: torlak.jpg  used on input line 322.
+(pdftex.def)             Requested size: 63.84528pt x 90.34106pt.
+File: torlak.jpg Graphic file (type jpg)
+<use torlak.jpg>
+Package pdftex.def Info: torlak.jpg  used on input line 322.
+(pdftex.def)             Requested size: 63.84528pt x 90.34106pt.
+File: bullet.png Graphic file (type png)
+<use bullet.png>
+Package pdftex.def Info: bullet.png  used on input line 325.
+(pdftex.def)             Requested size: 5.0pt x 14.6871pt.
+File: notaglineLogo.png Graphic file (type png)
+<use notaglineLogo.png>
+Package pdftex.def Info: notaglineLogo.png  used on input line 327.
+(pdftex.def)             Requested size: 91.32pt x 23.1352pt.
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[9 <./josiah.jpg> <./shiva.png> <./richard.png> <./yiorgos.jpg> <./torlak.jpg>]
+(main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14670 strings out of 479334
+ 261744 string characters out of 2865021
+ 1011701 words of memory out of 3000000
+ 31881 multiletter control sequences out of 15000+200000
+ 502649 words of font info for 166 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,13n,117p,4674b,1662s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2
+.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2
+.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/
+2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX
+/2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2.
+9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/josia/AppData/Roaming/MiKTeX/2.9/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (9 pages, 4918824 bytes).
+PDF statistics:
+ 146 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+

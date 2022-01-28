@@ -1,0 +1,26 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: PROC010B.GBR   9/4/2018  1:38:38 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                TOP                                     
+.G1                 L2                                      
+.G2                 L3                                      
+.G3                 L4                                      
+.G4                 L5                                      
+.GBL                BOTTOM                                  
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                M1 Board Outline                        
+.GM2                M2 Board Dimensions                     
+.GM9                M9 Title Sheet                          
+.GM10               M10 Fab Notes                           
+.GM12               M12 Stackup                             
+------------------------------------------------------------------------------------------
